@@ -2,10 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tour : MonoBehaviour {
+public class Tour {
 
     public int valeur;
-    int degat;
+    public int degat;
+    
+    public Tour(int v, int d)
+    {
+        valeur = v;
+        degat = d;
+    }
 
     public void Revendre()
     {

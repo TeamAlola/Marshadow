@@ -24,6 +24,14 @@ public class GameManager : MonoBehaviour {
     void Start () {
 
         if (!gameManager) { gameManager = this; }
+        joueur = new Joueur(10, 5);
+        monstres = new List<Monstre>();
+        toursAchetables = new List<Tour>();
+        toursAchetees = new List<Tour>();      
+        monstres.Add(new Monstre(1,5,5));
+        monstres.Add(new Monstre(1, 10, 10));      
+        toursAchetables.Add(new Tour(3, 2));        
+
 	}
 	
 	// Update is called once per frame

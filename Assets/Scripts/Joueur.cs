@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class Joueur {
 
-    int pv;
-    int argent;
+    public int pv;
+    public int argent;
+
+    public Joueur(int p, int a)
+    {
+        pv = p;
+        argent = a;
+    }
 
     public void PerdreArgent(int i)
     {
@@ -23,6 +29,7 @@ public class Joueur {
         if (argent >= t.valeur)
         {
             PerdreArgent(t.valeur);
+            GameManager.gameManager.toursAchetees.Add(new Tour(t.valeur, t.degat));
         }
         else
         {
