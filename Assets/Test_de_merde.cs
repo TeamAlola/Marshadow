@@ -21,7 +21,7 @@ public class Test_de_merde : MonoBehaviour {
         Debug.Log(tabTarget.Length);
         if (tabTarget.Length != 0) item = ProxyTarget(tabTarget);
         //Tir toute les deux secondes
-        if (timerFire > 2)
+        if (timerFire > 0.5)
         {
             //Si cible trouve
             if (item)
