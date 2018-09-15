@@ -34,11 +34,14 @@ public class HUD : MonoBehaviour {
             GameManager.gameManager.achatMenu.GetComponent<CanvasGroup>().alpha = 0;
             if ((int)time <= -3 && !b)
             {
-                Debug.Log("nouveau monstre");
+                GameManager.gameManager.numerovague++;
                 GameManager.gameManager.timer.GetComponent<CanvasGroup>().alpha = 0;
-                GameManager.gameManager.monstres.Add(new Monstre(1, 1, 1));
-                Instantiate(GameManager.gameManager.minion, GameManager.gameManager.spawn.transform.position, GameManager.gameManager.spawn.transform.rotation);
+                Monstre mobCree = new Monstre(1, 1, 1);
+                GameManager.gameManager.monstres.Add(mobCree);
+                GameObject mobInst = Instantiate(GameManager.gameManager.minion, GameManager.gameManager.spawn.transform.position, GameManager.gameManager.spawn.transform.rotation);
+                mobInst.GetComponent<MonsterController>().Mob = mobCree;
                 b = true;
+                Debug.Log("nouveau monstre");
             }
         }
     }

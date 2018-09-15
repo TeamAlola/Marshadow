@@ -45,7 +45,7 @@ public class Test_de_merde : MonoBehaviour {
         Debug.Log(tabTarget.Length);
         if (tabTarget.Length != 0) item = ProxyTarget(tabTarget);
         //Tir toute les deux secondes
-        if (timerFire > 1)
+        if (timerFire > 3)
         {
             //Si cible trouve
             if (item)
@@ -59,10 +59,11 @@ public class Test_de_merde : MonoBehaviour {
                 projectil.GetComponent<Tir>().Autre();
                 projectil.GetComponent<Tir>().SetDamage(GetDegat());
                 item = Physics2D.CircleCast(this.transform.position, 0, Vector2.zero);
-                ou.SetTrigger("attack");
+                //ou.SetTrigger("attack");
             }
             
             timerFire = 0;
+            Debug.Log(timerFire);
         }
 	}
 

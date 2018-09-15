@@ -57,7 +57,7 @@ public class MonsterController : MonoBehaviour {
             Destroy(collision.gameObject);
             PV = PV - collision.gameObject.GetComponent<Tir>().GetDamage();
             if (PV <= 0)
-                collision.GetComponent<Monstre>().Mourir();
+                Mob.Mourir();
             Destroy(gameObject);
         }
     }

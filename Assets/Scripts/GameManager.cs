@@ -20,12 +20,9 @@ public class GameManager : MonoBehaviour {
     public GameObject minion;
     public GameObject spawn;
     public static GameManager gameManager;
-<<<<<<< HEAD
-=======
+    
     public bool isspawn;
     public GameObject Tour;
->>>>>>> e8144b42e9f7061eba44d654b2bb0ba36662723f
-    //fait apparaitre un minion de la liste sur la map
 
     public void AcheterTour(int tour)
     {
@@ -66,7 +63,7 @@ public class GameManager : MonoBehaviour {
         Tour two = new Tour(200, 8);
         hud = new HUD();
         nbvague = 5;
-        numerovague = 1;
+        numerovague = 0;
         joueur = new Joueur(10, 50);
         monstres = new List<Monstre>();
         toursAchetables = new List<Tour> { zero, one, two };
