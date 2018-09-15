@@ -1,0 +1,1506 @@
+fileFormatVersion: 2
+guid: 2f599c39ba8054f0fa0f289ddbbde1ca
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: neutraltower3_0
+    21300002: neutraltower3_1
+    21300004: neutraltower3_2
+    21300006: neutraltower3_3
+    21300008: neutraltower3_4
+    21300010: neutraltower3_5
+    21300012: neutraltower3_6
+    21300014: neutraltower3_7
+    21300016: neutraltower3_8
+    21300018: neutraltower3_9
+    21300020: neutraltower3_10
+    21300022: neutraltower3_11
+    21300024: neutraltower3_12
+    21300026: neutraltower3_13
+    21300028: neutraltower3_14
+    21300030: neutraltower3_15
+    21300032: neutraltower3_16
+    21300034: neutraltower3_17
+    21300036: neutraltower3_18
+    21300038: neutraltower3_19
+    21300040: neutraltower3_20
+    21300042: neutraltower3_21
+    21300044: neutraltower3_22
+    21300046: neutraltower3_23
+    21300048: neutraltower3_24
+    21300050: neutraltower3_25
+    21300052: neutraltower3_26
+    21300054: neutraltower3_27
+    21300056: neutraltower3_28
+    21300058: neutraltower3_29
+    21300060: neutraltower3_30
+    21300062: neutraltower3_31
+    21300064: neutraltower3_32
+    21300066: neutraltower3_33
+    21300068: neutraltower3_34
+    21300070: neutraltower3_35
+    21300072: neutraltower3_36
+    21300074: neutraltower3_37
+    21300076: neutraltower3_38
+    21300078: neutraltower3_39
+    21300080: neutraltower3_40
+    21300082: neutraltower3_41
+    21300084: neutraltower3_42
+    21300086: neutraltower3_43
+    21300088: neutraltower3_44
+    21300090: neutraltower3_45
+    21300092: neutraltower3_46
+    21300094: neutraltower3_47
+    21300096: neutraltower3_48
+    21300098: neutraltower3_49
+    21300100: neutraltower3_50
+    21300102: neutraltower3_51
+    21300104: neutraltower3_52
+    21300106: neutraltower3_53
+    21300108: neutraltower3_54
+    21300110: neutraltower3_55
+    21300112: neutraltower3_56
+    21300114: neutraltower3_57
+    21300116: neutraltower3_58
+    21300118: neutraltower3_59
+    21300120: neutraltower3_60
+    21300122: neutraltower3_61
+    21300124: neutraltower3_62
+    21300126: neutraltower3_63
+    21300128: neutraltower3_64
+    21300130: neutraltower3_65
+    21300132: neutraltower3_66
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: neutraltower3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d67845e570f473b929b4cfb097d981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 520
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c38f5cb3c7d4deda8ade94920d1333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 520
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5411782b93d5b40bf9afde0cbc44fbcc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 520
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321aed526373043e196f7afd9087a180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_4
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 520
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ade457d935e461296055d84241e4dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_5
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 520
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92b7c633076c4978a91847e1ce970d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_6
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 520
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9f198be4a3743e69bc87f80120d4a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_7
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 520
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655ee53cfb70f400992c6ea7fb510573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_8
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 520
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9baee588d85f749858bb47d4633cb512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_9
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 520
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4c44b0e6e0549f7b435ec74161dc4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38091cc5ff6524a0eaa472d17e22d13d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 416
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc44e7a0007b4325815d5445363f66e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 416
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55be1598f03a9421ba56cfec591c3d05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_13
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 416
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae644e3ac3e74c879bcf939ce8fd028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_14
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 416
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cad4c399d4b4376a2f8663b2945219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_15
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 416
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b626f8141ae4651a6c3466f1fe0bc7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_16
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 416
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655fe3c1bf0ab4333828506d63a89dc4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_17
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 416
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e139fe075214e8c8a48dc189884581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_18
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 416
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab3a0339581c43d2a4a5a7347ff8951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_19
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 416
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b693a6a979514232b3f290db9156eeb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0570497a6908419c99598feb0897b31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_21
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 312
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1294501c4e6954e1c91111e97a775831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_22
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 312
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c654f5e1f6304a1383a48e9a2fa0f7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_23
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 312
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7120c9cc144a044e396b1dd5fd09270f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_24
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 312
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e82bf23bc0b422f9d80cfcf326d9c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_25
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 312
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14458205447d04d9eb40be6032dba42c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_26
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 312
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfe6fae8aa0346ae9a6ddadc7bccace
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_27
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 312
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ea6808b83924da0be7adf024532e48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ec6d892d27d4f519c3157343ea0b9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_29
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 208
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec38e00ed5ebc4ee9b22eac03f29cd1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_30
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 208
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421039338fc934a1fa20e289babbfdb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_31
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 208
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a589fdfab8d11450cbfa62da4b20240e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_32
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 208
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48773eb44b8a47158dc4f5400db7c77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_33
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 208
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499f487e4c93241cc89e743c969242f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_34
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 208
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f693c9f8c29ae4ca7b5a33fab8bb3647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_35
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 208
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb93d5cf0bf542ad9b4eec549b4edec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_36
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 208
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc3f03caa0bc43a0b066941bb496bd6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_37
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 208
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc10b078e85248c993304c87c8a649f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_38
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 208
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16383f71244da4811af0755879b15287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_39
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 208
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e8a864804d54c9eb480e981c08fed8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_40
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 208
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5012a21feef4a6eb735f87966300fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_41
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 208
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee5f783f9eda4f5d884dae552e788fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_42
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 208
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d785177ceb0f425594446d681c51d84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_43
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 208
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc477be5ce5f5419389c2756208e83f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_44
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 208
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bc545b43ce44046b7dbc8c15daee32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_45
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 208
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac578b38fda04e8c8a2c36ae56321ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_46
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 208
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd42cfb1ca63a4c9abb3829e8baf3615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_47
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 208
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fab0889d9684239933269f5dc08f2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_48
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 208
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa951d29ad7934158b232025ce1fc15a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_49
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 208
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c4883c1cba34ca2a4ce241fc0ec419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_50
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 208
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfcd590fb878c49a6a41ec45949c159d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0551dd1e00f3543bbbaa0747bcf71b94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_52
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 104
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39df340f37e64b46b5e0006662403de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_53
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 104
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4002e60a435cf467ebc0cd89f993c196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1047596a9c2e140a3aecee61bc1b0476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_55
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69df0cfe733844b78bab2f56f29c892a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_56
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68fda0e5e1fbf498683afea9fc327b8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_57
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 0
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f90001cf56342238ebb58b0118e0eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_58
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4b8845f65654f1ba3c94fc059382e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_59
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a481e3264fef4b419c9e5625f8bbc9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_60
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d4de75903544ff191ac819ce68c96d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_61
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 0
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76cd852c7c33490c8f2dab3ccb2aa23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_62
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9337e61ed25945e1a2bb51e3a6ceb61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_63
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 0
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859a298f285604cf79b6eeb09ccf0655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_64
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 0
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ad81115346941fe80f67a618b540fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_65
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 0
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176485f6e13774014bddc499dce0c81c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutraltower3_66
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 0
+        width: 102.08696
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cf3f95bd03c42febc79199c899e714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 880674e41df7a4dc1958afc4067df914
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

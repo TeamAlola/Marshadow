@@ -55,10 +55,30 @@ public class MonsterController : MonoBehaviour {
             Debug.Log("Touche");
             int PV = GetPv();
             Destroy(collision.gameObject);
+            int damage;
+            
             PV = PV - collision.gameObject.GetComponent<Tir>().GetDamage();
             if (PV <= 0)
                 Mob.Mourir();
             Destroy(gameObject);
+
+           switch (collision.gameObject.GetComponent<Tir>().effect){
+
+                case Tir.effet.feu:
+
+                    break;
+
+                case Tir.effet.eau:
+                    break;
+
+                case Tir.effet.air:
+                    break;
+
+                case Tir.effet.terre:
+                    break;
+
+            }
+
         }
     }
 
