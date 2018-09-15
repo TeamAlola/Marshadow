@@ -5,12 +5,25 @@ using UnityEngine;
 public class Tour {
 
     public int valeur;
-    public int degat;
-    
+    private int degat;
+
     public Tour(int v, int d)
     {
         valeur = v;
-        degat = d;
+        Degat = d;
+    }
+
+    public int Degat
+    {
+        get
+        {
+            return degat;
+        }
+
+        set
+        {
+            degat = value;
+        }
     }
 
     //donne des gold au joueur et supprime la tour de la liste tours achetées

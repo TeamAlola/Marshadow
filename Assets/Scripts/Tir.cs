@@ -8,7 +8,7 @@ public class Tir : MonoBehaviour {
 
     Vector2 vitesse;
 
-    public float damage;
+    public int damage;
 
     float existance = 0;
 
@@ -21,12 +21,12 @@ public class Tir : MonoBehaviour {
     public void SetVitesse(Vector2 vitesseInit) {
         vitesse = vitesseInit;
     }
-    public void SetDamage(float power)
+    public void SetDamage(int power)
     {
         damage = power;
     }
 
-    public float GetDamage()
+    public int GetDamage()
     {
         return damage;
     }
