@@ -21,7 +21,6 @@ public class HUD : MonoBehaviour {
     void TimerUpdate()
     {
         time -= Time.deltaTime;
-        Debug.Log(b);
         if (time > 0f)
         {
             GameManager.gameManager.timer.GetComponent<CanvasGroup>().alpha = 1;
