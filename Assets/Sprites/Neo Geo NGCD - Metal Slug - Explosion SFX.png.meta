@@ -1,39 +1,33 @@
 fileFormatVersion: 2
-guid: 218c589cdfa4c4e09989ebb80a926feb
+guid: f32d35e07e4a244d1bc05a2b6ed86da3
 TextureImporter:
   fileIDToRecycleName:
-    21300000: fire1_0
-    21300002: fire1_1
-    21300004: fire1_2
-    21300006: fire1_3
-    21300008: fire1_4
-    21300010: fire1_5
-    21300012: fire1_6
-    21300014: fire1_7
-    21300016: fire1_8
-    21300018: fire1_9
-    21300020: fire1_10
-    21300022: fire1_11
-    21300024: fire1_12
-    21300026: fire1_13
-    21300028: fire1_14
-    21300030: fire1_15
-    21300032: fire1_16
-    21300034: fire1_17
-    21300036: fire1_18
-    21300038: fire1_19
-    21300040: fire1_20
-    21300042: fire1_21
-    21300044: fire1_22
-    21300046: fire1_23
-    21300048: fire1_24
-    21300050: fire1_25
-    21300052: fire1_26
-    21300054: fire1_27
-    21300056: fire1_28
-    21300058: fire1_29
-    21300060: fire1_30
-    21300062: fire1_31
+    21300000: Neo Geo NGCD - Metal Slug - Explosion SFX_0
+    21300002: Neo Geo NGCD - Metal Slug - Explosion SFX_1
+    21300004: Neo Geo NGCD - Metal Slug - Explosion SFX_2
+    21300006: Neo Geo NGCD - Metal Slug - Explosion SFX_3
+    21300008: Neo Geo NGCD - Metal Slug - Explosion SFX_4
+    21300010: Neo Geo NGCD - Metal Slug - Explosion SFX_5
+    21300012: Neo Geo NGCD - Metal Slug - Explosion SFX_6
+    21300014: Neo Geo NGCD - Metal Slug - Explosion SFX_7
+    21300016: Neo Geo NGCD - Metal Slug - Explosion SFX_8
+    21300018: Neo Geo NGCD - Metal Slug - Explosion SFX_9
+    21300020: Neo Geo NGCD - Metal Slug - Explosion SFX_10
+    21300022: Neo Geo NGCD - Metal Slug - Explosion SFX_11
+    21300024: Neo Geo NGCD - Metal Slug - Explosion SFX_12
+    21300026: Neo Geo NGCD - Metal Slug - Explosion SFX_13
+    21300028: Neo Geo NGCD - Metal Slug - Explosion SFX_14
+    21300030: Neo Geo NGCD - Metal Slug - Explosion SFX_15
+    21300032: Neo Geo NGCD - Metal Slug - Explosion SFX_16
+    21300034: Neo Geo NGCD - Metal Slug - Explosion SFX_17
+    21300036: Neo Geo NGCD - Metal Slug - Explosion SFX_18
+    21300038: Neo Geo NGCD - Metal Slug - Explosion SFX_19
+    21300040: Neo Geo NGCD - Metal Slug - Explosion SFX_20
+    21300042: Neo Geo NGCD - Metal Slug - Explosion SFX_21
+    21300044: Neo Geo NGCD - Metal Slug - Explosion SFX_22
+    21300046: Neo Geo NGCD - Metal Slug - Explosion SFX_25
+    21300048: Neo Geo NGCD - Metal Slug - Explosion SFX_23
+    21300050: Neo Geo NGCD - Metal Slug - Explosion SFX_24
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -116,33 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fire1_0
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 209
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ae76fd01a4514819b3a695f1229992a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fire1_1
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_0
       rect:
         serializedVersion: 2
         x: 74
-        y: 209
-        width: 12
-        height: 16
+        y: 41
+        width: 28
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,19 +124,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c6c4ac31dcbb48ff93b59f96dde95c3
+      spriteID: 2414fc87d3dd14ef2a6324d94e4dd0d1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire1_2
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_1
       rect:
         serializedVersion: 2
-        x: 122
-        y: 209
-        width: 15
-        height: 23
+        x: 105
+        y: 41
+        width: 30
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,19 +144,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3104cda443a16458fb994e91c08ecd6d
+      spriteID: a37a3a0c9ef1f4dff809fa864c0a4d42
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire1_3
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_2
       rect:
         serializedVersion: 2
-        x: 162
-        y: 202
-        width: 32
-        height: 40
+        x: 138
+        y: 41
+        width: 31
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,19 +164,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a046880b2aa4b42bb8785225e7784e99
+      spriteID: 10f3689ccefe34fe4afbc4e798d62f7d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire1_4
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_3
       rect:
         serializedVersion: 2
-        x: 213
-        y: 201
-        width: 35
-        height: 41
+        x: 172
+        y: 41
+        width: 30
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,19 +184,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 229f3f302e21d4ab09a7e8e08966ffbc
+      spriteID: 4ce404c6b55df40b5a2782968d632e8c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire1_5
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_4
       rect:
         serializedVersion: 2
-        x: 263
-        y: 196
-        width: 34
-        height: 46
+        x: 206
+        y: 41
+        width: 28
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,19 +204,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07f904de877b74ed099c78e6e69934f2
+      spriteID: b82fe89a3271c4315af3453de3a9252a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire1_6
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_5
       rect:
         serializedVersion: 2
-        x: 426
-        y: 203
-        width: 114
-        height: 37
+        x: 238
+        y: 41
+        width: 30
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,19 +224,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8fdfb95e7fff41e28e4b90c83013596
+      spriteID: 0e2971f67f3e94920b80e12058b05b07
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire1_7
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_6
       rect:
         serializedVersion: 2
-        x: 218
-        y: 194
-        width: 6
-        height: 7
+        x: 271
+        y: 41
+        width: 30
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,19 +244,199 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5bd7d423239348519cd42fb78047ca6
+      spriteID: 10975c955abdd45898f35c7706f064a4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire1_8
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_7
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 41
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e900de05d5504abdaa5164f95a61bc8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_8
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 41
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d3f971321fa4117a4473913c722ba9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_9
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 41
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4d8ca527f98426994dd2f0f4e0de8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_10
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 42
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a09ae9b2526461799f31c6521ef2e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_11
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 41
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f8145ca9d22433192d01dce1a78b94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_12
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 42
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb85dca6ef5114df7966364758dd9733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_13
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 44
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4dc4379de8b4b5c8a42127e9a025f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_14
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 44
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a5ee78844114abcba5331b7f0d553a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_15
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 44
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8138984e52235478ba4730c027784033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_16
       rect:
         serializedVersion: 2
         x: 4
-        y: 137
-        width: 34
-        height: 45
+        y: 1
+        width: 25
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,19 +444,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24ccc528d36554c01889b5ce1e23e300
+      spriteID: c904d404ebea444fa898ec109876fe6b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire1_9
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_17
       rect:
         serializedVersion: 2
-        x: 52
-        y: 137
-        width: 34
-        height: 47
+        x: 33
+        y: 1
+        width: 25
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,239 +464,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb6b0a82d8fcf4c73aca30fdcc6d50a0
+      spriteID: 0ecf95aa824d642fe911ba328fbcfb77
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire1_10
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 136
-        width: 37
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d767e0d50ce624a209b088b711d45e4b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fire1_11
-      rect:
-        serializedVersion: 2
-        x: 149
-        y: 141
-        width: 39
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 685816f424371449da56483c52d67038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fire1_12
-      rect:
-        serializedVersion: 2
-        x: 199
-        y: 136
-        width: 29
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 884add5e6829242d884886eb33ad3aef
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fire1_13
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 67
-        width: 32
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9632ede1de21d46bf8f9d1d1c124772b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fire1_14
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 73
-        width: 36
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 109e03f5638874965bb0fa4b7e1eea37
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fire1_15
-      rect:
-        serializedVersion: 2
-        x: 98
-        y: 68
-        width: 12
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b0b8e95e26b9401083e9461d464204e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fire1_16
-      rect:
-        serializedVersion: 2
-        x: 140
-        y: 71
-        width: 39
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c18c991c62b5f4806a687f3379f2dcf8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fire1_17
-      rect:
-        serializedVersion: 2
-        x: 170
-        y: 69
-        width: 7
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 16ea37a8f79aa4645b4d4f32647ff551
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fire1_18
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 68
-        width: 31
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a32f0f84244d473d955fd286f235e9c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fire1_19
-      rect:
-        serializedVersion: 2
-        x: 286
-        y: 73
-        width: 45
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 214650391fe854dd2b33c3dd1842fb76
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fire1_20
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 12
-        width: 35
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6143f238154fa4a10b839d24112b4492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fire1_21
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_18
       rect:
         serializedVersion: 2
         x: 61
-        y: 12
-        width: 35
-        height: 41
+        y: 1
+        width: 23
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -550,19 +484,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 707e4e802dd8f4feabf7dc14df8a7eb0
+      spriteID: 2354858dd3a934d04a560f8a6b54c37b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire1_22
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_19
       rect:
         serializedVersion: 2
-        x: 109
-        y: 13
-        width: 32
-        height: 40
+        x: 87
+        y: 1
+        width: 22
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -570,19 +504,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6510a6c3e272844e18f5971236bd6ef1
+      spriteID: 15bd9da186a954f02b98d6b8e24854b2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire1_23
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_20
       rect:
         serializedVersion: 2
-        x: 161
-        y: 13
-        width: 32
-        height: 40
+        x: 111
+        y: 2
+        width: 24
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,19 +524,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66ed5f1a66eba4a0fbe3561c2fd37b3d
+      spriteID: ccee14a3e1c994137862361162e5c1de
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire1_24
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_21
       rect:
         serializedVersion: 2
-        x: 220
-        y: 20
-        width: 15
-        height: 23
+        x: 137
+        y: 2
+        width: 23
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -610,19 +544,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 873d5ab24588d4a1ea1eea9f1910eab1
+      spriteID: 36d3599e8376d4680aae77f9c7dba347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire1_25
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_22
       rect:
         serializedVersion: 2
-        x: 272
-        y: 20
-        width: 15
-        height: 23
+        x: 185
+        y: 2
+        width: 21
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -630,19 +564,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bce0457aa57c4aac824a12f2671e405
+      spriteID: 93c4a447a9ea143c5bbd003d45c9400b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire1_26
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_25
       rect:
         serializedVersion: 2
-        x: 323
-        y: 20
-        width: 12
-        height: 16
+        x: 162
+        y: 2
+        width: 22
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -650,19 +584,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19ef99d7d45fc4f83b4e32154bec6a07
+      spriteID: 4b64f667d953145c1897a7858903b696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire1_27
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_23
       rect:
         serializedVersion: 2
-        x: 375
-        y: 20
-        width: 12
-        height: 16
+        x: 207
+        y: 2
+        width: 17
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -670,19 +604,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95ea19ae10bd749eba4427fba97395f5
+      spriteID: ce974f2cf883646989ee29526266fbf0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire1_28
+      name: Neo Geo NGCD - Metal Slug - Explosion SFX_24
       rect:
         serializedVersion: 2
-        x: 424
-        y: 20
-        width: 8
-        height: 12
+        x: 225
+        y: 2
+        width: 18
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -690,67 +624,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6fccd61c1ed8493c9cc02cf30695edb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fire1_29
-      rect:
-        serializedVersion: 2
-        x: 476
-        y: 20
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d73fe2f390b045868c548e00e1d6f4f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fire1_30
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 5
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9d3083fbfc664467989b0f795cee09a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fire1_31
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 5
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca7e4440016c343478e53f2a4e4bd489
+      spriteID: 5562b3b455e554256acc0b8def40f6dc
       vertices: []
       indices: 
       edges: []
@@ -758,7 +632,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: ffee1bdae72a44289824f7e142657386
+    spriteID: c7302d251c9ab4f09aea6c2c482cb28c
     vertices: []
     indices: 
     edges: []
