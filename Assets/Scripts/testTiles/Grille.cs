@@ -10,6 +10,7 @@ public class Grille : MonoBehaviour
     public Sprite constructible;
     public Sprite route;
     public Sprite decor;
+      
 
     public enum typeCase { constructible, construit, route, decor };
 
@@ -32,8 +33,6 @@ public class Grille : MonoBehaviour
     }
     private List<Case> listCase;
 
-    
-
 
     private void Start()
     { 
@@ -43,13 +42,9 @@ public class Grille : MonoBehaviour
 
         for (int i = grille.origin.x; i < grille.origin.x + grille.size.x -1; i++)
         {
-            //Debug.Log(i);
             for (int j = grille.origin.y; j < grille.origin.y + grille.size.y -1; j++)
             {
-                //Debug.Log(i + " " + j);
-
                 Case c = new Case(i, j);
-                //Debug.Log(grille.GetTile(new Vector3Int(i, j, 0)).name);
                 c.type = grille.GetTile(new Vector3Int(i, j, 0)).name == constructible.name ? typeCase.constructible :
                    grille.GetTile(new Vector3Int(i, j, 0)).name == route.name ? typeCase.route : typeCase.decor;
               
@@ -63,29 +58,9 @@ public class Grille : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-
             Debug.Log(getCase().type);
-
         }
     }
-
-    public Vector3 getConstructTile()
-    {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        Vector3 worldPoint = ray.GetPoint(-ray.origin.z / ray.direction.z);
-        Vector3Int position = grille.WorldToCell(worldPoint);
-        return position;
-        if (grille.GetTile(position).name == constructible.name)
-        {
-            Debug.Log(listCase.Find(x => x.posx == position.x && x.posy == position.y));
-            return position;
-        }
-        else
-        {
-            return Vector3.negativeInfinity;
-        }
-    }
-
     
     public Case getCase()
     {
@@ -99,8 +74,13 @@ public class Grille : MonoBehaviour
     public Case BuildOn(Case ca, Tour tower)
     {
         Case provisoir = listCase.Find(x => x.posx == ca.posx && x.posy == ca.posy);
-        provisoir.tower = tower;
+        if (ca.type == typeCase.constructible)
+        {
+            provisoir.tower = tower;
+            provisoir.type = typeCase.construit;
+        }
         return provisoir;
+
     }
 
 
