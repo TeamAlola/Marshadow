@@ -18,34 +18,31 @@ public class GameManager : MonoBehaviour {
     public GameObject minion;
     public GameObject spawn;
     public static GameManager gameManager;
-
+    public bool isspawn;
     //fait apparaitre un minion de la liste sur la map
-    public void Spawn()
-    {
-        Instantiate(minion,spawn.transform.position,spawn.transform.rotation);
-    }
+  
 
-    public void NewVague(int i)
+    public IEnumerator NewVague()
     {
-        numerovague++;
-        for(int j = 0; i<30; i ++)
+        while (true)
         {
-            monstres.Add(new Monstre(i, i+1/2, i));
-        }
-        float time=0f;
-        float temps=0f;
-
-        time += Time.deltaTime;
-        while (time < monstres.Count)
-        {
-            if (time >= temps)
+            if (isspawn)
             {
-                GameManager.gameManager.Spawn();
-                Debug.Log("Un minion a spawn");
-                temps++;
+                Debug.Log("nouvelle vague");
+                numerovague++;
+                for (int j = 0; j < 10; j++)
+                {
+                    monstres.Add(new Monstre(1, 1, 1));
+                }
+                for (int k = 0; k < 10; k++)
+                {
+                    Instantiate(minion, spawn.transform.position, spawn.transform.rotation);
+                    yield return new WaitForSeconds(1f);
+                }
+                isspawn = false;
             }
+            yield return null;
         }
-
     }
 
     public void Gagner()
@@ -59,8 +56,12 @@ public class GameManager : MonoBehaviour {
         Debug.Log("Tu pus");
     }
 
-    public void InitGameData()
-    {
+
+    // Use this for initialization
+    void Start () {
+
+        if (!gameManager) { gameManager = this; }
+        isspawn = false;
         nbvague = 2;
         numerovague = 1;
         joueur = new Joueur(10, 50);
@@ -68,21 +69,13 @@ public class GameManager : MonoBehaviour {
         toursAchetables = new List<Tour>();
         toursAchetees = new List<Tour>();
         toursAchetables.Add(new Tour(1, 1));
-    }
-
-    // Use this for initialization
-    void Start () {
-
-        if (!gameManager) { gameManager = this; }
-
-        InitGameData();
         //quand timer fini
-        NewVague(numerovague);
+        StartCoroutine(NewVague());
+        
 
     }
 	
 	// Update is called once per frame
 	void Update () {
-		
 	}
 }

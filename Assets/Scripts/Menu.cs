@@ -28,7 +28,7 @@ public class Menu : MonoBehaviour {
 
     public void Play()
     {
-        SceneManager.LoadScene("Sample Scene");
+        SceneManager.LoadScene("SampleScene");
     }
 
     public void Quit()

@@ -33,7 +33,12 @@ public class HUD : MonoBehaviour {
         else
         {
             GameManager.gameManager.timer.text = "C'est parti !";
+            
             timesup = true;
+            if (GameManager.gameManager.isspawn)
+            {
+                GameManager.gameManager.isspawn = false;
+            }
             if(time < -3f)
             {
                 GameManager.gameManager.timer.GetComponent<CanvasGroup>().alpha = 0;
@@ -43,8 +48,9 @@ public class HUD : MonoBehaviour {
 
     public void ResetTimer()
     {
-        time = 20f;
-        temps = 19f;
+        Debug.Log("phase défense");
+        time = 5f;
+        temps = 4f;
         timesup = false;
     }
 
