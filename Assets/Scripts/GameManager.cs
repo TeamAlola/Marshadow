@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour {
         if (joueur.argent >= t.valeur)
         {
             joueur.PerdreArgent(t.valeur);
-            toursAchetees.Add(new Tour(t.valeur, t.degat));
+            toursAchetees.Add(new Tour(t.valeur, t.Degat));
         }
         else
         {

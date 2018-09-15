@@ -14,5 +14,6 @@ public class Suicide : MonoBehaviour {
         PV = PV - collision.gameObject.GetComponent<Tir>().GetDamage();
         if(PV==0)
         Destroy(gameObject);
+        collision.gameObject.GetComponent<Monstre>().Mourir();
     }
 }

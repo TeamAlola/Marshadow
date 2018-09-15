@@ -10,12 +10,12 @@ public class Test_de_merde : MonoBehaviour {
     private float timerFire = 0;
     public GameObject Balle;
     private float rangeDetect = 12;
+    private Tour tower;
+    
 
-    float damage = 5;
-
-    public float GetDamage ()
+    public int GetDegat ()
     {
-        return damage;
+        return tower.Degat;
     }
 	
 	// Update is called once per frame
@@ -27,7 +27,7 @@ public class Test_de_merde : MonoBehaviour {
         Debug.Log(tabTarget.Length);
         if (tabTarget.Length != 0) item = ProxyTarget(tabTarget);
         //Tir toute les deux secondes
-        if (timerFire > 0.5)
+        if (timerFire > 1)
         {
             //Si cible trouve
             if (item)
@@ -39,7 +39,7 @@ public class Test_de_merde : MonoBehaviour {
                 projectil.GetComponent<Tir>().SetVitesse(new Vector2(item.transform.position.x-this.transform.position.x, 
                     item.transform.position.y-this.transform.position.y).normalized*250);
                 projectil.GetComponent<Tir>().Autre();
-                projectil.GetComponent<Tir>().SetDamage(damage);
+                projectil.GetComponent<Tir>().SetDamage(GetDegat());
                 item = Physics2D.CircleCast(this.transform.position, 0, Vector2.zero);
             }
             

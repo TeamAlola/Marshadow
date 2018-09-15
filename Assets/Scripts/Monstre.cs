@@ -8,6 +8,19 @@ public class Monstre  {
     int or;
     private int pv;
 
+    public int Pv
+    {
+        get
+        {
+            return pv;
+        }
+
+        set
+        {
+            pv = value;
+        }
+    }
+
     /// <param name="d">degat</param>
     /// <param name="o">or</param>
     /// <param name="p">pv</param>
@@ -15,7 +28,7 @@ public class Monstre  {
     {
         degat = d;
         or = o;
-        pv = p;
+        Pv = p;
     }
 
     //Le joueur gagne les gold du monstre, le monstre est supprimé de la liste de monstres.

@@ -7,7 +7,13 @@ public class MonsterController : MonoBehaviour {
     private Animator anim_monster;
     private Rigidbody2D body;
     private bool isrotate;
-    private float PV = 15f;
+    private Monstre mob;
+
+    public int GetPv()
+    {
+        return mob.Pv;
+    }
+        
 
     private void Start()
     {
@@ -32,10 +38,11 @@ public class MonsterController : MonoBehaviour {
     public void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("Touche");
-
+        int PV = GetPv();
         Destroy(collision.gameObject);
         PV = PV - collision.gameObject.GetComponent<Tir>().GetDamage();
         if (PV == 0)
+            collision.GetComponent<Monstre>().Mourir();
             Destroy(gameObject);
     }
 
