@@ -121,6 +121,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 14825539}
+  - component: {fileID: 14825540}
   m_Layer: 0
   m_Name: '[Environement]'
   m_TagString: Untagged
@@ -144,6 +145,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &14825540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 14825538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2034d28d2e1fe654e940bd1e19df3d82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: {fileID: 0}
+  pv: {fileID: 0}
+  argent: {fileID: 0}
+  achatMenu: {fileID: 0}
+  hud: {fileID: 0}
+  minion: {fileID: 0}
+  spawn: {fileID: 0}
+  Tour: {fileID: 0}
+  nbvague: 0
+  numerovague: 0
+  isspawn: 0
 --- !u!4 &323001277 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4653558626172472, guid: 818996580b364eb4496124136df7fd5a,
@@ -348,17 +371,17 @@ Prefab:
     - target: {fileID: 3664157345234132152, guid: 818996580b364eb4496124136df7fd5a,
         type: 2}
       propertyPath: m_ChunkCullingBounds.x
-      value: 11.57
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3664157345234132152, guid: 818996580b364eb4496124136df7fd5a,
         type: 2}
       propertyPath: m_ChunkCullingBounds.y
-      value: 12.16
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3664157345234132152, guid: 818996580b364eb4496124136df7fd5a,
         type: 2}
       propertyPath: m_ChunkCullingBounds.z
-      value: 20.94
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3664157345234132152, guid: 818996580b364eb4496124136df7fd5a,
         type: 2}
