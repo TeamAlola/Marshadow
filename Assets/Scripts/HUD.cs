@@ -16,7 +16,6 @@ public class HUD : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         TimerUpdate();
-        GameManager.gameManager.pvetargent.text = GameManager.gameManager.joueur.pv + " Vies \n" + GameManager.gameManager.joueur.argent + " $";
     }
 
     void TimerUpdate()
@@ -47,5 +46,15 @@ public class HUD : MonoBehaviour {
         time = 20f;
         temps = 19f;
         timesup = false;
+    }
+
+    public void PrintLives(int vies)
+    {
+        GameManager.gameManager.pv.text = vies + " Vies";
+    }
+
+    public void PrintMoney(int argent)
+    {
+        GameManager.gameManager.pv.text = argent + " $";
     }
 }
