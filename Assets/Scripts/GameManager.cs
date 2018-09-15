@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class GameManager : MonoBehaviour {
 
+    public TextMeshProUGUI timer;
+    public TextMeshProUGUI pvetargent;
     public Joueur joueur;
     public List<Monstre> monstres;
     public List<Tour> toursAchetables;
@@ -38,7 +41,7 @@ public class GameManager : MonoBehaviour {
         if (!gameManager) { gameManager = this; }
         nbvague = 2;
         numerovague = 1;
-        joueur = new Joueur(10, 5);
+        joueur = new Joueur(10, 50);
         monstres = new List<Monstre>();
         toursAchetables = new List<Tour>();
         toursAchetees = new List<Tour>();      
