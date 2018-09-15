@@ -6,44 +6,75 @@ using System.Linq;
 
 public class GameManager : MonoBehaviour {
 
+
+    [Header("HUD")]
     public TextMeshProUGUI timer;
     public TextMeshProUGUI pv;
     public TextMeshProUGUI argent;
     public GameObject achatMenu;
-    public Joueur joueur;
     public HUD hud;
+
+    [Header("GameObjects")]
+    public GameObject minion;
+    public GameObject spawn;
+    public GameObject Tour;
+    public Grille grille;
+
+    [Header("Donnée")]
+    public int nbvague;
+    public int numerovague;
+
+    public Joueur joueur;
     public List<Monstre> monstres;
     public List<Tour> toursAchetables;
     public List<Tour> toursAchetees;
-    public int nbvague;
-    public int numerovague;
-    public GameObject minion;
-    public GameObject spawn;
     public static GameManager gameManager;
 
-    Grille grille;
     private Grille.Case case1; 
 
     public bool isspawn;
-    public GameObject Tour;
     //fait apparaitre un minion de la liste sur la map
 
     public void AcheterTour(int tour)
     {
-        Tour t = new Tour(10,10);
-        //Tour t = toursAchetables.ElementAtOrDefault(tour);
-        if (joueur.argent >= t.valeur)
+        Debug.Log(case1.type);
+        if (case1.type == Grille.typeCase.constructible)
         {
-            joueur.PerdreArgent(t.valeur);
-            Tour newTower = new Tour(t.valeur, t.Degat);
-            toursAchetees.Add(newTower);
-            GameObject nouvTour = Instantiate(Tour,this.transform);
-            nouvTour.GetComponent<Test_de_merde>().Tower = newTower;
+            Tour t = new Tour(10, 10);
+            if(joueur.argent >= t.valeur)
+            {
+                joueur.PerdreArgent(t.valeur);
+                Tour newTower = new Tour(t.valeur, t.Degat);
+                toursAchetees.Add(newTower);
+
+                //Debug.Log(case1.worldPos);
+
+                GameObject nouvTour = Instantiate(Tour, case1.worldPos, Quaternion.identity);
+                nouvTour.GetComponent<Test_de_merde>().Tower = newTower;
+
+                grille.BuildOn(case1, newTower);
+
+            }
         }
         else
         {
-            Debug.Log("T'es pauvre gros PD");
+            Debug.Log("can't buy");
         }
+
+        //Tour t = new Tour(10,10);
+        ////Tour t = toursAchetables.ElementAtOrDefault(tour);
+        //if (joueur.argent >= t.valeur)
+        //{
+        //    joueur.PerdreArgent(t.valeur);
+        //    Tour newTower = new Tour(t.valeur, t.Degat);
+        //    toursAchetees.Add(newTower);
+        //    GameObject nouvTour = Instantiate(Tour,this.transform);
+        //    nouvTour.GetComponent<Test_de_merde>().Tower = newTower;
+        //}
+        //else
+        //{
+        //    Debug.Log("T'es pauvre gros PD");
+        //}
     }
 
     public void Gagner()
@@ -60,8 +91,7 @@ public class GameManager : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-
-        grille = new Grille();
+        
         if (!gameManager) { gameManager = this; }
         Tour zero = new Tour(50, 1);
         Tour one = new Tour(100, 3);
@@ -82,6 +112,26 @@ public class GameManager : MonoBehaviour {
         if (Input.GetMouseButtonDown(0))
         {
             case1 = grille.getCase(); //case actuelle
+            if(case1.type == Grille.typeCase.construit)
+            {
+                SelectTower();
+            }
+            if(case1.type == Grille.typeCase.constructible)
+            {
+                BuyTower();
+            }
         }
+    }
+
+    public void SelectTower()
+    {
+        Tour tower = case1.tower;
+        Debug.Log("Tour selectionnée");
+    }
+
+    public void BuyTower()
+    {
+        Debug.Log("Acheter une tour");
+
     }
 }
