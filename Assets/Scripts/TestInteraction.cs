@@ -56,7 +56,11 @@ public class TestInteraction : MonoBehaviour {
         Debug.Log("tours possédées: " + GameManager.gameManager.toursAchetees.Count);
     }
 
-  
+    [ContextMenu("AcheterTour")]
+    public void AcheterTour()
+    {
+        GameManager.gameManager.AcheterTour(0);
+    }
 
 
 }
