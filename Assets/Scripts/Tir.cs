@@ -8,8 +8,12 @@ public class Tir : MonoBehaviour {
 
     Vector2 vitesse;
 
-	// Use this for initialization
-	public void Autre () {
+    public float damage;
+
+    float existance = 0;
+
+    // Use this for initialization
+    public void Autre () {
         truc = this.GetComponent<Rigidbody2D>();
         truc.AddForce(vitesse);        
 	}
@@ -17,4 +21,22 @@ public class Tir : MonoBehaviour {
     public void SetVitesse(Vector2 vitesseInit) {
         vitesse = vitesseInit;
     }
+    public void SetDamage(float power)
+    {
+        damage = power;
+    }
+
+    public float GetDamage()
+    {
+        return damage;
+    }
+
+    public void Update()
+    {
+        existance = existance + Time.deltaTime;
+        if (existance > 2.5) { Destroy(gameObject); }
+
+    }
+
+    
 }
