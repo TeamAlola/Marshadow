@@ -13,6 +13,7 @@ public class Tour {
         degat = d;
     }
 
+    //donne des gold au joueur et supprime la tour de la liste tours achetées
     public void Revendre()
     {
         GameManager.gameManager.joueur.GagnerArgent(valeur/3);

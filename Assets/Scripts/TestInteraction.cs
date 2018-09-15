@@ -10,6 +10,7 @@ public class TestInteraction : MonoBehaviour {
     {
         GameManager.gameManager.monstres.ElementAt(0).Mourir();
         Debug.Log("Monstre mort");
+        Debug.Log("vague: " + GameManager.gameManager.numerovague);
         Debug.Log("pv joueur: " + GameManager.gameManager.joueur.pv);
         Debug.Log("or joueur: " + GameManager.gameManager.joueur.argent);
         Debug.Log("nb monstres: " + GameManager.gameManager.monstres.Count);
@@ -21,6 +22,7 @@ public class TestInteraction : MonoBehaviour {
     {
         GameManager.gameManager.monstres.ElementAt(0).InfligerDegats();
         Debug.Log("Monstre survivant");
+        Debug.Log("vague: " + GameManager.gameManager.numerovague);
         Debug.Log("pv joueur: " + GameManager.gameManager.joueur.pv);
         Debug.Log("or joueur: " + GameManager.gameManager.joueur.argent);
         Debug.Log("nb monstres: " + GameManager.gameManager.monstres.Count);
@@ -33,6 +35,7 @@ public class TestInteraction : MonoBehaviour {
         Tour t1= GameManager.gameManager.toursAchetables.ElementAt(0);
         GameManager.gameManager.joueur.AcheterTour(t1);
         Debug.Log("Tour achetée");
+        Debug.Log("vague: " + GameManager.gameManager.numerovague);
         Debug.Log("pv joueur: " + GameManager.gameManager.joueur.pv);
         Debug.Log("or joueur: " + GameManager.gameManager.joueur.argent);
         Debug.Log("nb monstres: " + GameManager.gameManager.monstres.Count);
@@ -45,31 +48,24 @@ public class TestInteraction : MonoBehaviour {
     {
         GameManager.gameManager.toursAchetees.ElementAt(0).Revendre();
         Debug.Log("Tour revendu");
+        Debug.Log("vague: " + GameManager.gameManager.numerovague);
         Debug.Log("pv joueur: " + GameManager.gameManager.joueur.pv);
         Debug.Log("or joueur: " + GameManager.gameManager.joueur.argent);
         Debug.Log("nb monstres: " + GameManager.gameManager.monstres.Count);
         Debug.Log("tours possédées: " + GameManager.gameManager.toursAchetees.Count);
     }
 
-    [ContextMenu("Spawn")]
+    [ContextMenu("NouveauMonstre")]
     public void Spawn()
     {
         GameManager.gameManager.monstres.Add(new Monstre(10, 10, 10));
         Debug.Log("Nouveau monstre");
+        Debug.Log("vague: " + GameManager.gameManager.numerovague);
         Debug.Log("pv joueur: " + GameManager.gameManager.joueur.pv);
         Debug.Log("or joueur: " + GameManager.gameManager.joueur.argent);
         Debug.Log("nb monstres: " + GameManager.gameManager.monstres.Count);
         Debug.Log("tours possédées: " + GameManager.gameManager.toursAchetees.Count);
     }
 
-    // Use this for initialization
-    void Start () {
-        Debug.Log("nb monstres: " + GameManager.gameManager.monstres.Count);
-        Debug.Log("tours possédées: " + GameManager.gameManager.toursAchetees.Count);
-    }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
 }

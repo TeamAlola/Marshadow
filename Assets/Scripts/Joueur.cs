@@ -24,6 +24,7 @@ public class Joueur {
         argent += i;
     }
 
+    //Vérifie que le joueur a assez d'argent, déduit l'argent puis ajoute la tour aux tours achetées
     public void AcheterTour(Tour t)
     {
         if (argent >= t.valeur)
@@ -37,6 +38,7 @@ public class Joueur {
         }
     }
 
+    //Le joueur subit i degats. S'il tombe a zero pv, lance la fonction Perdre
     public void PrendreDegats(int i)
     {
         pv -= i;
