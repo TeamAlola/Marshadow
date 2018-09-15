@@ -60,21 +60,6 @@ public class GameManager : MonoBehaviour {
         {
             Debug.Log("can't buy");
         }
-
-        //Tour t = new Tour(10,10);
-        ////Tour t = toursAchetables.ElementAtOrDefault(tour);
-        //if (joueur.argent >= t.valeur)
-        //{
-        //    joueur.PerdreArgent(t.valeur);
-        //    Tour newTower = new Tour(t.valeur, t.Degat);
-        //    toursAchetees.Add(newTower);
-        //    GameObject nouvTour = Instantiate(Tour,this.transform);
-        //    nouvTour.GetComponent<Test_de_merde>().Tower = newTower;
-        //}
-        //else
-        //{
-        //    Debug.Log("T'es pauvre gros PD");
-        //}
     }
 
     public void Gagner()
@@ -84,7 +69,6 @@ public class GameManager : MonoBehaviour {
 
     public void Perdre()
     {
-
         Debug.Log("Tu pus");
     }
 
@@ -120,6 +104,15 @@ public class GameManager : MonoBehaviour {
             {
                 BuyTower();
             }
+        }
+
+        if (numerovague == nbvague && !monstres.Any())
+        {
+            Gagner();
+        }
+        if (joueur.pv == 0)
+        {
+            Perdre();
         }
     }
 
