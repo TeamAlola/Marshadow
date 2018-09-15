@@ -34,7 +34,8 @@ public class HUD : MonoBehaviour {
         {
             GameManager.gameManager.timer.text = "C'est parti !";
             timesup = true;
-            if(time < -3f)
+            GameManager.gameManager.achatMenu.GetComponent<CanvasGroup>().alpha = 0;
+            if (time < -3f)
             {
                 GameManager.gameManager.timer.GetComponent<CanvasGroup>().alpha = 0;
             }
@@ -46,6 +47,7 @@ public class HUD : MonoBehaviour {
         time = 20f;
         temps = 19f;
         timesup = false;
+        GameManager.gameManager.achatMenu.GetComponent<CanvasGroup>().alpha = 1;
     }
 
     public void PrintLives(int vies)

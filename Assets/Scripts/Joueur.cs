@@ -28,20 +28,6 @@ public class Joueur {
         GameManager.gameManager.hud.PrintMoney(argent);
     }
 
-    //Vérifie que le joueur a assez d'argent, déduit l'argent puis ajoute la tour aux tours achetées
-    public void AcheterTour(Tour t)
-    {
-        if (argent >= t.valeur)
-        {
-            PerdreArgent(t.valeur);
-            GameManager.gameManager.toursAchetees.Add(new Tour(t.valeur, t.degat));
-        }
-        else
-        {
-            Debug.Log("T'es pauvre gros PD");
-        }
-    }
-
     //Le joueur subit i degats. S'il tombe a zero pv, lance la fonction Perdre
     public void PrendreDegats(int i)
     {
