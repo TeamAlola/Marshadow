@@ -9,7 +9,7 @@ public class Test_de_merde : MonoBehaviour {
     private RaycastHit2D[] tabTarget;
     private float timerFire = 0;
     public GameObject Balle;
-    private float rangeDetect = 0;
+    private float rangeDetect = 10;
 
 	
 	// Update is called once per frame
@@ -17,7 +17,9 @@ public class Test_de_merde : MonoBehaviour {
         timerFire = timerFire + Time.deltaTime;
        
         tabTarget = Physics2D.CircleCastAll(this.transform.position, rangeDetect, Vector2.zero);
-     
+        Debug.Log("T vrèmen kon");
+        Debug.Log(tabTarget.Length);
+        if (tabTarget.Length != 0) item = ProxyTarget(tabTarget);
         //Tir toute les deux secondes
         if (timerFire > 2)
         {
@@ -38,17 +40,26 @@ public class Test_de_merde : MonoBehaviour {
         }
 	}
 
-    RaycastHit2D proxyTarget(RaycastHit2D[] tabTarget)
+    RaycastHit2D ProxyTarget(RaycastHit2D[] tabTarget)
     {
+        int indmin = 0;
+        int compteur = 0;
+        Debug.Log("T tro kon");
         Vector2 min = Vector2.positiveInfinity;
         Vector2 verif;
         foreach(RaycastHit2D vec in tabTarget)
         {
+            Debug.Log("T kon");
             verif = new Vector2(vec.transform.position.x - this.transform.position.x, vec.transform.position.y - this.transform.position.y);
-            if (min.magnitude > verif.magnitude) ;
+            if (min.magnitude > verif.magnitude)
+            {
+                indmin = compteur;
+                min = verif;
+            }
+            compteur++;
         }
 
-        return tabTarget[0];
+        return tabTarget[indmin];
     }
 
 }
