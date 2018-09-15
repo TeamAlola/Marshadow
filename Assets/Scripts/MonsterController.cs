@@ -9,9 +9,22 @@ public class MonsterController : MonoBehaviour {
     private bool isrotate;
     private Monstre mob;
 
+    public Monstre Mob
+    {
+        get
+        {
+            return mob;
+        }
+
+        set
+        {
+            mob = value;
+        }
+    }
+
     public int GetPv()
     {
-        return mob.Pv;
+        return Mob.Pv;
     }
         
 
@@ -37,13 +50,16 @@ public class MonsterController : MonoBehaviour {
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Touche");
-        int PV = GetPv();
-        Destroy(collision.gameObject);
-        PV = PV - collision.gameObject.GetComponent<Tir>().GetDamage();
-        if (PV == 0)
-            collision.GetComponent<Monstre>().Mourir();
+        if (!collision.transform.tag.Equals("Indestructible"))
+        {
+            Debug.Log("Touche");
+            int PV = GetPv();
+            Destroy(collision.gameObject);
+            PV = PV - collision.gameObject.GetComponent<Tir>().GetDamage();
+            if (PV <= 0)
+                collision.GetComponent<Monstre>().Mourir();
             Destroy(gameObject);
+        }
     }
 
 
