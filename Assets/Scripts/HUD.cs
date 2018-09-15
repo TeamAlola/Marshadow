@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class HUD : MonoBehaviour {
 
-    private float temps; // facilite pour afficher en secondes
-    private float time; // calcul du temps actuel du niveau, considere qu'il commence a 20
-    public bool timesup; // quand timesup, le timer de debut est fini et les phase de construction est terminee, les monstres apparaissent
+    private int temps; // facilite pour afficher en secondes
+    private static bool b;
+    public static float time; // calcul du temps actuel du niveau, considere qu'il commence a 20
 
 	// Use this for initialization
 	void Start () {
         ResetTimer();
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -21,37 +21,33 @@ public class HUD : MonoBehaviour {
     void TimerUpdate()
     {
         time -= Time.deltaTime;
+        Debug.Log(b);
         if (time > 0f)
         {
             GameManager.gameManager.timer.GetComponent<CanvasGroup>().alpha = 1;
-            if (time < temps)
-            {
-                GameManager.gameManager.timer.text = temps.ToString();
-                temps--;
-            }
+            GameManager.gameManager.achatMenu.GetComponent<CanvasGroup>().alpha = 1;
+            GameManager.gameManager.timer.text = ((int)time).ToString();
         }
         else
         {
             GameManager.gameManager.timer.text = "C'est parti !";
-            
-            timesup = true;
-            if (GameManager.gameManager.isspawn)
+            GameManager.gameManager.achatMenu.GetComponent<CanvasGroup>().alpha = 0;
+            if ((int)time <= -3 && !b)
             {
-                GameManager.gameManager.isspawn = false;
-            }
-            if(time < -3f)
-            {
+                Debug.Log("nouveau monstre");
                 GameManager.gameManager.timer.GetComponent<CanvasGroup>().alpha = 0;
+                GameManager.gameManager.monstres.Add(new Monstre(1, 1, 1));
+                Instantiate(GameManager.gameManager.minion, GameManager.gameManager.spawn.transform.position, GameManager.gameManager.spawn.transform.rotation);
+                b = true;
             }
         }
     }
 
     public void ResetTimer()
     {
-        Debug.Log("phase défense");
         time = 5f;
-        temps = 4f;
-        timesup = false;
+        temps = 4;
+        b = false;
     }
 
     public void PrintLives(int vies)
@@ -61,6 +57,6 @@ public class HUD : MonoBehaviour {
 
     public void PrintMoney(int argent)
     {
-        GameManager.gameManager.pv.text = argent + " $";
+        GameManager.gameManager.argent.text = argent + " $";
     }
 }

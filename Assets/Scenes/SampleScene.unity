@@ -534,7 +534,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.012394496, y: 0.030211013}
   m_AnchorMax: {x: 0.9876055, y: 0.969789}
-  m_AnchoredPosition: {x: -0.16998, y: -31.6}
+  m_AnchoredPosition: {x: -0.16998291, y: -31.599998}
   m_SizeDelta: {x: 0.32998657, y: 0.66999817}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &489869961
@@ -730,10 +730,44 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 603042690}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &603042689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 603042690}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &603042690
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 603042689}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 519420032}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -8.49, y: -0.09}
+  m_SizeDelta: {x: 3.745, y: 10.025}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &638760253
 GameObject:
   m_ObjectHideFlags: 0
@@ -1107,7 +1141,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.12679724, y: 0.39200002}
   m_AnchorMax: {x: 0.8551014, y: 0.623}
-  m_AnchoredPosition: {x: 0.010000229, y: -0.75}
+  m_AnchoredPosition: {x: 0.010002136, y: -0.75}
   m_SizeDelta: {x: -2.8199997, y: 0.0099983215}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &919361223
@@ -1420,6 +1454,8 @@ MonoBehaviour:
   hud: {fileID: 0}
   nbvague: 0
   numerovague: 0
+  minion: {fileID: 1659494519283184, guid: 564577793953310449d8943a0ea20c19, type: 2}
+  spawn: {fileID: 603042689}
 --- !u!4 &1441160658
 Transform:
   m_ObjectHideFlags: 0

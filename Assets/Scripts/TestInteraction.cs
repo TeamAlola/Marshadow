@@ -8,7 +8,7 @@ public class TestInteraction : MonoBehaviour {
     [ContextMenu("MonstreMeurs")]
     public void MonstreMeurs()
     {
-        GameManager.gameManager.monstres.ElementAt(0).Mourir();
+        GameManager.gameManager.monstres.First().Mourir();
         Debug.Log("Monstre mort");
         Debug.Log("vague: " + GameManager.gameManager.numerovague);
         Debug.Log("pv joueur: " + GameManager.gameManager.joueur.pv);
@@ -55,8 +55,5 @@ public class TestInteraction : MonoBehaviour {
         Debug.Log("nb monstres: " + GameManager.gameManager.monstres.Count);
         Debug.Log("tours possédées: " + GameManager.gameManager.toursAchetees.Count);
     }
-
   
-
-
 }

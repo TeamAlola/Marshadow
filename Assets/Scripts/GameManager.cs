@@ -20,32 +20,7 @@ public class GameManager : MonoBehaviour {
     public GameObject minion;
     public GameObject spawn;
     public static GameManager gameManager;
-    public bool isspawn;
     //fait apparaitre un minion de la liste sur la map
-  
-
-    public IEnumerator NewVague()
-    {
-        while (true)
-        {
-            if (isspawn)
-            {
-                Debug.Log("nouvelle vague");
-                numerovague++;
-                for (int j = 0; j < 10; j++)
-                {
-                    monstres.Add(new Monstre(1, 1, 1));
-                }
-                for (int k = 0; k < 10; k++)
-                {
-                    Instantiate(minion, spawn.transform.position, spawn.transform.rotation);
-                    yield return new WaitForSeconds(1f);
-                }
-                isspawn = false;
-            }
-            yield return null;
-        }
-    }
 
     public void AcheterTour(int tour)
     {
@@ -80,18 +55,14 @@ public class GameManager : MonoBehaviour {
         Tour zero = new Tour(50, 1);
         Tour one = new Tour(100, 3);
         Tour two = new Tour(200, 8);
-        isspawn = false;
-        nbvague = 2;
+        hud = new HUD();
+        nbvague = 5;
         numerovague = 1;
         joueur = new Joueur(10, 50);
         monstres = new List<Monstre>();
         toursAchetables = new List<Tour> { zero, one, two };
         toursAchetees = new List<Tour>();
         toursAchetables.Add(new Tour(1, 1));
-        //quand timer fini
-        StartCoroutine(NewVague());
-        
-
     }
 	
 	// Update is called once per frame

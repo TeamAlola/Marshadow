@@ -11,8 +11,8 @@ public class Joueur {
     {
         pv = p;
         argent = a;
-       //GameManager.gameManager.hud.PrintLives(pv);
-       //GameManager.gameManager.hud.PrintMoney(argent);
+       GameManager.gameManager.hud.PrintLives(pv);
+       GameManager.gameManager.hud.PrintMoney(argent);
     }
 
     public void PerdreArgent(int i)
@@ -25,7 +25,7 @@ public class Joueur {
     public void GagnerArgent(int i)
     {
         argent += i;
-        //GameManager.gameManager.hud.PrintMoney(argent);
+        GameManager.gameManager.hud.PrintMoney(argent);
     }
 
     //Le joueur subit i degats. S'il tombe a zero pv, lance la fonction Perdre
@@ -33,6 +33,6 @@ public class Joueur {
     {
         pv -= i;
         if (pv <= 0) { GameManager.gameManager.Perdre(); }
-        //GameManager.gameManager.hud.PrintLives(pv);
+        GameManager.gameManager.hud.PrintLives(pv);
     }
 }
