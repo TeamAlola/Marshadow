@@ -1,0 +1,1380 @@
+fileFormatVersion: 2
+guid: eedc5ecaca703403bba72c42e24381f5
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PC Computer - Duelyst - Rogue Warden_0
+    21300002: PC Computer - Duelyst - Rogue Warden_1
+    21300004: PC Computer - Duelyst - Rogue Warden_2
+    21300006: PC Computer - Duelyst - Rogue Warden_3
+    21300008: PC Computer - Duelyst - Rogue Warden_4
+    21300010: PC Computer - Duelyst - Rogue Warden_5
+    21300012: PC Computer - Duelyst - Rogue Warden_6
+    21300014: PC Computer - Duelyst - Rogue Warden_7
+    21300016: PC Computer - Duelyst - Rogue Warden_8
+    21300018: PC Computer - Duelyst - Rogue Warden_9
+    21300020: PC Computer - Duelyst - Rogue Warden_10
+    21300022: PC Computer - Duelyst - Rogue Warden_11
+    21300024: PC Computer - Duelyst - Rogue Warden_12
+    21300026: PC Computer - Duelyst - Rogue Warden_13
+    21300028: PC Computer - Duelyst - Rogue Warden_14
+    21300030: PC Computer - Duelyst - Rogue Warden_15
+    21300032: PC Computer - Duelyst - Rogue Warden_16
+    21300034: PC Computer - Duelyst - Rogue Warden_17
+    21300036: PC Computer - Duelyst - Rogue Warden_18
+    21300038: PC Computer - Duelyst - Rogue Warden_19
+    21300040: PC Computer - Duelyst - Rogue Warden_20
+    21300042: PC Computer - Duelyst - Rogue Warden_21
+    21300044: PC Computer - Duelyst - Rogue Warden_22
+    21300046: PC Computer - Duelyst - Rogue Warden_23
+    21300048: PC Computer - Duelyst - Rogue Warden_24
+    21300050: PC Computer - Duelyst - Rogue Warden_25
+    21300052: PC Computer - Duelyst - Rogue Warden_26
+    21300054: PC Computer - Duelyst - Rogue Warden_27
+    21300056: PC Computer - Duelyst - Rogue Warden_28
+    21300058: PC Computer - Duelyst - Rogue Warden_29
+    21300060: PC Computer - Duelyst - Rogue Warden_30
+    21300062: PC Computer - Duelyst - Rogue Warden_31
+    21300064: PC Computer - Duelyst - Rogue Warden_32
+    21300066: PC Computer - Duelyst - Rogue Warden_33
+    21300068: PC Computer - Duelyst - Rogue Warden_34
+    21300070: PC Computer - Duelyst - Rogue Warden_35
+    21300072: PC Computer - Duelyst - Rogue Warden_36
+    21300074: PC Computer - Duelyst - Rogue Warden_37
+    21300076: PC Computer - Duelyst - Rogue Warden_38
+    21300078: PC Computer - Duelyst - Rogue Warden_39
+    21300080: PC Computer - Duelyst - Rogue Warden_40
+    21300082: PC Computer - Duelyst - Rogue Warden_41
+    21300084: PC Computer - Duelyst - Rogue Warden_42
+    21300086: PC Computer - Duelyst - Rogue Warden_43
+    21300088: PC Computer - Duelyst - Rogue Warden_44
+    21300090: PC Computer - Duelyst - Rogue Warden_45
+    21300092: PC Computer - Duelyst - Rogue Warden_46
+    21300094: PC Computer - Duelyst - Rogue Warden_47
+    21300096: PC Computer - Duelyst - Rogue Warden_48
+    21300098: PC Computer - Duelyst - Rogue Warden_49
+    21300100: PC Computer - Duelyst - Rogue Warden_50
+    21300102: PC Computer - Duelyst - Rogue Warden_51
+    21300104: PC Computer - Duelyst - Rogue Warden_52
+    21300106: PC Computer - Duelyst - Rogue Warden_53
+    21300108: PC Computer - Duelyst - Rogue Warden_54
+    21300110: PC Computer - Duelyst - Rogue Warden_55
+    21300112: PC Computer - Duelyst - Rogue Warden_56
+    21300114: PC Computer - Duelyst - Rogue Warden_57
+    21300116: PC Computer - Duelyst - Rogue Warden_58
+    21300118: PC Computer - Duelyst - Rogue Warden_59
+    21300120: PC Computer - Duelyst - Rogue Warden_60
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 455
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90785403956e949498b2b2d788d91971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 455
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cec741314c5b4cb689f8d8fd3b0ce7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_2
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 455
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1348ce7f33a8f46bca152297ab2a6376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_3
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 455
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e1268d11fe54132acb5b401b21259c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_4
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 455
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6130dfebf0997486fb615eafa103d8df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_5
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 455
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58280b45eb6124b6fb7eca39cb7833a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 455
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcdc2422d76647a0a4dc0690dfd591e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_7
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 455
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e58b9dd1d074d02b7d44b3ff552edf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_8
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 455
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06cf723619ced43e7b764f2cbe388d67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_9
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 455
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6683eb6a6606746b1aded1389f56f3e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_10
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 374
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e755ede325e41788ccde5783c24170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_11
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 374
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e790c7569c95f430080a44316d6f62e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_12
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 374
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e7a9aeee3f845debedb42451ffcc7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_13
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 374
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcaf8beb9b3fc40f699d3905cff8a1a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_14
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 374
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788985e8db61146638e81e5cafe82dc5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_15
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 374
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0520f33361c486697f8d479c0b13de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_16
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 374
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66a4a8971a554b969c0d7153809e18d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_17
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 374
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64dbf6715c1fe41d18bbb2830aa7390d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_18
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 374
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5df3be7819941aba41cdcd6adfd2e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_19
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 374
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef19eeb197db847dd8237049620a8f62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_20
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 374
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce195f66487547ddba6ab820386f0fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_21
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 374
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e878eeece48104962873fca67195de96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_22
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 374
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90025f0a4dc584f9f8c3b804b6f0db03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_23
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 374
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd95fdde2e1f43bc8cbc44319e835f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_24
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 293
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d83f5b9c28114efe9270afa07ae0d7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_25
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 293
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4804dd894b69429585c02f9612b87d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_26
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 293
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92792bd2d7d3841d4b0657ee3ae65a49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_27
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 294
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92967fdf7f3fe473d8fa8c7117502e53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_28
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 293
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657e383bb59174c138eb4d81e7f3c686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_29
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 294
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97fe72997e73f47e6a09a903f82fb20e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_30
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 295
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbfc4b08d1974ff79bbcff22cf42c72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_31
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 296
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e018779e62ff54aa5af024e925a60d03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_32
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 212
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e7339d19a4549dc9a3a4ce61582090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_33
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 177
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56f92e91a5df44dea4187658d526edb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_34
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 212
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30743a1c1f0774b1e9b07d8e0dc4f8ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_35
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 212
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b43fd032df20496095a1f39b0e6c86c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_36
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 212
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29301d1b980bf43ee8248c83bb2aca74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_37
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 212
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabf750446b8b41bda94c0de833d6602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_38
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 212
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70a6d9b2b1f943d89106a1c07cdd62f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_39
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 212
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3164e0c5e7a9f43f48c88225557c92d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_40
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 212
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0056f8e7f4a1e49d09d6675764589f09
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_41
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 212
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30ff3e8b9e9e4c8f8b7a7750db09b29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_42
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 212
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b10d1bcea1e496c8f44b7e976778a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_43
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 212
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47f35a215b8a4b8094c3b3207498e03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_44
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 212
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cecf903059d405f97d577c31837226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_45
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 212
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e333c31d998b4152bf440bcd9c337e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_46
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 212
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacbb54a090a04440976ee8bd44ae393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_47
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 176
+        width: 25
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066b2a90da36c4b9b910d426b2a39821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_48
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 176
+        width: 58
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfaff55d42c940c38bd5d58821dc077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_49
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 98
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8b1dca7ce4e450083b5ecd88df7ff6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_50
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 98
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3175da702ce1043d9952c3cb1d6d3406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_51
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 100
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad799fb41dbc4058bb256f95a2dddd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_52
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 17
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7925a1387644e4baeae49ef5d346a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_53
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 16
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad33a8c57ebc46adbf1b0e7cbd2e1de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 17
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1e5b3daff5f4b61900c466a0bc3f5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_55
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 17
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64b4d4e4aeb5439d853de9851b30db3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_56
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 17
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0864541632c414dd683c39abfa55c823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_57
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 17
+        width: 42
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4114796b1dbef4c04a4dadbfc739e82d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_58
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 17
+        width: 42
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ec19f34fc0c4d14aba3984397f1cb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_59
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 17
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471d48433ecfd44bdbe11eb1233bba00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Rogue Warden_60
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 17
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abe12fad0e734fcea4e3bf798e31005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 95e276c178f3e4adbb3d07dd9526584a
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

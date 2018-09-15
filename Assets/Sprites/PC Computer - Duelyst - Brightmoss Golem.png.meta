@@ -1,0 +1,1863 @@
+fileFormatVersion: 2
+guid: f046fdf891b4842e3b40657477778492
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PC Computer - Duelyst - Brightmoss Golem_0
+    21300002: PC Computer - Duelyst - Brightmoss Golem_1
+    21300004: PC Computer - Duelyst - Brightmoss Golem_2
+    21300006: PC Computer - Duelyst - Brightmoss Golem_3
+    21300008: PC Computer - Duelyst - Brightmoss Golem_4
+    21300010: PC Computer - Duelyst - Brightmoss Golem_5
+    21300012: PC Computer - Duelyst - Brightmoss Golem_6
+    21300014: PC Computer - Duelyst - Brightmoss Golem_7
+    21300016: PC Computer - Duelyst - Brightmoss Golem_8
+    21300018: PC Computer - Duelyst - Brightmoss Golem_9
+    21300020: PC Computer - Duelyst - Brightmoss Golem_10
+    21300022: PC Computer - Duelyst - Brightmoss Golem_11
+    21300024: PC Computer - Duelyst - Brightmoss Golem_12
+    21300026: PC Computer - Duelyst - Brightmoss Golem_13
+    21300028: PC Computer - Duelyst - Brightmoss Golem_14
+    21300030: PC Computer - Duelyst - Brightmoss Golem_15
+    21300032: PC Computer - Duelyst - Brightmoss Golem_16
+    21300034: PC Computer - Duelyst - Brightmoss Golem_17
+    21300036: PC Computer - Duelyst - Brightmoss Golem_18
+    21300038: PC Computer - Duelyst - Brightmoss Golem_19
+    21300040: PC Computer - Duelyst - Brightmoss Golem_20
+    21300042: PC Computer - Duelyst - Brightmoss Golem_21
+    21300044: PC Computer - Duelyst - Brightmoss Golem_22
+    21300046: PC Computer - Duelyst - Brightmoss Golem_23
+    21300048: PC Computer - Duelyst - Brightmoss Golem_24
+    21300050: PC Computer - Duelyst - Brightmoss Golem_25
+    21300052: PC Computer - Duelyst - Brightmoss Golem_26
+    21300054: PC Computer - Duelyst - Brightmoss Golem_27
+    21300056: PC Computer - Duelyst - Brightmoss Golem_28
+    21300058: PC Computer - Duelyst - Brightmoss Golem_29
+    21300060: PC Computer - Duelyst - Brightmoss Golem_30
+    21300062: PC Computer - Duelyst - Brightmoss Golem_31
+    21300064: PC Computer - Duelyst - Brightmoss Golem_32
+    21300066: PC Computer - Duelyst - Brightmoss Golem_33
+    21300068: PC Computer - Duelyst - Brightmoss Golem_34
+    21300070: PC Computer - Duelyst - Brightmoss Golem_35
+    21300072: PC Computer - Duelyst - Brightmoss Golem_36
+    21300074: PC Computer - Duelyst - Brightmoss Golem_37
+    21300076: PC Computer - Duelyst - Brightmoss Golem_38
+    21300078: PC Computer - Duelyst - Brightmoss Golem_39
+    21300080: PC Computer - Duelyst - Brightmoss Golem_40
+    21300082: PC Computer - Duelyst - Brightmoss Golem_41
+    21300084: PC Computer - Duelyst - Brightmoss Golem_42
+    21300086: PC Computer - Duelyst - Brightmoss Golem_43
+    21300088: PC Computer - Duelyst - Brightmoss Golem_44
+    21300090: PC Computer - Duelyst - Brightmoss Golem_45
+    21300092: PC Computer - Duelyst - Brightmoss Golem_46
+    21300094: PC Computer - Duelyst - Brightmoss Golem_47
+    21300096: PC Computer - Duelyst - Brightmoss Golem_48
+    21300098: PC Computer - Duelyst - Brightmoss Golem_49
+    21300100: PC Computer - Duelyst - Brightmoss Golem_50
+    21300102: PC Computer - Duelyst - Brightmoss Golem_51
+    21300104: PC Computer - Duelyst - Brightmoss Golem_52
+    21300106: PC Computer - Duelyst - Brightmoss Golem_53
+    21300108: PC Computer - Duelyst - Brightmoss Golem_54
+    21300110: PC Computer - Duelyst - Brightmoss Golem_55
+    21300112: PC Computer - Duelyst - Brightmoss Golem_56
+    21300114: PC Computer - Duelyst - Brightmoss Golem_57
+    21300116: PC Computer - Duelyst - Brightmoss Golem_58
+    21300118: PC Computer - Duelyst - Brightmoss Golem_59
+    21300120: PC Computer - Duelyst - Brightmoss Golem_60
+    21300122: PC Computer - Duelyst - Brightmoss Golem_61
+    21300124: PC Computer - Duelyst - Brightmoss Golem_62
+    21300126: PC Computer - Duelyst - Brightmoss Golem_63
+    21300128: PC Computer - Duelyst - Brightmoss Golem_64
+    21300130: PC Computer - Duelyst - Brightmoss Golem_65
+    21300132: PC Computer - Duelyst - Brightmoss Golem_66
+    21300134: PC Computer - Duelyst - Brightmoss Golem_67
+    21300136: PC Computer - Duelyst - Brightmoss Golem_68
+    21300138: PC Computer - Duelyst - Brightmoss Golem_69
+    21300140: PC Computer - Duelyst - Brightmoss Golem_70
+    21300142: PC Computer - Duelyst - Brightmoss Golem_71
+    21300144: PC Computer - Duelyst - Brightmoss Golem_72
+    21300146: PC Computer - Duelyst - Brightmoss Golem_73
+    21300148: PC Computer - Duelyst - Brightmoss Golem_74
+    21300150: PC Computer - Duelyst - Brightmoss Golem_75
+    21300152: PC Computer - Duelyst - Brightmoss Golem_76
+    21300154: PC Computer - Duelyst - Brightmoss Golem_77
+    21300156: PC Computer - Duelyst - Brightmoss Golem_78
+    21300158: PC Computer - Duelyst - Brightmoss Golem_79
+    21300160: PC Computer - Duelyst - Brightmoss Golem_80
+    21300162: PC Computer - Duelyst - Brightmoss Golem_81
+    21300164: PC Computer - Duelyst - Brightmoss Golem_82
+    21300166: PC Computer - Duelyst - Brightmoss Golem_83
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 427
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11efad099e6f7484a8947c41f7bd28c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 427
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46456da5e588744ab91aa3138f921a05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 427
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b553a4cf3119b4a8c8e230fea9bf7c95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_3
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 427
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c94455f9f1241a5b09848f6a008090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_4
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 427
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af25c8ba7f58c4951a485821680fa914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_5
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 427
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50216b380d39492b95ca791b42b4ba2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_6
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 427
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021d3dfa3ba364cb689760728f102d1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_7
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 427
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9b05de1b01b452986f6e919ff95592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_8
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 427
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3620005d58cad4ac7a5f19bc800be966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_9
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 427
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae89ca8110e7421baec1a843ad0194b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_10
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 427
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa555a4a553dd43298c59184609a4e11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_11
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 427
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b4a97bd94724f6884b32c238ef739d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_12
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 427
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2231b21d6c8540bbbf8921c07a30181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_13
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 427
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128468e0c3b04415588edd5b43d2c40d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_14
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 344
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2d97b15ab204703af2037ada6ec57c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_15
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 344
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b0a280f611842ee8e946b2c5769078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_16
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 344
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca54254d698e4a2985901b397cc739d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_17
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 344
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de93c78f3f814faeb6946acf8f89429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_18
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 344
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd114e2b26ed49a5a05c37a110f1714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_19
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 344
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9310d30b3b41e4bfc98646cf74066052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_20
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 344
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6258e0d7e57a4cdebd0682cb9d63e8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_21
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 344
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5a5142fc1414763a40bbe845ae3b37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_22
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 344
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3247f1da6f91849ceb58493642627d55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_23
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 344
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1c9932cf3e64041b4021ac0bbf9eba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_24
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 344
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd43815165524be1aab0a334052a982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_25
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 344
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69659780f7edb42d89e403e366cc90ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_26
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 344
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55d8345ed9934452802b5eaabba77c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_27
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 344
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47dd9b83b03b404692e686e127f9950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_28
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 261
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91fe957f0dc14dcfbd3eb635916028a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_29
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 261
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e20c2611999843f199b76ea6f66e911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_30
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 261
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b850fd022dec43df8225793ceff23ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_31
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 261
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480d6cd0c501243cd85c7938428ae665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_32
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 261
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53298342e8b3647028ab4cc52c29e0bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_33
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 261
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ac7c4b4f9184eb093e83fa92fe4c0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_34
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 261
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afc7f73b7ebd44a69792b2e84205d00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_35
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 261
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ba661fe797a48fb82da6fc61e15cbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_36
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 261
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80dc342aa63b4852a4a03b13f5eda3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_37
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 261
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a87ad25a4aca4bcd8c8adfb4d7b19d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_38
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 261
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ebea882ae0141cc8b486cb5329ab2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_39
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 261
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa077986fa7c4020b4379dea7fc9c43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_40
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 261
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d293592aa729a4ae9b9a3ae2a6fe4609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_41
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 261
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbb362476a6240f6ba93aa3c2ef2796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_42
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 178
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19b92bc3a82243468188959c39ed8c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_43
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 178
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a674d91b2a4bf4dfdb03fbd18c6c704c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_44
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 178
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c2e2abef7f24b9585aa98489c58fca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_45
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 178
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58450e074dbf34d2c850516511502377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_46
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 178
+        width: 74
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5bc3afc32e943c78121308d5909ee9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_47
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 178
+        width: 74
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df2c01a65f37424b8e7bab8b0d34a54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_48
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 178
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c97596903b354ee5b2cd1dfeb119b8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_49
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 178
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf65a78a9b514a19a71a95621e1c6b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_50
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 178
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d0ea50c116e46d8955f6dcad8fe585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_51
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 178
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a6f7a152f19416b9cd2dceb1fdf23b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_52
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 178
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818075a37d3a34937af4a1b83f460f04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_53
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 178
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb77892364cb54887b66507d115748bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_54
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 178
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb8056a068674da8b4c67447ea2dd07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_55
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 178
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c0d8c60ff964ee1b8b8c9bb858e34e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_56
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 95
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b2b98e0843e4e338086200c07cc4af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_57
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 95
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c339a5e738f4ee8bbebdc5367e84a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_58
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 95
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f41ab52c5bdc47f197dbab22687c178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_59
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 95
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf4f8395bafd43fa83a3bf3de88b409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_60
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 95
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c536aade332df4099918a7dd45221d11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_61
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 95
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bada24a7aea4c54b128e1be630f3a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_62
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 95
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5abf4f965fa142ed8d1f88193df1d55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_63
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 95
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbb53225ff604348b4ed776e53d830b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_64
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 95
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bababb7fcba44bbfa8c6a3143264d5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_65
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 95
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1aa1439cff374ff0b54d88620d6e32d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_66
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 95
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e450100ddca8f4b7f8664e385e340f1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_67
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 95
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c485520535b7433796ae2b2cf6b2261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_68
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 95
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742c65c4e97d14e7596d264e83cb29cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_69
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 95
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef94133306b44d7cabd2cbbd2d5f683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_70
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 12
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a9186cade074c54a6ec7b7f2a55e21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_71
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 12
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa24f5bd672b48b6921f6d0bccf8a05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_72
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 12
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed1dad4365ef4d4fb783846dab413c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_73
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 12
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a996e258c0afe4692998fba71d89155d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_74
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 12
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31261843093b84bb3a370e48444a9a5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_75
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 12
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c105ab48b4c0947e8945913ffafffdac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_76
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 12
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91559d071d7ae4823b08d106660d8441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_77
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 12
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d0dd74d257e45aba871dbe335d7801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_78
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 12
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62319e79439a04f44831680eb369784e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_79
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 12
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5687d87bc9a0c4fc28524ea8708fb281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_80
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 12
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77183418febe9448ea7c0489af354fe1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_81
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 12
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b391b738034a74e09b01955f3c0292b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_82
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 12
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a06c62a577c4f908919fbe58a199c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Duelyst - Brightmoss Golem_83
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 12
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef96756008e714b3b902007ba96b7b53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c9a57417a3c23462488b187851ef1e27
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
