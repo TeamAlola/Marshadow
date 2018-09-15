@@ -6,6 +6,9 @@ public class Tour {
 
     public int valeur;
     private int degat;
+    public float forceEffetModif;
+    public float dureeEffetModif;
+    public Vector2 vitesse;
 
     public Tour(int v, int d)
     {
@@ -31,5 +34,11 @@ public class Tour {
     {
         GameManager.gameManager.joueur.GagnerArgent(valeur/3);
         GameManager.gameManager.toursAchetees.Remove(this);
+    }
+
+    public void Upgrade()
+    {
+        dureeEffetModif *= 1.5f;
+        forceEffetModif *= 1.5f;
     }
 }
