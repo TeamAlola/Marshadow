@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
@@ -11,13 +12,14 @@ public class GameManager : MonoBehaviour {
     public TextMeshProUGUI timer;
     public TextMeshProUGUI pv;
     public TextMeshProUGUI argent;
-    public GameObject achatMenu;
+    public TextMeshProUGUI gameOverText;
     public HUD hud;
 
     [Header("GameObjects")]
     public GameObject minion;
     public GameObject spawn;
     public GameObject Tour;
+    public GameObject achatMenu;
     public Grille grille;
 
     [Header("Donnée")]
@@ -64,12 +66,29 @@ public class GameManager : MonoBehaviour {
 
     public void Gagner()
     {
-        Debug.Log("T'as un gros zizi!");
+        gameOverText.text = "Félicitation, vous avez remporté ElementalTD \n Appuyez sur n'importe quel bouton pour accéder au menu";
+        gameOverText.GetComponent<CanvasGroup>().alpha = 1;
+        Time.timeScale = 0f;
+        if (Input.anyKeyDown)
+        {
+            SceneManager.LoadScene("Menu");
+        }
     }
 
     public void Perdre()
     {
-        Debug.Log("Tu pus");
+        gameOverText.text = "Malheuresement, vous puvez la mort a ElementalTD \n Appuyez sur 'r' pour recommencer ou n'importe quel autre bouton pour accéder au menu";
+        gameOverText.GetComponent<CanvasGroup>().alpha = 1;
+        Time.timeScale = 0f;
+        if (Input.GetKeyUp(KeyCode.R))
+        {
+            Time.timeScale = 1f;
+            Start();
+        }
+        if (Input.anyKeyDown)
+        {
+            SceneManager.LoadScene("Menu");
+        }
     }
 
 
@@ -87,7 +106,7 @@ public class GameManager : MonoBehaviour {
         monstres = new List<Monstre>();
         toursAchetables = new List<Tour> { zero, one, two };
         toursAchetees = new List<Tour>();
-        toursAchetables.Add(new Tour(1, 1));
+        hud.ResetTimer();
     }
 	
 	// Update is called once per frame
@@ -125,6 +144,5 @@ public class GameManager : MonoBehaviour {
     public void BuyTower()
     {
         Debug.Log("Acheter une tour");
-
     }
 }

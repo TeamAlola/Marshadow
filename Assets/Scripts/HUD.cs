@@ -7,10 +7,10 @@ public class HUD : MonoBehaviour {
     private int temps; // facilite pour afficher en secondes
     private static bool b;
     public static float time; // calcul du temps actuel du niveau, considere qu'il commence a 20
+    Monstre mobCree = new Monstre(1, 1, 1);
 
-	// Use this for initialization
-	void Start () {
-        ResetTimer();
+    // Use this for initialization
+    void Start () {
     }
 	
 	// Update is called once per frame
@@ -33,10 +33,12 @@ public class HUD : MonoBehaviour {
             GameManager.gameManager.achatMenu.GetComponent<CanvasGroup>().alpha = 0;
             if ((int)time <= -3 && !b)
             {
-                Monstre mobCree = new Monstre(1, 1, 1);
-                GameManager.gameManager.monstres.Add(mobCree);
                 GameManager.gameManager.numerovague++;
                 GameManager.gameManager.timer.GetComponent<CanvasGroup>().alpha = 0;
+                for (int i = 0; i < 10; i++)
+                {
+                    GameManager.gameManager.monstres.Add(mobCree);
+                }
                 GameObject mobInst = Instantiate(GameManager.gameManager.minion, GameManager.gameManager.spawn.transform.position, GameManager.gameManager.spawn.transform.rotation);
                 mobInst.GetComponent<MonsterController>().Mob = mobCree;
                 b = true;
@@ -44,8 +46,6 @@ public class HUD : MonoBehaviour {
             }
             else if ((int)time == temps && time > -14f)
             {
-                Monstre mobCree = new Monstre(1, 1, 1);
-                GameManager.gameManager.monstres.Add(mobCree);
                 GameObject mobInst = Instantiate(GameManager.gameManager.minion, GameManager.gameManager.spawn.transform.position, GameManager.gameManager.spawn.transform.rotation);
                 mobInst.GetComponent<MonsterController>().Mob = mobCree;
                 temps--;
@@ -55,8 +55,7 @@ public class HUD : MonoBehaviour {
 
     public void ResetTimer()
     {
-        time = 5f;
-        temps = 4;
+        time = 20f;
         b = false;
     }
 
