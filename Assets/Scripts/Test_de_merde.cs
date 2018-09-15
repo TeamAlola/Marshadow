@@ -9,8 +9,14 @@ public class Test_de_merde : MonoBehaviour {
     private RaycastHit2D[] tabTarget;
     private float timerFire = 0;
     public GameObject Balle;
-    private float rangeDetect = 10;
+    private float rangeDetect = 6;
 
+    float damage = 5;
+
+    public float GetDamage ()
+    {
+        return damage;
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -33,7 +39,7 @@ public class Test_de_merde : MonoBehaviour {
                 projectil.GetComponent<Tir>().SetVitesse(new Vector2(item.transform.position.x-this.transform.position.x, 
                     item.transform.position.y-this.transform.position.y).normalized*150);
                 projectil.GetComponent<Tir>().Autre();
-                
+                projectil.GetComponent<Tir>().SetDamage(damage);
                 item = Physics2D.CircleCast(this.transform.position, 0, Vector2.zero);
             }
             
@@ -52,7 +58,7 @@ public class Test_de_merde : MonoBehaviour {
         {
             Debug.Log("T kon");
             verif = new Vector2(vec.transform.position.x - this.transform.position.x, vec.transform.position.y - this.transform.position.y);
-            if (min.magnitude > verif.magnitude &&  vec.transform.tag.Equals("Ennemy"))
+            if (min.magnitude > verif.magnitude)
             {
                 indmin = compteur;
                 min = verif;
