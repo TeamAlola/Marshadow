@@ -6,8 +6,10 @@ using TMPro;
 public class GameManager : MonoBehaviour {
 
     public TextMeshProUGUI timer;
-    public TextMeshProUGUI pvetargent;
+    public TextMeshProUGUI pv;
+    public TextMeshProUGUI argent;
     public Joueur joueur;
+    public HUD hud;
     public List<Monstre> monstres;
     public List<Tour> toursAchetables;
     public List<Tour> toursAchetees;

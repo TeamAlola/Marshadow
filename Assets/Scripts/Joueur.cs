@@ -11,17 +11,21 @@ public class Joueur {
     {
         pv = p;
         argent = a;
+        GameManager.gameManager.hud.PrintLives(pv);
+        GameManager.gameManager.hud.PrintMoney(argent);
     }
 
     public void PerdreArgent(int i)
     {
         argent -= i;
         if (argent <= 0) { argent = 0; }
+        GameManager.gameManager.hud.PrintMoney(argent);
     }
 
     public void GagnerArgent(int i)
     {
         argent += i;
+        GameManager.gameManager.hud.PrintMoney(argent);
     }
 
     //Vérifie que le joueur a assez d'argent, déduit l'argent puis ajoute la tour aux tours achetées
@@ -43,5 +47,6 @@ public class Joueur {
     {
         pv -= i;
         if (pv <= 0) { GameManager.gameManager.Perdre(); }
+        GameManager.gameManager.hud.PrintLives(pv);
     }
 }
