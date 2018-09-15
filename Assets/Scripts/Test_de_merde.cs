@@ -11,15 +11,33 @@ public class Test_de_merde : MonoBehaviour {
     public GameObject Balle;
     private float rangeDetect = 12;
     private Tour tower;
-    
+    private Animator ou;
+
+    public Tour Tower
+    {
+        get
+        {
+            return tower;
+        }
+
+        set
+        {
+            tower = value;
+        }
+    }
 
     public int GetDegat ()
     {
-        return tower.Degat;
+        return Tower.Degat;
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    private void Start()
+    {
+        ou = GetComponent<Animator>();
+    }
+
+    // Update is called once per frame
+    void Update () {
         timerFire = timerFire + Time.deltaTime;
        
         tabTarget = Physics2D.CircleCastAll(this.transform.position, rangeDetect, Vector2.zero);
@@ -41,6 +59,7 @@ public class Test_de_merde : MonoBehaviour {
                 projectil.GetComponent<Tir>().Autre();
                 projectil.GetComponent<Tir>().SetDamage(GetDegat());
                 item = Physics2D.CircleCast(this.transform.position, 0, Vector2.zero);
+                ou.SetTrigger("attack");
             }
             
             timerFire = 0;

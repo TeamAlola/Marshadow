@@ -20,15 +20,24 @@ public class GameManager : MonoBehaviour {
     public GameObject minion;
     public GameObject spawn;
     public static GameManager gameManager;
+<<<<<<< HEAD
+=======
+    public bool isspawn;
+    public GameObject Tour;
+>>>>>>> e8144b42e9f7061eba44d654b2bb0ba36662723f
     //fait apparaitre un minion de la liste sur la map
 
     public void AcheterTour(int tour)
     {
-        Tour t = toursAchetables.ElementAtOrDefault(tour);
+        Tour t = new Tour(10,10);
+        //Tour t = toursAchetables.ElementAtOrDefault(tour);
         if (joueur.argent >= t.valeur)
         {
             joueur.PerdreArgent(t.valeur);
-            toursAchetees.Add(new Tour(t.valeur, t.Degat));
+            Tour newTower = new Tour(t.valeur, t.Degat);
+            toursAchetees.Add(newTower);
+            GameObject nouvTour = Instantiate(Tour,this.transform);
+            nouvTour.GetComponent<Test_de_merde>().Tower = newTower;
         }
         else
         {

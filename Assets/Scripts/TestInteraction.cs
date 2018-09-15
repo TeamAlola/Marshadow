@@ -55,5 +55,13 @@ public class TestInteraction : MonoBehaviour {
         Debug.Log("nb monstres: " + GameManager.gameManager.monstres.Count);
         Debug.Log("tours possédées: " + GameManager.gameManager.toursAchetees.Count);
     }
-  
+
+
+    [ContextMenu("AcheterTour")]
+    public void AcheterTour()
+    {
+        GameManager.gameManager.AcheterTour(0);
+    }
+
+
 }
