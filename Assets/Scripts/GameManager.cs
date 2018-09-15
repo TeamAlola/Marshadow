@@ -21,9 +21,6 @@ public class GameManager : MonoBehaviour {
     public GameObject spawn;
     public static GameManager gameManager;
 
-    Grille grille;
-    private Grille.Case case1; 
-
     public bool isspawn;
     public GameObject Tour;
     //fait apparaitre un minion de la liste sur la map
@@ -61,7 +58,6 @@ public class GameManager : MonoBehaviour {
     // Use this for initialization
     void Start () {
 
-        grille = new Grille();
         if (!gameManager) { gameManager = this; }
         Tour zero = new Tour(50, 1);
         Tour one = new Tour(100, 3);
@@ -78,10 +74,5 @@ public class GameManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
-        if (Input.GetMouseButtonDown(0))
-        {
-            case1 = grille.getCase(); //case actuelle
-        }
-    }
+	}
 }

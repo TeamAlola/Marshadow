@@ -20,15 +20,19 @@ public class AnimationMonstre : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
+		//if (i==20){
+		Debug.Log("je suis l'update");
 
 		// Droite
 		if(pos_x < this.transform.position.x && pos_y == this.transform.position.y){
+			Debug.Log("je suis le 2");
 			anim_monster.SetInteger("direction", 2);
 			isrotate = true;
 			monster.GetComponent<SpriteRenderer>().flipX = true;
 		}
 		// Gauche
 		else if(pos_x > this.transform.position.x && pos_y == this.transform.position.y){
+			Debug.Log("je suis le 6");
 			if(isrotate){
 				monster.GetComponent<SpriteRenderer>().flipX = false;
 				isrotate = false;
@@ -37,6 +41,7 @@ public class AnimationMonstre : MonoBehaviour {
 		}
 		// Haut
 		else if(pos_x == this.transform.position.x && pos_y < this.transform.position.y){
+			Debug.Log("je suis le 8");
 			if(isrotate){
 				monster.GetComponent<SpriteRenderer>().flipX = false;
 				isrotate = false;
@@ -45,6 +50,7 @@ public class AnimationMonstre : MonoBehaviour {
 		}
 		// Bas
 		else if(pos_x == this.transform.position.x && pos_y > this.transform.position.y){
+			Debug.Log("je suis le 4");
 			if(isrotate){
 				monster.GetComponent<SpriteRenderer>().flipX = false;
 				isrotate = false;

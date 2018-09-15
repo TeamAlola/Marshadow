@@ -6,14 +6,11 @@ public class Tir : MonoBehaviour {
 
     Rigidbody2D truc;
 
+    Vector2 vitesse;
 
     public int damage;
-    float forceEffetModif;
-    float dureeEffetModif;
-    Vector2 vitesse;
+
     float existance = 0;
-    public effet effect;
-    public enum effet { feu, eau, air, terre };
 
     // Use this for initialization
     public void Autre () {
@@ -33,32 +30,13 @@ public class Tir : MonoBehaviour {
     {
         return damage;
     }
-    public void SetForce(float power)
-    {
-        forceEffetModif = power;
-    }
 
-    public float GetForce()
-    {
-        return forceEffetModif;
-    }
-    public void SetDuree(float power)
-    {
-        dureeEffetModif = power;
-    }
-
-    public float GetDuree()
-    {
-        return dureeEffetModif;
-    }
     public void Update()
     {
         existance = existance + Time.deltaTime;
         if (existance > 2.5) { Destroy(gameObject); }
 
     }
-
-
 
     
 }
