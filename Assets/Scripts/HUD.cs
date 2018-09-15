@@ -40,7 +40,6 @@ public class HUD : MonoBehaviour {
                 GameObject mobInst = Instantiate(GameManager.gameManager.minion, GameManager.gameManager.spawn.transform.position, GameManager.gameManager.spawn.transform.rotation);
                 mobInst.GetComponent<MonsterController>().Mob = mobCree;
                 b = true;
-                Debug.Log("nouveau monstre");
             }
         }
     }
