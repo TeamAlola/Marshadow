@@ -20,9 +20,10 @@ public class GameManager : MonoBehaviour {
     public GameObject minion;
     public GameObject spawn;
     public static GameManager gameManager;
-    
+
     public bool isspawn;
     public GameObject Tour;
+    //fait apparaitre un minion de la liste sur la map
 
     public void AcheterTour(int tour)
     {
