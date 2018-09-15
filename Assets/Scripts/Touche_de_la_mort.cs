@@ -9,6 +9,6 @@ public class Touche_de_la_mort : MonoBehaviour {
         Debug.Log("Touche MORTELLE");
         collision.gameObject.GetComponent<MonsterController>().Mob.InfligerDegats();
         collision.gameObject.GetComponent<MonsterController>().Mob.Mourir();
-        Destroy(gameObject);
+        Destroy(collision.gameObject);
     }
 }
