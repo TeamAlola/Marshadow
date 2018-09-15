@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class HUD : MonoBehaviour {
 
-    private float temps;
-    private float time;
+    private float temps; // facilite pour afficher en secondes
+    private float time; // calcul du temps actuel du niveau, considere qu'il commence a 20
+    public bool timesup; // quand timesup, le timer de debut est fini et les phase de construction est terminee, les monstres apparaissent
 
 	// Use this for initialization
 	void Start () {
@@ -33,6 +34,7 @@ public class HUD : MonoBehaviour {
         else
         {
             GameManager.gameManager.timer.text = "C'est parti !";
+            timesup = true;
             if(time < -3f)
             {
                 GameManager.gameManager.timer.GetComponent<CanvasGroup>().alpha = 0;
@@ -44,5 +46,6 @@ public class HUD : MonoBehaviour {
     {
         time = 20f;
         temps = 19f;
+        timesup = false;
     }
 }
