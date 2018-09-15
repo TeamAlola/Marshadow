@@ -353,7 +353,7 @@ MonoBehaviour:
   minion: {fileID: 1659494519283184, guid: 564577793953310449d8943a0ea20c19, type: 2}
   spawn: {fileID: 63224633}
   isspawn: 0
-  Tour: {fileID: 1694915356854014, guid: ef1db549dfcc14bed9f6a90ce8612ee8, type: 2}
+  Tour: {fileID: 1928263177642516, guid: 68d0dda897bca734681de78e73ccb682, type: 2}
 --- !u!4 &1441160658
 Transform:
   m_ObjectHideFlags: 0
@@ -550,6 +550,11 @@ Prefab:
         type: 2}
       propertyPath: m_isInputParsingRequired
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224209831134357764, guid: 65666cec43528fd4596c934e50694e81,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.58200455
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65666cec43528fd4596c934e50694e81, type: 2}

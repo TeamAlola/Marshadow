@@ -19,7 +19,7 @@ public class Menu : MonoBehaviour {
 	void Update () {
 
         // si on clique on fait apparaitre le meny
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyUp(KeyCode.Mouse0))
         {
             logo.GetComponent<CanvasGroup>().alpha = 0;
             menu.GetComponent<CanvasGroup>().alpha = 1;
@@ -28,11 +28,17 @@ public class Menu : MonoBehaviour {
 
     public void Play()
     {
-        SceneManager.LoadScene("SampleScene");
+        if ( menu.GetComponent<CanvasGroup>().alpha == 1)
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
     }
 
     public void Quit()
     {
-        Application.Quit();
+        if (menu.GetComponent<CanvasGroup>().alpha == 1)
+        {
+            Application.Quit();
+        }
     }
 }
