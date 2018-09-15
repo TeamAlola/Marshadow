@@ -40,6 +40,15 @@ public class HUD : MonoBehaviour {
                 GameObject mobInst = Instantiate(GameManager.gameManager.minion, GameManager.gameManager.spawn.transform.position, GameManager.gameManager.spawn.transform.rotation);
                 mobInst.GetComponent<MonsterController>().Mob = mobCree;
                 b = true;
+                temps = -4;
+            }
+            else if ((int)time == temps && time > -14f)
+            {
+                Monstre mobCree = new Monstre(1, 1, 1);
+                GameManager.gameManager.monstres.Add(mobCree);
+                GameObject mobInst = Instantiate(GameManager.gameManager.minion, GameManager.gameManager.spawn.transform.position, GameManager.gameManager.spawn.transform.rotation);
+                mobInst.GetComponent<MonsterController>().Mob = mobCree;
+                temps--;
             }
         }
     }
