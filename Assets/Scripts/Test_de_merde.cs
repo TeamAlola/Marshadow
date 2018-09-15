@@ -25,13 +25,14 @@ public class Test_de_merde : MonoBehaviour {
         {
             //Si cible trouve
             if (item)
-            {
+            {  
+                
                 Debug.Log("ENNEMI EN VUE");
                 Debug.Log(item.point);
                 GameObject projectil = Instantiate(Balle, this.transform);
-                projectil.GetComponent<tir>().SetVitesse(new Vector2(item.transform.position.x-this.transform.position.x, 
+                projectil.GetComponent<Tir>().SetVitesse(new Vector2(item.transform.position.x-this.transform.position.x, 
                     item.transform.position.y-this.transform.position.y).normalized*150);
-                projectil.GetComponent<tir>().Autre();
+                projectil.GetComponent<Tir>().Autre();
                 
                 item = Physics2D.CircleCast(this.transform.position, 0, Vector2.zero);
             }
@@ -51,15 +52,20 @@ public class Test_de_merde : MonoBehaviour {
         {
             Debug.Log("T kon");
             verif = new Vector2(vec.transform.position.x - this.transform.position.x, vec.transform.position.y - this.transform.position.y);
-            if (min.magnitude > verif.magnitude)
+            if (min.magnitude > verif.magnitude &&  vec.transform.tag.Equals("Ennemy"))
             {
                 indmin = compteur;
                 min = verif;
             }
             compteur++;
         }
-
-        return tabTarget[indmin];
+        if (tabTarget[indmin].transform.tag.Equals("Ennemy")){
+            return tabTarget[indmin];
+        }
+        else
+        {
+            return item = new RaycastHit2D();
+        }
     }
 
 }

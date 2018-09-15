@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class tir : MonoBehaviour {
+public class Tir : MonoBehaviour {
 
     Rigidbody2D truc;
 
@@ -14,5 +14,7 @@ public class tir : MonoBehaviour {
         truc.AddForce(vitesse);        
 	}
 	
-    public void SetVitesse(Vector2 vitesseInit) { vitesse = vitesseInit; }
+    public void SetVitesse(Vector2 vitesseInit) {
+        vitesse = vitesseInit;
+    }
 }
