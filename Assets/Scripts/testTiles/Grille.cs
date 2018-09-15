@@ -98,7 +98,7 @@ public class Grille : MonoBehaviour
 
     public Case BuildOn(Case ca, Tour tower)
     {
-        Case provisoir = listCase.Find(x => ca.posx == ca.x && x.posy == ca.y);
+        Case provisoir = listCase.Find(x => x.posx == ca.posx && x.posy == ca.posy);
         provisoir.tower = tower;
         return provisoir;
     }
