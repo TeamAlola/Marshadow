@@ -11,11 +11,10 @@ public class Tour {
     public Vector2 vitesse;
     public int niv;
     public Tir.effet element;
-    public Tour(int v, int d,int n)
+    public Tour(int v, int d)
     {
         valeur = v;
         Degat = d;
-        niv = n;
     }
 
     public int Degat
