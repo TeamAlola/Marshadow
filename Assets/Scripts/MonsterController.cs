@@ -83,18 +83,39 @@ public class MonsterController : MonoBehaviour
     private void moveRight(Vector2 posV2)
     {
         body.MovePosition((posV2 - Vector2.left * 0.05f) * Mob.Vitesse);
+        anim_monster.SetInteger("direction", 2);
+        isrotate = true;
+        this.GetComponent<SpriteRenderer>().flipX = true;
     }
     private void moveLeft(Vector2 posV2)
     {
         body.MovePosition((posV2 + Vector2.left * 0.05f) * Mob.Vitesse);
+        if (isrotate)
+        {
+            this.GetComponent<SpriteRenderer>().flipX = false;
+            isrotate = false;
+        }
+        anim_monster.SetInteger("direction", 6);
     }
     private void moveUp(Vector2 posV2)
     {
         body.MovePosition((posV2 + Vector2.up * 0.05f) * Mob.Vitesse);
+        if (isrotate)
+        {
+            this.GetComponent<SpriteRenderer>().flipX = false;
+            isrotate = false;
+        }
+        anim_monster.SetInteger("direction", 8);
     }
     private void movedown(Vector2 posV2)
     {
         body.MovePosition((posV2 - Vector2.up * 0.05f) * Mob.Vitesse);
+        if (isrotate)
+        {
+            this.GetComponent<SpriteRenderer>().flipX = false;
+            isrotate = false;
+        }
+        anim_monster.SetInteger("direction", 4);
     }
 
 
@@ -124,7 +145,7 @@ public class MonsterController : MonoBehaviour
             if (collision.gameObject.GetComponent<Tir>().effect.Equals(Tir.effet.terre))
             {
                 RaycastHit2D[] tabTarget = Physics2D.CircleCastAll(this.transform.position, 2, Vector2.zero);
-                foreach(RaycastHit2D t in tabTarget)
+                foreach (RaycastHit2D t in tabTarget)
                 {
                     if (t.collider.gameObject.tag == "Ennemy")
                     {
@@ -136,7 +157,7 @@ public class MonsterController : MonoBehaviour
             {
                 mob.SetDotData(1, 10);
             }
-            Destroy(collision.gameObject);            
+            Destroy(collision.gameObject);
 
         }
     }

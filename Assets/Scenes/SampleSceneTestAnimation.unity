@@ -147,7 +147,7 @@ MonoBehaviour:
   argent: {fileID: 1413912322}
   gameOverText: {fileID: 0}
   hud: {fileID: 2138270733}
-  minion: {fileID: 1304770238439912, guid: 882ee98bae4904e1b85c1421f4d5c5b6, type: 2}
+  minion: {fileID: 1305233627089662, guid: 36b5737feaea44cd1b0a6807c3369615, type: 2}
   spawn: {fileID: 1551830739}
   Tour: {fileID: 1144453846247518, guid: 67fe256802de64015a4093f233764c91, type: 2}
   achatMenu: {fileID: 1413912325}
@@ -3926,7 +3926,7 @@ Prefab:
     - target: {fileID: 224209831134357764, guid: 65666cec43528fd4596c934e50694e81,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 0.58200836
+      value: 0.582016
       objectReference: {fileID: 0}
     - target: {fileID: 224409286712844598, guid: 65666cec43528fd4596c934e50694e81,
         type: 2}

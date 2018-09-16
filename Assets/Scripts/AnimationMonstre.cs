@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class AnimationMonstre : MonoBehaviour {
-	public GameObject monster;
 	private float pos_x;
 	private float pos_y;
 	private bool isrotate;
@@ -11,7 +10,7 @@ public class AnimationMonstre : MonoBehaviour {
 	private Animator anim_monster;
 	// Use this for initialization
 	void Start () {
-	anim_monster = monster.transform.GetComponent<Animator>();
+	anim_monster = this.transform.GetComponent<Animator>();
 	pos_x = this.transform.position.x;
 	pos_y = this.transform.position.y;
 	isrotate = false;
@@ -25,12 +24,12 @@ public class AnimationMonstre : MonoBehaviour {
 		if(pos_x < this.transform.position.x && pos_y == this.transform.position.y){
 			anim_monster.SetInteger("direction", 2);
 			isrotate = true;
-			monster.GetComponent<SpriteRenderer>().flipX = true;
+			this.GetComponent<SpriteRenderer>().flipX = true;
 		}
 		// Gauche
 		else if(pos_x > this.transform.position.x && pos_y == this.transform.position.y){
 			if(isrotate){
-				monster.GetComponent<SpriteRenderer>().flipX = false;
+				this.GetComponent<SpriteRenderer>().flipX = false;
 				isrotate = false;
 			}
 						anim_monster.SetInteger("direction", 6);
@@ -39,7 +38,7 @@ public class AnimationMonstre : MonoBehaviour {
 		// Haut
 		else if(pos_x == this.transform.position.x && pos_y < this.transform.position.y){
 			if(isrotate){
-				monster.GetComponent<SpriteRenderer>().flipX = false;
+				this.GetComponent<SpriteRenderer>().flipX = false;
 				isrotate = false;
 			}
 			anim_monster.SetInteger("direction", 8);
@@ -47,7 +46,7 @@ public class AnimationMonstre : MonoBehaviour {
 		// Bas
 		else if(pos_x == this.transform.position.x && pos_y > this.transform.position.y){
 			if(isrotate){
-				monster.GetComponent<SpriteRenderer>().flipX = false;
+				this.GetComponent<SpriteRenderer>().flipX = false;
 				isrotate = false;
 			}
 			anim_monster.SetInteger("direction", 4);

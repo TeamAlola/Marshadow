@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 95014044510422476}
   - component: {fileID: 50608509531039034}
   - component: {fileID: 61841389838086072}
-  - component: {fileID: 114852873384619426}
   - component: {fileID: 114404152987423250}
   - component: {fileID: 82787351528289366}
   m_Layer: 0
@@ -215,21 +214,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9411dc9d516be6f4bae429d207c4cb68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: 0
   sfx:
   - {fileID: 8300000, guid: 4b3de25c12a754edcb047e8b516eb190, type: 3}
-  - {fileID: 8300000, guid: b4e3036030dc14aa48099b0cc431120e, type: 3}
---- !u!114 &114852873384619426
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1304770238439912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1867ae2e0f00d4c248aaa59124c824fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  monster: {fileID: 1304770238439912}
+  isDead: 0
 --- !u!212 &212259560792007476
 SpriteRenderer:
   m_ObjectHideFlags: 1
