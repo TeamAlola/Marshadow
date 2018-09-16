@@ -49,7 +49,7 @@ public class Tour {
         niv++;
         dureeEffetModif *= 1.5f;
         forceEffetModif *= 1.5f;
-        degat *= 1.8f;
+        degat *= (int) 1.8;
         vitesse *= 1.2f;
     }
 }
