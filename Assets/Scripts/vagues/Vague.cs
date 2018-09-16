@@ -53,6 +53,7 @@ public class Vague : ScriptableObject
             for (int j = 0; j < contenu[i].nombre; j++)
             {
                 Monstre newMob = new Monstre(contenu[i].monstre.dmg, contenu[i].monstre.or, contenu[i].monstre.pv, contenu[i].monstre.element);
+                GameManager.gameManager.monstres.Add(newMob);
                 retour.Add(new MonstreObjet(newMob, contenu[i].monstre.objetMonstre));
             }
         }

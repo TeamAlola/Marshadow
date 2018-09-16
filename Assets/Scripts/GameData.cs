@@ -11,7 +11,6 @@ public class GameData : ScriptableObject
     private static float[] terre = { 0.9f, 0.5f, 1.5f, 1, 0.9f };
     private static float[] neutre = { 0.9f, 0.9f, 0.9f, 0.9f, 1 };
     public static float[][] eTab ={ feu,glace,air,terre,neutre };
-
-    public List<Vague> vague;
+    
     
 }

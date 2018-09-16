@@ -58,11 +58,7 @@ public class HUD : MonoBehaviour {
             //}
             if((int)time == temps && time > -14)
             {
-                Vague.MonstreObjet toSpawn = GameManager.gameManager.gameData.vague[0].nextMonstre();
-                GameManager.gameManager.timer.gameObject.SetActive(false);
-                GameObject mobInst = Instantiate(toSpawn.go, GameManager.gameManager.spawn.transform.position, GameManager.gameManager.spawn.transform.rotation);
-                mobInst.GetComponent<MonsterController>().Mob = toSpawn.monstre;
-                temps--;
+               
 
                 ////GameManager.gameManager.timer.GetComponent<CanvasGroup>().alpha = 0;
                 //GameManager.gameManager.timer.gameObject.SetActive(false);
