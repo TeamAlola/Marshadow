@@ -25,7 +25,7 @@ public class Tir : MonoBehaviour {
         SetVitesse(vitesse);
         SetDamage(power);
         SetForce(force);
-
+        SetEffet(element);
         SetDuree(time);
         setTarget(target);
 
