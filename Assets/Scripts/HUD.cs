@@ -9,10 +9,16 @@ public class HUD : MonoBehaviour {
     private static bool b;
     private static float time; // calcul du temps actuel du niveau, considere qu'il commence a 20
     private static int counter;
+    private static bool musiclaunched;
+    private AudioSource launchsound;
+
+    public AudioClip[] sfx;
 
     // Use this for initialization
     void Start () {
-
+        launchsound = GetComponent<AudioSource>();
+        launchsound.clip = sfx[0];
+        musiclaunched = false;
     }
 	
 	// Update is called once per frame
@@ -31,10 +37,17 @@ public class HUD : MonoBehaviour {
         }
         else
         {
+            
             GameManager.gameManager.timer.text = "C'est parti !";
+            if (!musiclaunched && (int)time == 0)
+            {
+                musiclaunched = true;
+                launchsound.Play();
+            }
             GameManager.gameManager.achatMenu.GetComponent<CanvasGroup>().alpha = 0;
             if (!b && (int)time == -2 )
             {
+                
                 GameManager.gameManager.numerovague++;
                 for (int i = 0; i < 10; i++)
                 {
