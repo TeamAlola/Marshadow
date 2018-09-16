@@ -39,14 +39,22 @@ public class GameManager : MonoBehaviour {
     public GameObject[] alltowers;
     public static GameManager gameManager;
     public AudioClip[] sfx;
-  
+    public GameData gameData;
+
+    private AudioSource mainmusic;
+    
     private Grille.Case case1; 
     private AudioSource sound;
     private bool musiclaunch;
 
 
-    public bool isspawn;
+    public bool isSpawn;
     //fait apparaitre un minion de la liste sur la map
+
+    private int currentVague;
+    private bool spawning;
+    private float spawnTimer;
+    public float spawnDelai = 1f;
 
     public void AcheterTour(int tour)
     {
@@ -149,11 +157,11 @@ public class GameManager : MonoBehaviour {
     void Start () {
         
         if (!gameManager) { gameManager = this; }
-        Tour neutral = new Tour(10, 1,0f,0f,new Vector2(1,1), Tir.effet.neutre,alltowers[0]);
-        Tour fire = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Tir.effet.feu,alltowers[1]);
-        Tour ice = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Tir.effet.eau,alltowers[4]);
-        Tour nature = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Tir.effet.terre,alltowers[2]);
-        Tour wind = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Tir.effet.air,alltowers[3]);
+        Tour neutral = new Tour(10, 1,0f,0f,new Vector2(1,1), Monstre.element.neutre,alltowers[0]);
+        Tour fire = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Monstre.element.feu,alltowers[1]);
+        Tour ice = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Monstre.element.eau,alltowers[4]);
+        Tour nature = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Monstre.element.terre,alltowers[2]);
+        Tour wind = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Monstre.element.air,alltowers[3]);
 
         hud = new HUD();
         nbvague = 5;
@@ -191,6 +199,15 @@ public class GameManager : MonoBehaviour {
         {
             Perdre();
         }
+        if (isSpawn)
+        {
+            spawnTimer += Time.deltaTime;
+            if(spawnTimer > spawnDelai)
+            {
+
+                spawnTimer = 0;
+            }
+        }
     }
 
     public void SelectTower()
@@ -204,12 +221,26 @@ public class GameManager : MonoBehaviour {
         Debug.Log("Acheter une tour");
     }
 
-    public void SetupForNextWave()
+    public void StartVague(int i)
     {
-        numerovague++;
-        for (int i = 0; i < 10; i++)
-        {
-            monstres.Add(new Monstre(1, 1, 1));
-        }
+        isSpawn = true;
+        spawnTimer = 0;
+
     }
+    public void finVague()
+    {
+        isSpawn = false;
+        currentVague++;
+    }
+
+    public void NextMob()
+    {
+        Vague.MonstreObjet toSpawn = gameData.vague[0].nextMonstre();
+        timer.gameObject.SetActive(false);
+        monstres.Add(toSpawn.monstre);
+        GameObject mobInst = Instantiate(toSpawn.go, spawn.transform.position, spawn.transform.rotation);
+        mobInst.GetComponent<MonsterController>().Mob = toSpawn.monstre;
+
+    }
+
 }

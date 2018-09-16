@@ -138,9 +138,11 @@ public class MonsterController : MonoBehaviour
         if (!collision.transform.tag.Equals("Indestructible"))
         {
             Tir proj = collision.gameObject.GetComponent<Tir>();
-            mob.ModifPV(-proj.GetDamage());
-            //aoe terre
-            if (proj.effect.Equals(Tir.effet.terre))
+
+            float modif = GameData.eTab[(int)proj.effect][(int)mob.elem];
+            mob.ModifPV((int)(proj.GetDamage()*modif));
+
+            if (proj.effect.Equals(Monstre.element.terre))
             {
                 RaycastHit2D[] tabTarget = Physics2D.CircleCastAll(this.transform.position, 2, Vector2.zero);
                 foreach (RaycastHit2D t in tabTarget)
@@ -151,7 +153,7 @@ public class MonsterController : MonoBehaviour
                     }
                 }
             }
-            else if (proj.effect.Equals(Tir.effet.feu))
+            else if (proj.effect.Equals(Monstre.element.feu))
             {
                 mob.SetDotData(1, 3);
             }

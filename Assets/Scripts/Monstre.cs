@@ -9,7 +9,8 @@ public class Monstre
     int or;
     private int pv;
     private int pvmax;
-    public enum element { feu, eau, air, terre };
+    public enum element { feu, eau, air, terre,neutre };
+    public element elem;
     float vitesse = 1;
     int regen = 0;
     private int dot;
@@ -17,6 +18,8 @@ public class Monstre
     private int dureevit;
     private float modifvit=1; 
     MonsterController monstrecontroller;
+
+    int truc = (int)element.feu; 
 
     public int Pv
     {
@@ -82,12 +85,13 @@ public class Monstre
     /// <param name="d">degat</param>
     /// <param name="o">or</param>
     /// <param name="p">pv</param>
-    public Monstre(int d, int o, int p)
+    public Monstre(int dmg, int gold, int life,element element)
     {
-       degat = d;
-        or = o;
-        Pv = p;
-        pvmax = p;
+       degat = dmg;
+        or = gold;
+        Pv = life;
+        pvmax = life;
+        elem = element;
     }
 
     //Le joueur gagne les gold du monstre, le monstre est supprimé de la liste de monstres.
@@ -168,4 +172,8 @@ public class Monstre
     }
     //meurs dot controller test vie
 
+    public Monstre CloneMonstre()
+    {
+        return new Monstre(degat, or, pv, elem);
+    }
 }

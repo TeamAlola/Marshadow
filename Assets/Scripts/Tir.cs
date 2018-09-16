@@ -12,15 +12,14 @@ public class Tir : MonoBehaviour {
     float dureeEffetModif;
     Vector2 vitesse;
     float existance = 0;
-    public effet effect;
-    public enum effet { feu, eau, air, terre, neutre };
+    public Monstre.element effect;
 
     private void Start() {
         truc = this.GetComponent<Rigidbody2D>();
     }
 	
 
-    public void setData(Vector2 vitesse, int power, float force,effet element ,float time, RaycastHit2D target)
+    public void setData(Vector2 vitesse, int power, float force,Monstre.element element ,float time, RaycastHit2D target)
     {
         SetVitesse(vitesse);
         SetDamage(power);
@@ -67,12 +66,12 @@ public class Tir : MonoBehaviour {
         return dureeEffetModif;
     }
 
-    public void SetEffet (effet element)
+    public void SetEffet (Monstre.element element)
     {
         effect = element;
     }
 
-    public effet GetEffet()
+    public Monstre.element GetEffet()
     {
         return effect;
     }

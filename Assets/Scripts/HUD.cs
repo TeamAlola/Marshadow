@@ -44,24 +44,30 @@ public class HUD : MonoBehaviour {
                 launchsound.Play();
             }
             GameManager.gameManager.achatMenu.GetComponent<CanvasGroup>().alpha = 0;
-            if (!b && (int)time == -2 )
-            {
+            //if (!b && (int)time == -2 )
+            //{
                 
-                GameManager.gameManager.numerovague++;
-                for (int i = 0; i < 10; i++)
-                {
-                    GameManager.gameManager.monstres.Add(new Monstre(100, 100, 100));
-                }
-                b = true;
-            }
+            //    GameManager.gameManager.numerovague++;
+            //    for (int i = 0; i < 10; i++)
+            //    {
+            //        GameManager.gameManager.monstres.Add(new Monstre(100, 100, 100,Monstre.element.feu));
+            //    }
+            //    b = true;
+            //}
             if((int)time == temps && time > -14)
             {
-                //GameManager.gameManager.timer.GetComponent<CanvasGroup>().alpha = 0;
+                Vague.MonstreObjet toSpawn = GameManager.gameManager.gameData.vague[0].nextMonstre();
                 GameManager.gameManager.timer.gameObject.SetActive(false);
-                GameObject mobInst = Instantiate(GameManager.gameManager.minion, GameManager.gameManager.spawn.transform.position, GameManager.gameManager.spawn.transform.rotation);
-                mobInst.GetComponent<MonsterController>().Mob = GameManager.gameManager.monstres.ElementAt(counter+(GameManager.gameManager.monstres.Count-10));
+                GameObject mobInst = Instantiate(toSpawn.go, GameManager.gameManager.spawn.transform.position, GameManager.gameManager.spawn.transform.rotation);
+                mobInst.GetComponent<MonsterController>().Mob = toSpawn.monstre;
                 temps--;
-                counter++;
+
+                ////GameManager.gameManager.timer.GetComponent<CanvasGroup>().alpha = 0;
+                //GameManager.gameManager.timer.gameObject.SetActive(false);
+                //GameObject mobInst = Instantiate(GameManager.gameManager.minion, GameManager.gameManager.spawn.transform.position, GameManager.gameManager.spawn.transform.rotation);
+                //mobInst.GetComponent<MonsterController>().Mob = GameManager.gameManager.monstres.ElementAt(counter+(GameManager.gameManager.monstres.Count-10));
+                //temps--;
+                //counter++;
             }
         }
     }

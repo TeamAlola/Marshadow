@@ -10,10 +10,10 @@ public class Tour {
     public float dureeEffetModif;
     public Vector2 vitesse;
     public int niv;
-    public Tir.effet element;
+    public Monstre.element element;
     public GameObject prefabtower;
 
-    public Tour(int v, int d, float fem, float dem, Vector2 vi, Tir.effet el,GameObject obj)
+    public Tour(int v, int d, float fem, float dem, Vector2 vi, Monstre.element el,GameObject obj)
     {
         valeur = v;
         Degat = d;
