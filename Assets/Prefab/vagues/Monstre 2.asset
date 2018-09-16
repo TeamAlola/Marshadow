@@ -11,8 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Monstre 2
   m_EditorClassIdentifier: Assembly-CSharp::Vague/MonstreData
-  pv: 0
-  dmg: 0
-  or: 0
-  element: 0
-  objetMonstre: {fileID: 0}
+  pv: 10
+  dmg: 1
+  or: 10
+  element: 3
+  objetMonstre: {fileID: 1305233627089662, guid: 36b5737feaea44cd1b0a6807c3369615,
+    type: 2}

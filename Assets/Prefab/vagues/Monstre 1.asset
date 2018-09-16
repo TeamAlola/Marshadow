@@ -8,7 +8,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52e7f0bd94defba41b22f02a90b49374, type: 3}
-  m_Name: Vague 3
-  m_EditorClassIdentifier: 
-  contenu: []
+  m_Script: {fileID: 0}
+  m_Name: Monstre 1
+  m_EditorClassIdentifier: Assembly-CSharp::Vague/MonstreData
+  pv: 2
+  dmg: 1
+  or: 5
+  element: 4
+  objetMonstre: {fileID: 1194897694324464, guid: d82555f22cde149e7a4bcfda0512b79a,
+    type: 2}

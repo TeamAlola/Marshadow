@@ -32,8 +32,8 @@ public class TestInteraction : MonoBehaviour {
     [ContextMenu("JoueurAchete")]
     public void JoueurAchete()
     {
-        Debug.Log("tours achetables: " + GameData.toursAchetables.Count);
-        Tour t1= GameData.toursAchetables.ElementAt(0);
+        Debug.Log("tours achetables: " + GameManager.gameManager.toursAchetables.Count);
+        Tour t1= GameManager.gameManager.toursAchetables.ElementAt(0);
         GameManager.gameManager.AcheterTour(0);
         Debug.Log("Tour achetée");
         Debug.Log("vague: " + GameManager.gameManager.numerovague);

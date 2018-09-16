@@ -8,7 +8,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
 
-
+    public List<GameObject> alltowers = new List<GameObject>();
 
     [Header("HUD")]
     public TextMeshProUGUI timer;
@@ -38,13 +38,15 @@ public class GameManager : MonoBehaviour {
     public List<Tour> toursAchetees;
     public static GameManager gameManager;
     public AudioClip[] sfx;
-    public GameData gameData;
+    public GameData gameData = new GameData();
 
     private AudioSource mainmusic;
     
     private Grille.Case case1; 
     private AudioSource sound;
     private bool musiclaunch;
+
+    public List<Tour> toursAchetables;
 
 
     public bool isSpawn;
@@ -56,12 +58,21 @@ public class GameManager : MonoBehaviour {
     public float spawnDelai = 1f;
     public List<Vague> vagues;
 
+    public int CurrentVague
+    {
+        get
+        {
+            return currentVague;
+        }
+    }
+
     public void AcheterTour(int tour)
     {
         Debug.Log(case1.type);
         if (case1.type == Grille.typeCase.constructible)
         {
-            Tour t = GameData.toursAchetables.ElementAt(tour).CloneTour();
+            Debug.Log(toursAchetables);
+            Tour t = toursAchetables.ElementAt(tour).CloneTour();
             if(joueur.argent >= t.valeur)
             {
                 joueur.PerdreArgent(t.valeur);
@@ -163,8 +174,16 @@ public class GameManager : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        
+
+
+
         if (!gameManager) { gameManager = this; }
+
+        toursAchetables = new List<Tour> { new Tour(10, 10, 0f, 0f, new Vector2(1, 1), Monstre.element.neutre, GameManager.gameManager.alltowers[0]),
+                                                                new Tour(10, 10, 0f, 0f, new Vector2(1, 1), Monstre.element.feu, GameManager.gameManager.alltowers[1]),
+                                                                new Tour(10, 10, 0f, 0f, new Vector2(1, 1), Monstre.element.eau, GameManager.gameManager.alltowers[4]),
+                                                                new Tour(10, 10, 0f, 0f, new Vector2(1, 1), Monstre.element.terre, GameManager.gameManager.alltowers[2]),
+                                                                new Tour(10, 10, 0f, 0f, new Vector2(1, 1), Monstre.element.air, GameManager.gameManager.alltowers[3]) };
         hud = new HUD();
         nbvague = 5;
         numerovague = 0;
@@ -230,7 +249,7 @@ public class GameManager : MonoBehaviour {
     {
         isSpawn = false;
         currentVague++;
-        if(currentVague > vagues.Count)
+        if(CurrentVague > vagues.Count)
         {
             Gagner();
         }
@@ -238,12 +257,12 @@ public class GameManager : MonoBehaviour {
 
    public void NextVague()
     {
-        StartVague(currentVague);
+        StartVague(CurrentVague);
     }
     
     public void NextMob()
     {
-        Vague.MonstreObjet toSpawn = vagues[currentVague].nextMonstre();
+        Vague.MonstreObjet toSpawn = vagues[CurrentVague].nextMonstre();
         if (toSpawn == null)
         {
             finVague();

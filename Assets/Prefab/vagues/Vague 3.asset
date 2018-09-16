@@ -9,6 +9,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 52e7f0bd94defba41b22f02a90b49374, type: 3}
-  m_Name: Vague 0
+  m_Name: Vague 3
   m_EditorClassIdentifier: 
-  contenu: []
+  contenu:
+  - monstre: {fileID: 11400000, guid: 13b14b716955ca940b27a9dd29397f99, type: 2}
+    nombre: 10

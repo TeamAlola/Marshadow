@@ -103,7 +103,8 @@ public class Monstre
         GameManager.gameManager.monstres.Remove(this);
         if (GameManager.gameManager.monstres.Count == 0)
         {
-            if (GameManager.gameManager.nbvague >= GameManager.gameManager.numerovague) { GameManager.gameManager.hud.ResetTimer(); }
+             GameManager.gameManager.hud.ResetTimer();
+            GameManager.gameManager.NextVague();
         }
     }
 
@@ -114,9 +115,11 @@ public class Monstre
         Debug.Log("faire mourir le mob");
         GameManager.gameManager.joueur.PrendreDegats(degat);
         GameManager.gameManager.monstres.Remove(this);
+
+        Debug.Log(GameManager.gameManager.monstres.Count);
         if (GameManager.gameManager.monstres.Count == 0)
         {
-            if (GameManager.gameManager.nbvague >= GameManager.gameManager.numerovague) { GameManager.gameManager.hud.ResetTimer(); GameManager.gameManager.NextVague(); }
+              GameManager.gameManager.hud.ResetTimer(); GameManager.gameManager.NextVague(); 
         }
 
     }

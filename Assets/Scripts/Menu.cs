@@ -30,7 +30,7 @@ public class Menu : MonoBehaviour {
     {
         if ( menu.GetComponent<CanvasGroup>().alpha == 1)
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("Game_1");
         }
     }
 
