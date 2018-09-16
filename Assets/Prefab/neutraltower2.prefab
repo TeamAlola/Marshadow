@@ -189,7 +189,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Balle: {fileID: 1399113625434964, guid: 0f8ad2fe29a1a40809b6605e67bee113, type: 2}
-  sfx: []
+  sfx:
+  - {fileID: 8300000, guid: 39a2242dfd30a4fc9876b2c8be9a1d7b, type: 3}
 --- !u!212 &212581292216278964
 SpriteRenderer:
   m_ObjectHideFlags: 1
