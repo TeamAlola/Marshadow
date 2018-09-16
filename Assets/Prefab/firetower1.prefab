@@ -22,6 +22,8 @@ GameObject:
   - component: {fileID: 212265781710932260}
   - component: {fileID: 95938627232523764}
   - component: {fileID: 114458522528651886}
+  - component: {fileID: 114170885691931762}
+  - component: {fileID: 50355851299018074}
   m_Layer: 0
   m_Name: firetower1
   m_TagString: Untagged
@@ -36,12 +38,32 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1694915356854014}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.08, y: -1.05, z: 0.11075133}
-  m_LocalScale: {x: 7.550333, y: 7.8510647, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50355851299018074
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1694915356854014}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!95 &95938627232523764
 Animator:
   serializedVersion: 3
@@ -60,6 +82,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114170885691931762
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1694915356854014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9cf322cbac0ae44c866ffedc1074340, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Balle: {fileID: 1284181934550842, guid: 1dd94a7dd76bf49888aef9d307868784, type: 2}
 --- !u!114 &114458522528651886
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -106,7 +140,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 83f9bbaeb16784a1bae684f9530e47e1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1

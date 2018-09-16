@@ -21,6 +21,8 @@ GameObject:
   - component: {fileID: 4146416787784992}
   - component: {fileID: 212387469612040300}
   - component: {fileID: 95997094956623072}
+  - component: {fileID: 50824254992390706}
+  - component: {fileID: 114810682580960620}
   m_Layer: 0
   m_Name: windtower1
   m_TagString: Untagged
@@ -35,12 +37,32 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1569329077777790}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.68, y: -0.73, z: 0.40843824}
-  m_LocalScale: {x: 1.889406, y: 1.433478, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50824254992390706
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1569329077777790}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!95 &95997094956623072
 Animator:
   serializedVersion: 3
@@ -59,6 +81,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114810682580960620
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1569329077777790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9cf322cbac0ae44c866ffedc1074340, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Balle: {fileID: 1437828709175030, guid: 4e407e79586334c1f9abbd8878fccd0b, type: 2}
 --- !u!212 &212387469612040300
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -93,7 +127,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: f4a68df249fb143b7872d4e8cabdbc91, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1

@@ -7,7 +7,7 @@ public class AnimationMonstre : MonoBehaviour {
 	private float pos_x;
 	private float pos_y;
 	private bool isrotate;
-	private int i = 0;
+	
 	private Animator anim_monster;
 	// Use this for initialization
 	void Start () {
@@ -33,7 +33,8 @@ public class AnimationMonstre : MonoBehaviour {
 				monster.GetComponent<SpriteRenderer>().flipX = false;
 				isrotate = false;
 			}
-			anim_monster.SetInteger("direction", 6);
+						anim_monster.SetInteger("direction", 6);
+
 		}
 		// Haut
 		else if(pos_x == this.transform.position.x && pos_y < this.transform.position.y){
@@ -53,6 +54,13 @@ public class AnimationMonstre : MonoBehaviour {
 		}
 		
 		
+		else if (Input.GetKeyDown(KeyCode.Space)){
+					anim_monster.SetInteger("direction", -1);
+
+					anim_monster.SetTrigger("dead");
+					
+
+		}
 			pos_x = this.transform.position.x;
 			pos_y = this.transform.position.y;
 	}

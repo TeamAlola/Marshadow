@@ -171,12 +171,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 427
-        width: 70
-        height: 70
+        x: 17
+        y: 438
+        width: 46
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -191,12 +191,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_1
       rect:
         serializedVersion: 2
-        x: 90
-        y: 427
-        width: 70
-        height: 70
+        x: 99
+        y: 438
+        width: 46
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -216,7 +216,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -231,12 +231,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_3
       rect:
         serializedVersion: 2
-        x: 254
-        y: 427
-        width: 70
-        height: 70
+        x: 263
+        y: 438
+        width: 46
+        height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -251,12 +251,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_4
       rect:
         serializedVersion: 2
-        x: 336
-        y: 427
-        width: 70
-        height: 70
+        x: 345
+        y: 438
+        width: 46
+        height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -271,12 +271,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_5
       rect:
         serializedVersion: 2
-        x: 418
-        y: 427
-        width: 70
-        height: 70
+        x: 427
+        y: 438
+        width: 46
+        height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -291,12 +291,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_6
       rect:
         serializedVersion: 2
-        x: 500
-        y: 427
-        width: 70
-        height: 70
+        x: 509
+        y: 438
+        width: 46
+        height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -311,12 +311,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_7
       rect:
         serializedVersion: 2
-        x: 582
-        y: 427
-        width: 70
-        height: 70
+        x: 591
+        y: 438
+        width: 46
+        height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -331,12 +331,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_8
       rect:
         serializedVersion: 2
-        x: 664
-        y: 427
-        width: 70
-        height: 70
+        x: 673
+        y: 438
+        width: 46
+        height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -351,12 +351,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_9
       rect:
         serializedVersion: 2
-        x: 746
-        y: 427
-        width: 70
-        height: 70
+        x: 755
+        y: 438
+        width: 46
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -371,12 +371,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_10
       rect:
         serializedVersion: 2
-        x: 828
-        y: 427
-        width: 70
-        height: 70
+        x: 837
+        y: 438
+        width: 46
+        height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -391,12 +391,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_11
       rect:
         serializedVersion: 2
-        x: 910
-        y: 427
-        width: 70
-        height: 70
+        x: 919
+        y: 438
+        width: 46
+        height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -416,7 +416,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -436,7 +436,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -451,12 +451,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_14
       rect:
         serializedVersion: 2
-        x: 8
-        y: 344
-        width: 70
-        height: 70
+        x: 17
+        y: 354
+        width: 46
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -471,12 +471,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_15
       rect:
         serializedVersion: 2
-        x: 90
-        y: 344
-        width: 70
-        height: 70
+        x: 99
+        y: 354
+        width: 46
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -491,12 +491,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_16
       rect:
         serializedVersion: 2
-        x: 172
-        y: 344
-        width: 70
-        height: 70
+        x: 181
+        y: 354
+        width: 46
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -511,12 +511,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_17
       rect:
         serializedVersion: 2
-        x: 254
-        y: 344
-        width: 70
-        height: 70
+        x: 263
+        y: 354
+        width: 46
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -531,12 +531,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_18
       rect:
         serializedVersion: 2
-        x: 336
-        y: 344
-        width: 70
-        height: 70
+        x: 345
+        y: 354
+        width: 46
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -551,12 +551,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_19
       rect:
         serializedVersion: 2
-        x: 418
-        y: 344
-        width: 70
-        height: 70
+        x: 427
+        y: 354
+        width: 46
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -571,12 +571,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_20
       rect:
         serializedVersion: 2
-        x: 500
-        y: 344
-        width: 70
-        height: 70
+        x: 509
+        y: 354
+        width: 46
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -591,12 +591,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_21
       rect:
         serializedVersion: 2
-        x: 582
-        y: 344
-        width: 70
-        height: 70
+        x: 591
+        y: 354
+        width: 46
+        height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -611,12 +611,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_22
       rect:
         serializedVersion: 2
-        x: 664
-        y: 344
-        width: 70
-        height: 70
+        x: 673
+        y: 354
+        width: 46
+        height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -631,12 +631,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_23
       rect:
         serializedVersion: 2
-        x: 746
-        y: 344
-        width: 70
-        height: 70
+        x: 755
+        y: 354
+        width: 46
+        height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -651,12 +651,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_24
       rect:
         serializedVersion: 2
-        x: 828
-        y: 344
-        width: 70
-        height: 70
+        x: 837
+        y: 354
+        width: 46
+        height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -671,12 +671,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_25
       rect:
         serializedVersion: 2
-        x: 910
-        y: 344
-        width: 70
-        height: 70
+        x: 919
+        y: 354
+        width: 46
+        height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -691,12 +691,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_26
       rect:
         serializedVersion: 2
-        x: 992
-        y: 344
-        width: 70
-        height: 70
+        x: 1001
+        y: 354
+        width: 46
+        height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -711,12 +711,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_27
       rect:
         serializedVersion: 2
-        x: 1074
-        y: 344
-        width: 70
-        height: 70
+        x: 1083
+        y: 354
+        width: 46
+        height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -731,12 +731,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_28
       rect:
         serializedVersion: 2
-        x: 8
-        y: 261
-        width: 70
-        height: 70
+        x: 21
+        y: 270
+        width: 42
+        height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -751,12 +751,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_29
       rect:
         serializedVersion: 2
-        x: 90
-        y: 261
-        width: 70
-        height: 70
+        x: 103
+        y: 271
+        width: 42
+        height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -771,12 +771,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_30
       rect:
         serializedVersion: 2
-        x: 172
-        y: 261
-        width: 70
-        height: 70
+        x: 184
+        y: 272
+        width: 44
+        height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -791,12 +791,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_31
       rect:
         serializedVersion: 2
-        x: 254
-        y: 261
-        width: 70
-        height: 70
+        x: 265
+        y: 272
+        width: 45
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -811,12 +811,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_32
       rect:
         serializedVersion: 2
-        x: 336
-        y: 261
-        width: 70
-        height: 70
+        x: 347
+        y: 272
+        width: 46
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -831,12 +831,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_33
       rect:
         serializedVersion: 2
-        x: 418
-        y: 261
-        width: 70
-        height: 70
+        x: 429
+        y: 273
+        width: 46
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -851,12 +851,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_34
       rect:
         serializedVersion: 2
-        x: 500
-        y: 261
-        width: 70
-        height: 70
+        x: 512
+        y: 270
+        width: 44
+        height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -871,12 +871,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_35
       rect:
         serializedVersion: 2
-        x: 582
-        y: 261
-        width: 70
-        height: 70
+        x: 593
+        y: 270
+        width: 45
+        height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -896,7 +896,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -916,7 +916,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -936,7 +936,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -956,7 +956,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -976,7 +976,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -996,7 +996,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1011,12 +1011,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_42
       rect:
         serializedVersion: 2
-        x: 8
-        y: 178
-        width: 70
-        height: 70
+        x: 16
+        y: 186
+        width: 47
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1031,12 +1031,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_43
       rect:
         serializedVersion: 2
-        x: 90
-        y: 178
-        width: 70
-        height: 70
+        x: 97
+        y: 186
+        width: 45
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1051,12 +1051,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_44
       rect:
         serializedVersion: 2
-        x: 172
-        y: 178
-        width: 70
-        height: 70
+        x: 179
+        y: 186
+        width: 43
+        height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1071,12 +1071,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_45
       rect:
         serializedVersion: 2
-        x: 254
-        y: 178
-        width: 70
-        height: 70
+        x: 261
+        y: 186
+        width: 44
+        height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1091,12 +1091,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_46
       rect:
         serializedVersion: 2
-        x: 336
-        y: 178
-        width: 74
-        height: 71
+        x: 344
+        y: 185
+        width: 65
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1111,12 +1111,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_47
       rect:
         serializedVersion: 2
-        x: 418
-        y: 178
-        width: 74
-        height: 71
+        x: 427
+        y: 186
+        width: 65
+        height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1131,12 +1131,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_48
       rect:
         serializedVersion: 2
-        x: 500
-        y: 178
-        width: 70
-        height: 70
+        x: 509
+        y: 186
+        width: 61
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1151,12 +1151,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_49
       rect:
         serializedVersion: 2
-        x: 582
-        y: 178
-        width: 70
-        height: 70
+        x: 591
+        y: 186
+        width: 61
+        height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1176,7 +1176,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1196,7 +1196,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1216,7 +1216,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1236,7 +1236,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1256,7 +1256,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1276,7 +1276,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1291,12 +1291,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_56
       rect:
         serializedVersion: 2
-        x: 8
-        y: 95
-        width: 70
-        height: 70
+        x: 15
+        y: 102
+        width: 46
+        height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1311,12 +1311,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_57
       rect:
         serializedVersion: 2
-        x: 90
-        y: 95
-        width: 70
-        height: 70
+        x: 97
+        y: 102
+        width: 46
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1331,12 +1331,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_58
       rect:
         serializedVersion: 2
-        x: 172
-        y: 95
-        width: 70
-        height: 70
+        x: 180
+        y: 102
+        width: 46
+        height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1356,7 +1356,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1376,7 +1376,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1396,7 +1396,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1416,7 +1416,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1436,7 +1436,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1456,7 +1456,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1476,7 +1476,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1496,7 +1496,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1516,7 +1516,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1536,7 +1536,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1556,7 +1556,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1571,12 +1571,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_70
       rect:
         serializedVersion: 2
-        x: 8
-        y: 12
-        width: 70
-        height: 70
+        x: 15
+        y: 18
+        width: 46
+        height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1591,12 +1591,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_71
       rect:
         serializedVersion: 2
-        x: 90
-        y: 12
-        width: 70
-        height: 70
+        x: 97
+        y: 18
+        width: 46
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1611,12 +1611,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_72
       rect:
         serializedVersion: 2
-        x: 172
-        y: 12
-        width: 70
-        height: 70
+        x: 180
+        y: 18
+        width: 46
+        height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1631,12 +1631,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_73
       rect:
         serializedVersion: 2
-        x: 254
-        y: 12
-        width: 70
-        height: 70
+        x: 262
+        y: 18
+        width: 46
+        height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1651,12 +1651,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_74
       rect:
         serializedVersion: 2
-        x: 336
-        y: 12
-        width: 70
-        height: 70
+        x: 344
+        y: 18
+        width: 46
+        height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1671,12 +1671,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_75
       rect:
         serializedVersion: 2
-        x: 418
-        y: 12
-        width: 70
-        height: 70
+        x: 426
+        y: 18
+        width: 46
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1691,12 +1691,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_76
       rect:
         serializedVersion: 2
-        x: 500
-        y: 12
-        width: 70
-        height: 70
+        x: 508
+        y: 17
+        width: 46
+        height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1711,12 +1711,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_77
       rect:
         serializedVersion: 2
-        x: 582
-        y: 12
-        width: 70
-        height: 70
+        x: 590
+        y: 18
+        width: 46
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1731,12 +1731,12 @@ TextureImporter:
       name: PC Computer - Duelyst - Brightmoss Golem_78
       rect:
         serializedVersion: 2
-        x: 664
-        y: 12
-        width: 70
-        height: 70
+        x: 672
+        y: 18
+        width: 46
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1756,7 +1756,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1776,7 +1776,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1796,7 +1796,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1816,7 +1816,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1836,7 +1836,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

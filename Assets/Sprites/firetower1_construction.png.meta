@@ -98,12 +98,12 @@ TextureImporter:
       name: firetower1_construction_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 82.27273
-        height: 85
+        x: 24
+        y: 16
+        width: 43
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -118,12 +118,12 @@ TextureImporter:
       name: firetower1_construction_1
       rect:
         serializedVersion: 2
-        x: 82
-        y: 0
-        width: 82.27273
-        height: 85
+        x: 106
+        y: 16
+        width: 43
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -138,12 +138,12 @@ TextureImporter:
       name: firetower1_construction_2
       rect:
         serializedVersion: 2
-        x: 164
-        y: 0
-        width: 82.27273
-        height: 85
+        x: 188
+        y: 16
+        width: 43
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -158,12 +158,12 @@ TextureImporter:
       name: firetower1_construction_3
       rect:
         serializedVersion: 2
-        x: 246
-        y: 0
-        width: 82.27273
-        height: 85
+        x: 270
+        y: 16
+        width: 41
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -178,12 +178,12 @@ TextureImporter:
       name: firetower1_construction_4
       rect:
         serializedVersion: 2
-        x: 328
-        y: 0
-        width: 82.27273
-        height: 85
+        x: 352
+        y: 15
+        width: 41
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -198,12 +198,12 @@ TextureImporter:
       name: firetower1_construction_5
       rect:
         serializedVersion: 2
-        x: 410
-        y: 0
-        width: 82.27273
-        height: 85
+        x: 434
+        y: 18
+        width: 44
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -218,12 +218,12 @@ TextureImporter:
       name: firetower1_construction_6
       rect:
         serializedVersion: 2
-        x: 492
-        y: 0
-        width: 82.27273
-        height: 85
+        x: 517
+        y: 18
+        width: 43
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -238,12 +238,12 @@ TextureImporter:
       name: firetower1_construction_7
       rect:
         serializedVersion: 2
-        x: 574
-        y: 0
-        width: 82.27273
-        height: 85
+        x: 599
+        y: 18
+        width: 41
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -258,12 +258,12 @@ TextureImporter:
       name: firetower1_construction_8
       rect:
         serializedVersion: 2
-        x: 656
-        y: 0
-        width: 82.27273
-        height: 85
+        x: 681
+        y: 19
+        width: 38
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -278,12 +278,12 @@ TextureImporter:
       name: firetower1_construction_9
       rect:
         serializedVersion: 2
-        x: 738
-        y: 0
-        width: 82.27273
-        height: 85
+        x: 764
+        y: 18
+        width: 33
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -298,12 +298,12 @@ TextureImporter:
       name: firetower1_construction_10
       rect:
         serializedVersion: 2
-        x: 820
-        y: 0
-        width: 82.27273
-        height: 85
+        x: 845
+        y: 18
+        width: 34
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
