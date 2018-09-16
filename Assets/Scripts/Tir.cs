@@ -13,7 +13,7 @@ public class Tir : MonoBehaviour {
     Vector2 vitesse;
     float existance = 0;
     public effet effect;
-    public enum effet { feu, eau, air, terre };
+    public enum effet { feu, eau, air, terre, neutre };
 
     private void Start() {
         truc = this.GetComponent<Rigidbody2D>();

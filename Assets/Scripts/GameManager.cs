@@ -15,9 +15,9 @@ public class GameManager : MonoBehaviour {
     public TextMeshProUGUI argent;
     public TextMeshProUGUI gameOverText;
     public HUD hud;
+    public Sprite fireoff, iceoff, neutraloff, naturaloff, windoff, fireon, iceon, neutralon, naturalon, windon;
 
     [Header("GameObjects")]
-    public GameObject camera;
     public GameObject minion;
     public GameObject spawn;
     public GameObject Tour;
@@ -31,14 +31,13 @@ public class GameManager : MonoBehaviour {
     public List<Monstre> monstres;
     public List<Tour> toursAchetables;
     public List<Tour> toursAchetees;
+    public GameObject[] alltowers;
     public static GameManager gameManager;
     public AudioClip[] sfx;
-
-    private AudioSource mainmusic;
-
+  
     private Grille.Case case1; 
-    private AudioSource sound;
-    private bool musiclaunch;
+    private AudioSource constructionsound;
+
 
     public bool isspawn;
     //fait apparaitre un minion de la liste sur la map
@@ -47,12 +46,13 @@ public class GameManager : MonoBehaviour {
     {
         Debug.Log(case1.type);
         if (case1.type == Grille.typeCase.constructible)
-        {
-            Tour t = new Tour(1, 1);
+        { 
+            
+            Tour t = new Tour(toursAchetables.ElementAt(tour).valeur, toursAchetables.ElementAt(tour).Degat, toursAchetables.ElementAt(tour).forceEffetModif, toursAchetables.ElementAt(tour).dureeEffetModif, toursAchetables.ElementAt(tour).vitesse, toursAchetables.ElementAt(tour).element);
             if(joueur.argent >= t.valeur)
             {
                 joueur.PerdreArgent(t.valeur);
-                Tour newTower = new Tour(t.valeur, t.Degat);
+                Tour newTower = new Tour(t.valeur, t.Degat, t.forceEffetModif, t.dureeEffetModif,t.vitesse,t.element);
                 toursAchetees.Add(newTower);
 
                 //Debug.Log(case1.worldPos);
@@ -61,8 +61,8 @@ public class GameManager : MonoBehaviour {
                 nouvTour.GetComponent<Test_de_merde>().Tower = newTower;
 
                 grille.BuildOn(case1, newTower);
-                sound.time = 0.6f;
-                sound.Play();
+                constructionsound.time = 0.6f;
+                constructionsound.Play();
 
             }
         }
@@ -75,12 +75,6 @@ public class GameManager : MonoBehaviour {
     public void Gagner()
     {
         gameOverText.text = "Félicitation, vous avez remporté ElementalTD \n Appuyez sur n'importe quel bouton pour accéder au menu";
-        if(!musiclaunch){
-        musiclaunch = true;
-        mainmusic.Stop();
-        sound.clip = sfx[1];
-        sound.Play();
-        }
         gameOverText.GetComponent<CanvasGroup>().alpha = 1;
         Time.timeScale = 0f;
         if (Input.anyKeyDown)
@@ -93,12 +87,6 @@ public class GameManager : MonoBehaviour {
     public void Perdre()
     {
         gameOverText.text = "Malheuresement, vous puez la mort a ElementalTD \n Appuyez sur n'importe quel bouton pour accéder au menu";
-        if(!musiclaunch){
-        musiclaunch = true;
-        mainmusic.Stop();
-        sound.clip = sfx[2];
-        sound.Play();
-        }
         gameOverText.GetComponent<CanvasGroup>().alpha = 1;
         Time.timeScale = 0f;
         if (Input.anyKeyDown)
@@ -113,19 +101,20 @@ public class GameManager : MonoBehaviour {
     void Start () {
         
         if (!gameManager) { gameManager = this; }
-        Tour zero = new Tour(50, 1);
-        Tour one = new Tour(100, 3);
-        Tour two = new Tour(200, 8);
-        mainmusic = camera.GetComponent<AudioSource>();
-        musiclaunch = false;
+        Tour neutral = new Tour(10, 1,0f,0f,new Vector2(1,1), Tir.effet.neutre);
+        Tour fire = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Tir.effet.feu);
+        Tour ice = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Tir.effet.eau);
+        Tour nature = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Tir.effet.terre);
+        Tour wind = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Tir.effet.air);
+
         hud = new HUD();
-        nbvague = 1;
+        nbvague = 5;
         numerovague = 0;
-        sound = GetComponent<AudioSource>();
-        sound.clip = sfx[0];
+        constructionsound = GetComponent<AudioSource>();
+        constructionsound.clip = sfx[0];
         joueur = new Joueur(10, 50);
         monstres = new List<Monstre>();
-        toursAchetables = new List<Tour> { zero, one, two };
+        toursAchetables = new List<Tour> { neutral, fire, ice, nature, wind };
         toursAchetees = new List<Tour>();
         hud.ResetTimer();
     }
@@ -172,7 +161,7 @@ public class GameManager : MonoBehaviour {
         numerovague++;
         for (int i = 0; i < 10; i++)
         {
-            monstres.Add(new Monstre(1, 1, 100));
+            monstres.Add(new Monstre(1, 1, 1));
         }
     }
 }
