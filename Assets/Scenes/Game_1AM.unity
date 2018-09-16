@@ -199,44 +199,40 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4558141476771500, guid: 602acddf9e1fefd48b3691f4ec122bc2, type: 2}
+    - target: {fileID: 4523907190475368, guid: dac7b6bd6b47d49dd9fcf1b26dcb6b0e, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0.59808993
       objectReference: {fileID: 0}
-    - target: {fileID: 4558141476771500, guid: 602acddf9e1fefd48b3691f4ec122bc2, type: 2}
+    - target: {fileID: 4523907190475368, guid: dac7b6bd6b47d49dd9fcf1b26dcb6b0e, type: 2}
       propertyPath: m_LocalPosition.y
       value: 0.6865624
       objectReference: {fileID: 0}
-    - target: {fileID: 4558141476771500, guid: 602acddf9e1fefd48b3691f4ec122bc2, type: 2}
+    - target: {fileID: 4523907190475368, guid: dac7b6bd6b47d49dd9fcf1b26dcb6b0e, type: 2}
       propertyPath: m_LocalPosition.z
       value: -0.067702316
       objectReference: {fileID: 0}
-    - target: {fileID: 4558141476771500, guid: 602acddf9e1fefd48b3691f4ec122bc2, type: 2}
+    - target: {fileID: 4523907190475368, guid: dac7b6bd6b47d49dd9fcf1b26dcb6b0e, type: 2}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4558141476771500, guid: 602acddf9e1fefd48b3691f4ec122bc2, type: 2}
+    - target: {fileID: 4523907190475368, guid: dac7b6bd6b47d49dd9fcf1b26dcb6b0e, type: 2}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4558141476771500, guid: 602acddf9e1fefd48b3691f4ec122bc2, type: 2}
+    - target: {fileID: 4523907190475368, guid: dac7b6bd6b47d49dd9fcf1b26dcb6b0e, type: 2}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4558141476771500, guid: 602acddf9e1fefd48b3691f4ec122bc2, type: 2}
+    - target: {fileID: 4523907190475368, guid: dac7b6bd6b47d49dd9fcf1b26dcb6b0e, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4558141476771500, guid: 602acddf9e1fefd48b3691f4ec122bc2, type: 2}
+    - target: {fileID: 4523907190475368, guid: dac7b6bd6b47d49dd9fcf1b26dcb6b0e, type: 2}
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 1024520579977816, guid: 602acddf9e1fefd48b3691f4ec122bc2, type: 2}
-      propertyPath: m_Name
-      value: grid Virage
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 602acddf9e1fefd48b3691f4ec122bc2, type: 2}
+  m_SourcePrefab: {fileID: 100100000, guid: dac7b6bd6b47d49dd9fcf1b26dcb6b0e, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &642625370
 Prefab:
@@ -421,7 +417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
 --- !u!114 &1022659801 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114348657510083010, guid: 602acddf9e1fefd48b3691f4ec122bc2,
+  m_CorrespondingSourceObject: {fileID: 114847452418130696, guid: dac7b6bd6b47d49dd9fcf1b26dcb6b0e,
     type: 2}
   m_PrefabInternal: {fileID: 587981744}
   m_Script: {fileID: 11500000, guid: 25daf32eb47db7b429df65e0d0ac6342, type: 3}

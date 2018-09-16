@@ -325,7 +325,7 @@ Prefab:
     - target: {fileID: 3664157345234132152, guid: 818996580b364eb4496124136df7fd5a,
         type: 2}
       propertyPath: m_ChunkCullingBounds.y
-      value: 0.5
+      value: 0.7045455
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 818996580b364eb4496124136df7fd5a, type: 2}
@@ -747,7 +747,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e2a3412e82a64419ca5338cc25dc8343, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.08
   m_Pitch: 1
   Loop: 0
   Mute: 0
