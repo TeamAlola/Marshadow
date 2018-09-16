@@ -10,7 +10,7 @@ public class Tour {
     public float dureeEffetModif;
     public Vector2 vitesse;
     public int niv;
-    public Tir.effet element;
+    public Monstre.element element;
     public Tour(int v, int d)
     {
         valeur = v;

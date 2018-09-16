@@ -33,6 +33,7 @@ public class GameManager : MonoBehaviour {
     public List<Tour> toursAchetees;
     public static GameManager gameManager;
     public AudioClip[] sfx;
+    public GameData gameData=new GameData();
 
     private AudioSource mainmusic;
 
@@ -167,12 +168,4 @@ public class GameManager : MonoBehaviour {
         Debug.Log("Acheter une tour");
     }
 
-    public void SetupForNextWave()
-    {
-        numerovague++;
-        for (int i = 0; i < 10; i++)
-        {
-            monstres.Add(new Monstre(1, 1, 100));
-        }
-    }
 }
