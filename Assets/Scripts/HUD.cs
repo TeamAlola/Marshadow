@@ -32,8 +32,6 @@ public class HUD : MonoBehaviour {
         if (time > 0f)
         {
             GameManager.gameManager.timer.gameObject.SetActive(true);
-            GameManager.gameManager.timer.GetComponent<CanvasGroup>().alpha = 1;
-            GameManager.gameManager.achatMenu.GetComponent<CanvasGroup>().alpha = 1;
             GameManager.gameManager.timer.text = ((int)time).ToString();
         }
         else
@@ -78,11 +76,11 @@ public class HUD : MonoBehaviour {
 
     public void PrintLives(int vies)
     {
-        GameManager.gameManager.pv.text = vies + " Vies";
+        GameManager.gameManager.pv.text = vies.ToString();
     }
 
     public void PrintMoney(int argent)
     {
-        GameManager.gameManager.argent.text = argent + " $";
+        GameManager.gameManager.argent.text = argent.ToString();
     }
 }

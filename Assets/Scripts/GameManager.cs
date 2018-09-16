@@ -96,16 +96,16 @@ public class GameManager : MonoBehaviour {
 
     public void Gagner()
     {
-        pausePanel.GetComponent<CanvasGroup>().alpha = 1;
-        gameOverText.text = "Félicitation, vous avez remporté ElementalTD \n Appuyez sur n'importe quel bouton pour accéder au menu";
+        pausePanel.SetActive(true);
+        resume.gameObject.SetActive(false);
+        quit.gameObject.SetActive(false);
+        gameOverText.text = "Félicitation, vous avez remporté Elemental TD \n Appuyez sur n'importe quel bouton pour acceder au menu";
         if(!musiclaunch){
         musiclaunch = true;
         camera.GetComponent<AudioSource>().Stop();
         sound.clip = sfx[1];
         sound.Play();
         }
-        
-        gameOverText.GetComponent<CanvasGroup>().alpha = 1;
         Time.timeScale = 0f;
         if (Input.anyKeyDown)
         {
@@ -116,9 +116,11 @@ public class GameManager : MonoBehaviour {
 
     public void Perdre()
     {
-        pausePanel.GetComponent<CanvasGroup>().alpha = 1;
-        gameOverText.text = "Malheuresement, vous puez la mort a ElementalTD \n Appuyez sur n'importe quel bouton pour accéder au menu";
-        gameOverText.GetComponent<CanvasGroup>().alpha = 1;
+        pausePanel.SetActive(true);
+        resume.gameObject.SetActive(false);
+        gameOverText.gameObject.SetActive(true);
+        quit.gameObject.SetActive(false);
+        gameOverText.text = "Malheuresement, vous puez la mort a ElementalTD \n Appuyez sur n'importe quel bouton pour acceder au menu";
         Time.timeScale = 0f;
         if (Input.anyKeyDown)
         {
@@ -129,17 +131,16 @@ public class GameManager : MonoBehaviour {
 
     public void Pause()
     {
-        pausePanel.GetComponent<CanvasGroup>().alpha = 1;
-        resume.GetComponent<CanvasGroup>().alpha = 1;
-        quit.GetComponent<CanvasGroup>().alpha = 1;
+        pausePanel.SetActive(true);
+        gameOverText.gameObject.SetActive(false);
+        resume.gameObject.SetActive(true);
+        quit.gameObject.SetActive(true);
         Time.timeScale = 0f;
     }
 
     public void Resume()
     {
-        pausePanel.GetComponent<CanvasGroup>().alpha = 0;
-        resume.GetComponent<CanvasGroup>().alpha = 0;
-        quit.GetComponent<CanvasGroup>().alpha = 0;
+        pausePanel.SetActive(false);
         Time.timeScale = 1f;
     }
 
@@ -166,14 +167,14 @@ public class GameManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && grille != null && grille.getCase() != null )
         {
             case1 = grille.getCase(); //case actuelle
-            if(case1.type == Grille.typeCase.construit)
+            if (case1.type == Grille.typeCase.construit)
             {
                 SelectTower();
             }
-            if(case1.type == Grille.typeCase.constructible)
+            if (case1.type == Grille.typeCase.constructible)
             {
                 BuyTower();
             }
