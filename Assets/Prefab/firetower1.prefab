@@ -190,7 +190,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Balle: {fileID: 1284181934550842, guid: 1dd94a7dd76bf49888aef9d307868784, type: 2}
-  sfx: []
+  sfx:
+  - {fileID: 8300000, guid: 39a2242dfd30a4fc9876b2c8be9a1d7b, type: 3}
 --- !u!114 &114458522528651886
 MonoBehaviour:
   m_ObjectHideFlags: 1

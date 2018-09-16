@@ -50,16 +50,16 @@ public class GameManager : MonoBehaviour {
         if (case1.type == Grille.typeCase.constructible)
         { 
             
-            Tour t = new Tour(toursAchetables.ElementAt(tour).valeur, toursAchetables.ElementAt(tour).Degat, toursAchetables.ElementAt(tour).forceEffetModif, toursAchetables.ElementAt(tour).dureeEffetModif, toursAchetables.ElementAt(tour).vitesse, toursAchetables.ElementAt(tour).element);
+            Tour t = new Tour(toursAchetables.ElementAt(tour).valeur, toursAchetables.ElementAt(tour).Degat, toursAchetables.ElementAt(tour).forceEffetModif, toursAchetables.ElementAt(tour).dureeEffetModif, toursAchetables.ElementAt(tour).vitesse, toursAchetables.ElementAt(tour).element,toursAchetables.ElementAt(tour).prefabtower);
             if(joueur.argent >= t.valeur)
             {
                 joueur.PerdreArgent(t.valeur);
-                Tour newTower = new Tour(t.valeur, t.Degat, t.forceEffetModif, t.dureeEffetModif,t.vitesse,t.element);
+                Tour newTower = new Tour(t.valeur, t.Degat, t.forceEffetModif, t.dureeEffetModif,t.vitesse,t.element,t.prefabtower);
                 toursAchetees.Add(newTower);
 
                 //Debug.Log(case1.worldPos);
 
-                GameObject nouvTour = Instantiate(Tour, case1.worldPos, Quaternion.identity);
+                GameObject nouvTour = Instantiate(alltowers[tour], case1.worldPos, Quaternion.identity);
                 nouvTour.GetComponent<Test_de_merde>().Tower = newTower;
 
                 grille.BuildOn(case1, newTower);
@@ -71,6 +71,18 @@ public class GameManager : MonoBehaviour {
         else
         {
             Debug.Log("can't buy");
+        }
+    }
+
+    public void UpgradeTower(){
+        if (case1.type == Grille.typeCase.construit){
+            if(joueur.argent >= 5* (case1.tower.niv/2))
+            {
+            joueur.PerdreArgent(5* (case1.tower.niv/2));
+            Tour current = case1.tour;
+
+            current.Upgrade();
+            }
         }
     }
 
@@ -110,11 +122,11 @@ public class GameManager : MonoBehaviour {
     void Start () {
         
         if (!gameManager) { gameManager = this; }
-        Tour neutral = new Tour(10, 1,0f,0f,new Vector2(1,1), Tir.effet.neutre);
-        Tour fire = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Tir.effet.feu);
-        Tour ice = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Tir.effet.eau);
-        Tour nature = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Tir.effet.terre);
-        Tour wind = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Tir.effet.air);
+        Tour neutral = new Tour(10, 1,0f,0f,new Vector2(1,1), Tir.effet.neutre,alltowers[0]);
+        Tour fire = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Tir.effet.feu,alltowers[1]);
+        Tour ice = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Tir.effet.eau,alltowers[4]);
+        Tour nature = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Tir.effet.terre,alltowers[2]);
+        Tour wind = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Tir.effet.air,alltowers[3]);
 
         hud = new HUD();
         nbvague = 5;
