@@ -8,6 +8,8 @@ public class MonsterController : MonoBehaviour {
     private Rigidbody2D body;
     private bool isrotate;
     private Monstre mob;
+    private AudioSource deathsound;
+    public AudioClip[] sfx;
 
     public Monstre Mob
     {
@@ -32,6 +34,8 @@ public class MonsterController : MonoBehaviour {
     {
         anim_monster = this.GetComponent<Animator>();
         body = this.GetComponent<Rigidbody2D>();
+        deathsound = GetComponent<AudioSource>();
+        deathsound.clip = sfx[0];
     }
 
     private void Update()
@@ -43,11 +47,17 @@ public class MonsterController : MonoBehaviour {
     private void moveRight(Vector2 posV2)
     {
         body.MovePosition(posV2 - Vector2.left * 0.05f);
-        anim_monster.SetInteger("direction", 2);
-        isrotate = true;
-        this.GetComponent<SpriteRenderer>().flipX = true;
+     
     }
-
+    public void MobMeurs()
+    {
+        anim_monster.SetTrigger("dead");
+        anim_monster.SetInteger("direction",-1);
+        deathsound.Play();
+        Mob.Mourir();
+      
+        Destroy(gameObject,deathsound.clip.length);
+    }
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (!collision.transform.tag.Equals("Indestructible"))
@@ -59,8 +69,7 @@ public class MonsterController : MonoBehaviour {
             
             PV = PV - collision.gameObject.GetComponent<Tir>().GetDamage();
             if (PV <= 0)
-                Mob.Mourir();
-            Destroy(gameObject);
+                MobMeurs();
 
            switch (collision.gameObject.GetComponent<Tir>().effect){
 
