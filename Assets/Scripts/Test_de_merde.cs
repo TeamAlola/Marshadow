@@ -14,6 +14,7 @@ public class Test_de_merde : MonoBehaviour {
     private Animator ou;
     private AudioSource fire;
     public AudioClip[] sfx;
+   
 
 
     public RaycastHit2D GetItem (){
@@ -37,10 +38,7 @@ public class Test_de_merde : MonoBehaviour {
     }
 
     //Animation d'upgrade
-    public void Upgrade()
-    {
-        
-    }
+
 
     public int GetDegat ()
     {
@@ -61,7 +59,7 @@ public class Test_de_merde : MonoBehaviour {
         tabTarget = Physics2D.CircleCastAll(this.transform.position, rangeDetect, Vector2.zero);
         if (tabTarget.Length != 0) item = ProxyTarget(tabTarget);
         //Tir toute les deux secondes
-        if (timerFire > 3)
+        if (timerFire > Tower.attackspeed)
         {
             //Si cible trouve
             if (item)
