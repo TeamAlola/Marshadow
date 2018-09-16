@@ -8,6 +8,8 @@ public class Tour {
     private int degat;
     public float forceEffetModif;
     public float dureeEffetModif;
+    
+    public float attackspeed = 3;
     public Vector2 vitesse;
     public int niv;
     public Monstre.element element;
@@ -50,6 +52,6 @@ public class Tour {
         dureeEffetModif *= 1.5f;
         forceEffetModif *= 1.5f;
         degat *= (int) 1.8;
-        vitesse *= 1.2f;
+        attackspeed *= 0.8f;
     }
 }
