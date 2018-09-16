@@ -31,6 +31,7 @@ public class HUD : MonoBehaviour {
         time -= Time.deltaTime;
         if (time > 0f)
         {
+            GameManager.gameManager.timer.gameObject.SetActive(true);
             GameManager.gameManager.timer.GetComponent<CanvasGroup>().alpha = 1;
             GameManager.gameManager.achatMenu.GetComponent<CanvasGroup>().alpha = 1;
             GameManager.gameManager.timer.text = ((int)time).ToString();
@@ -57,7 +58,8 @@ public class HUD : MonoBehaviour {
             }
             if((int)time == temps && time > -14)
             {
-                GameManager.gameManager.timer.GetComponent<CanvasGroup>().alpha = 0;
+                //GameManager.gameManager.timer.GetComponent<CanvasGroup>().alpha = 0;
+                GameManager.gameManager.timer.gameObject.SetActive(false);
                 GameObject mobInst = Instantiate(GameManager.gameManager.minion, GameManager.gameManager.spawn.transform.position, GameManager.gameManager.spawn.transform.rotation);
                 mobInst.GetComponent<MonsterController>().Mob = GameManager.gameManager.monstres.ElementAt(counter+(GameManager.gameManager.monstres.Count-10));
                 temps--;

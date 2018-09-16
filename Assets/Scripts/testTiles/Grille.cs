@@ -14,7 +14,7 @@ public class Grille : MonoBehaviour
 
     private Case current;
 
-    public enum typeCase { constructible, construit, route, decor };
+    public enum typeCase { constructible, construit, route, decor, none };
 
     public class Case
     {
@@ -31,6 +31,10 @@ public class Grille : MonoBehaviour
             posx = px;
             posy = py;
         }
+        public Case()
+        {
+            type = typeCase.none;
+        }
 
 
     }
@@ -42,6 +46,7 @@ public class Grille : MonoBehaviour
         Debug.Log(grille.origin + " / " + grille.size);
 
         listCase = new List<Case>();
+        listCase.Add(new Case());
 
         for (int i = grille.origin.x; i < grille.origin.x + grille.size.x -1; i++)
         {
@@ -72,7 +77,7 @@ public class Grille : MonoBehaviour
     {
         if (EventSystem.current.IsPointerOverGameObject())
         {
-            return current;
+            return listCase[0];
         }
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         Vector3 worldPoint = ray.GetPoint(-ray.origin.z / ray.direction.z);
