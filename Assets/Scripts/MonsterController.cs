@@ -139,7 +139,7 @@ public class MonsterController : MonoBehaviour
         {
             Tir proj = collision.gameObject.GetComponent<Tir>();
 
-            float modif = GameData.eTab[(int)proj.effect][(int)mob.elem];
+            float modif = GameManager.gameManager.gameData.eTab[(int)proj.effect, (int)mob.elem];
             mob.ModifPV((int)(proj.GetDamage()*modif));
 
             if (proj.effect.Equals(Monstre.element.terre))

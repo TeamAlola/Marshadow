@@ -32,8 +32,6 @@ public class HUD : MonoBehaviour {
         if (time > 0f)
         {
             GameManager.gameManager.timer.gameObject.SetActive(true);
-            GameManager.gameManager.timer.GetComponent<CanvasGroup>().alpha = 1;
-            GameManager.gameManager.achatMenu.GetComponent<CanvasGroup>().alpha = 1;
             GameManager.gameManager.timer.text = ((int)time).ToString();
         }
         else
@@ -46,26 +44,18 @@ public class HUD : MonoBehaviour {
                 launchsound.Play();
             }
             GameManager.gameManager.achatMenu.GetComponent<CanvasGroup>().alpha = 0;
-            //if (!b && (int)time == -2 )
-            //{
+            if (!b && (int)time == -2 )
+            {
                 
-            //    GameManager.gameManager.numerovague++;
-            //    for (int i = 0; i < 10; i++)
-            //    {
-            //        GameManager.gameManager.monstres.Add(new Monstre(100, 100, 100,Monstre.element.feu));
-            //    }
-            //    b = true;
-            //}
+                GameManager.gameManager.numerovague++;
+                for (int i = 0; i < 10; i++)
+                {
+                    GameManager.gameManager.monstres.Add(new Monstre(100, 100, 100,Monstre.element.feu));
+                }
+                b = true;
+            }
             if((int)time == temps && time > -14)
             {
-               
-
-                ////GameManager.gameManager.timer.GetComponent<CanvasGroup>().alpha = 0;
-                //GameManager.gameManager.timer.gameObject.SetActive(false);
-                //GameObject mobInst = Instantiate(GameManager.gameManager.minion, GameManager.gameManager.spawn.transform.position, GameManager.gameManager.spawn.transform.rotation);
-                //mobInst.GetComponent<MonsterController>().Mob = GameManager.gameManager.monstres.ElementAt(counter+(GameManager.gameManager.monstres.Count-10));
-                //temps--;
-                //counter++;
             }
         }
     }
@@ -80,11 +70,11 @@ public class HUD : MonoBehaviour {
 
     public void PrintLives(int vies)
     {
-        GameManager.gameManager.pv.text = vies + " Vies";
+        GameManager.gameManager.pv.text = vies.ToString();
     }
 
     public void PrintMoney(int argent)
     {
-        GameManager.gameManager.argent.text = argent + " $";
+        GameManager.gameManager.argent.text = argent.ToString();
     }
 }

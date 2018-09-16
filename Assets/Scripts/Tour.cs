@@ -13,15 +13,15 @@ public class Tour {
     public Monstre.element element;
     public GameObject prefabtower;
 
-    public Tour(int v, int d, float fem, float dem, Vector2 vi, Monstre.element el,GameObject obj)
+    public Tour(int val, int dmg, float forcemod, float dureemod, Vector2 vit, Monstre.element el,GameObject pref)
     {
-        valeur = v;
-        Degat = d;
-        forceEffetModif = fem;
-        dureeEffetModif = dem;
-        vitesse = vi;
+        valeur = val;
+        Degat = dmg;
+        forceEffetModif = forcemod;
+        dureeEffetModif = dureemod;
+        vitesse = vit;
         element = el;
-        prefabtower = obj;
+        prefabtower = pref;
     }
 
     public int Degat
@@ -51,5 +51,10 @@ public class Tour {
         forceEffetModif *= 1.5f;
         degat *= (int) 1.8;
         vitesse *= 1.2f;
+    }
+
+    public Tour CloneTour()
+    {
+        return new Tour(valeur,degat,forceEffetModif,dureeEffetModif,vitesse,element,prefabtower);
     }
 }
