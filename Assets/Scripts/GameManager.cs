@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using System.Linq;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
 
@@ -14,6 +15,9 @@ public class GameManager : MonoBehaviour {
     public TextMeshProUGUI pv;
     public TextMeshProUGUI argent;
     public TextMeshProUGUI gameOverText;
+    public GameObject pausePanel;
+    public Button resume;
+    public Button quit;
     public HUD hud;
     public Sprite fireoff, iceoff, neutraloff, naturaloff, windoff, fireon, iceon, neutralon, naturalon, windon;
 
@@ -74,6 +78,7 @@ public class GameManager : MonoBehaviour {
 
     public void Gagner()
     {
+        pausePanel.GetComponent<CanvasGroup>().alpha = 1;
         gameOverText.text = "Félicitation, vous avez remporté ElementalTD \n Appuyez sur n'importe quel bouton pour accéder au menu";
         gameOverText.GetComponent<CanvasGroup>().alpha = 1;
         Time.timeScale = 0f;
@@ -86,6 +91,7 @@ public class GameManager : MonoBehaviour {
 
     public void Perdre()
     {
+        pausePanel.GetComponent<CanvasGroup>().alpha = 1;
         gameOverText.text = "Malheuresement, vous puez la mort a ElementalTD \n Appuyez sur n'importe quel bouton pour accéder au menu";
         gameOverText.GetComponent<CanvasGroup>().alpha = 1;
         Time.timeScale = 0f;
@@ -96,6 +102,26 @@ public class GameManager : MonoBehaviour {
         }
     }
 
+    public void Pause()
+    {
+        pausePanel.GetComponent<CanvasGroup>().alpha = 1;
+        resume.GetComponent<CanvasGroup>().alpha = 1;
+        quit.GetComponent<CanvasGroup>().alpha = 1;
+        Time.timeScale = 0f;
+    }
+
+    public void Resume()
+    {
+        pausePanel.GetComponent<CanvasGroup>().alpha = 0;
+        resume.GetComponent<CanvasGroup>().alpha = 0;
+        quit.GetComponent<CanvasGroup>().alpha = 0;
+        Time.timeScale = 1f;
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 
     // Use this for initialization
     void Start () {
