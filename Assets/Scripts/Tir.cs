@@ -5,8 +5,8 @@ using UnityEngine;
 public class Tir : MonoBehaviour {
 
     Rigidbody2D truc;
-
-
+    private GameObject tourparent;
+    private RaycastHit2D target;
     public int damage;
     float forceEffetModif;
     float dureeEffetModif;
@@ -14,11 +14,15 @@ public class Tir : MonoBehaviour {
     float existance = 0;
     public effet effect;
     public enum effet { feu, eau, air, terre };
+    private void Start() {
+        tourparent = transform.parent.gameObject;
+        target = tourparent.GetComponent<Test_de_merde>().GetItem();
 
+    }
     // Use this for initialization
     public void Autre () {
         truc = this.GetComponent<Rigidbody2D>();
-        truc.AddForce(vitesse);        
+       // truc.AddForce(vitesse);        
 	}
 	
     public void SetVitesse(Vector2 vitesseInit) {
@@ -54,8 +58,10 @@ public class Tir : MonoBehaviour {
     public void Update()
     {
         existance = existance + Time.deltaTime;
-        if (existance > 2.5) { Destroy(gameObject); }
-
+        if (existance > 2.5 || !target) { Destroy(gameObject); }
+        else{
+        transform.position = Vector3.MoveTowards(transform.position,target.transform.position,Time.deltaTime*7f);
+        }
     }
 
 

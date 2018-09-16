@@ -4,7 +4,7 @@ using UnityEngine;
 using System.Linq;
 
 public class Test_de_merde : MonoBehaviour {
-
+    private RaycastHit2D targetULTIME;
     private RaycastHit2D item;
     private RaycastHit2D[] tabTarget;
     private float timerFire = 0;
@@ -13,6 +13,14 @@ public class Test_de_merde : MonoBehaviour {
     private Tour tower;
     private Animator ou;
 
+
+    public RaycastHit2D GetItem (){
+        return targetULTIME;
+    }
+
+    public RaycastHit2D[] GetTabtarget (){
+        return tabTarget;
+    }
     public Tour Tower
     {
         get
@@ -87,6 +95,7 @@ public class Test_de_merde : MonoBehaviour {
             compteur++;
         }
         if (tabTarget[indmin].transform.tag.Equals("Ennemy")){
+            targetULTIME = tabTarget[indmin];
             return tabTarget[indmin];
         }
         else

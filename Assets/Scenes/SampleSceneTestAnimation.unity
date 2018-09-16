@@ -144,11 +144,12 @@ MonoBehaviour:
   timer: {fileID: 1413912324}
   pv: {fileID: 1413912323}
   argent: {fileID: 1413912322}
-  achatMenu: {fileID: 1413912325}
+  gameOverText: {fileID: 0}
   hud: {fileID: 0}
   minion: {fileID: 1659494519283184, guid: 564577793953310449d8943a0ea20c19, type: 2}
   spawn: {fileID: 1551830739}
-  Tour: {fileID: 1758739561006912, guid: 9889ab9c103834bc5b8add5da735495b, type: 2}
+  Tour: {fileID: 1144453846247518, guid: 67fe256802de64015a4093f233764c91, type: 2}
+  achatMenu: {fileID: 1413912325}
   grille: {fileID: 1141897876}
   nbvague: 0
   numerovague: 0
