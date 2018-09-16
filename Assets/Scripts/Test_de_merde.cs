@@ -65,18 +65,14 @@ public class Test_de_merde : MonoBehaviour {
         {
             //Si cible trouve
             if (item)
-            {             
+            {
+                ou.SetTrigger("attack");
                 fire.Play();     
                 GameObject projectil = Instantiate(Balle, this.transform);
-                //projectil.GetComponent<Tir>().SetVitesse(tower.vitesse);
                 projectil.GetComponent<Tir>().SetVitesse(new Vector2(item.transform.position.x - this.transform.position.x,
                 item.transform.position.y - this.transform.position.y).normalized * 250);
-                projectil.GetComponent<Tir>().Autre();
-                projectil.GetComponent<Tir>().SetDamage(tower.Degat);
-                projectil.GetComponent<Tir>().SetDuree(tower.dureeEffetModif);
-                projectil.GetComponent<Tir>().SetForce(tower.forceEffetModif);
+                projectil.GetComponent<Tir>().setData(Vector2.zero, tower.Degat, tower.valeur, Tir.effet.air, tower.dureeEffetModif, item);
                 item = Physics2D.CircleCast(this.transform.position, 0, Vector2.zero);
-                //ou.SetTrigger("attack");
             }
             
             timerFire = 0;
