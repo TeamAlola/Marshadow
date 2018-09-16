@@ -4253,18 +4253,33 @@ MonoBehaviour:
   pv: {fileID: 1491412183}
   argent: {fileID: 1491412182}
   gameOverText: {fileID: 0}
+  pausePanel: {fileID: 0}
+  resume: {fileID: 0}
+  quit: {fileID: 0}
   hud: {fileID: 1491412181}
-  camera: {fileID: 768396704}
+  fireoff: {fileID: 0}
+  iceoff: {fileID: 0}
+  neutraloff: {fileID: 0}
+  naturaloff: {fileID: 0}
+  windoff: {fileID: 0}
+  fireon: {fileID: 0}
+  iceon: {fileID: 0}
+  neutralon: {fileID: 0}
+  naturalon: {fileID: 0}
+  windon: {fileID: 0}
   minion: {fileID: 1305233627089662, guid: 36b5737feaea44cd1b0a6807c3369615, type: 2}
   spawn: {fileID: 188558302}
   Tour: {fileID: 1144453846247518, guid: 67fe256802de64015a4093f233764c91, type: 2}
+  camera: {fileID: 768396704}
   achatMenu: {fileID: 1491412185}
   grille: {fileID: 749696895}
   nbvague: 0
   numerovague: 0
   sfx:
   - {fileID: 8300000, guid: cf264ad54b63c421b88503c3a0b1e819, type: 3}
-  isspawn: 0
+  gameData: {fileID: 11400000, guid: 60952c553826fd84da091aca82588562, type: 2}
+  isSpawn: 0
+  spawnDelai: 1
 --- !u!4 &1551808834
 Transform:
   m_ObjectHideFlags: 0

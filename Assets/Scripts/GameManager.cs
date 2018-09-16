@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour {
     public List<Tour> toursAchetees;
     public static GameManager gameManager;
     public AudioClip[] sfx;
-    public GameData gameData=new GameData();
+    public GameData gameData;
 
     private AudioSource mainmusic;
     
@@ -47,8 +47,13 @@ public class GameManager : MonoBehaviour {
     private bool musiclaunch;
 
 
-    public bool isspawn;
+    public bool isSpawn;
     //fait apparaitre un minion de la liste sur la map
+
+    private int currentVague;
+    private bool spawning;
+    private float spawnTimer;
+    public float spawnDelai = 1f;
 
     public void AcheterTour(int tour)
     {
@@ -182,6 +187,15 @@ public class GameManager : MonoBehaviour {
         {
             Perdre();
         }
+        if (isSpawn)
+        {
+            spawnTimer += Time.deltaTime;
+            if(spawnTimer > spawnDelai)
+            {
+
+                spawnTimer = 0;
+            }
+        }
     }
 
     public void SelectTower()
@@ -195,4 +209,17 @@ public class GameManager : MonoBehaviour {
         Debug.Log("Acheter une tour");
     }
 
+    public void StartVague(int i)
+    {
+        isSpawn = true;
+        spawnTimer = 0;
+
+    }
+    public void finVague()
+    {
+        isSpawn = false;
+        currentVague++;
+    }
+
+   
 }
