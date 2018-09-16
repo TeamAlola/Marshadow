@@ -116,7 +116,7 @@ public class Monstre
         GameManager.gameManager.monstres.Remove(this);
         if (GameManager.gameManager.monstres.Count == 0)
         {
-            if (GameManager.gameManager.nbvague >= GameManager.gameManager.numerovague) { GameManager.gameManager.hud.ResetTimer(); }
+            if (GameManager.gameManager.nbvague >= GameManager.gameManager.numerovague) { GameManager.gameManager.hud.ResetTimer(); GameManager.gameManager.NextVague(); }
         }
 
     }

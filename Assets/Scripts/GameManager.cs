@@ -54,6 +54,7 @@ public class GameManager : MonoBehaviour {
     private bool spawning;
     private float spawnTimer;
     public float spawnDelai = 1f;
+    public List<Vague> vagues;
 
     public void AcheterTour(int tour)
     {
@@ -175,6 +176,8 @@ public class GameManager : MonoBehaviour {
         monstres = new List<Monstre>();
         toursAchetees = new List<Tour>();
         hud.ResetTimer();
+        StartVague(0);
+
     }
 	
 	// Update is called once per frame
@@ -192,11 +195,7 @@ public class GameManager : MonoBehaviour {
                 BuyTower();
             }
         }
-
-        if (numerovague == nbvague && !monstres.Any())
-        {
-            Gagner();
-        }
+        
         if (joueur.pv == 0)
         {
             Perdre();
@@ -206,7 +205,7 @@ public class GameManager : MonoBehaviour {
             spawnTimer += Time.deltaTime;
             if(spawnTimer > spawnDelai)
             {
-
+                NextMob();
                 spawnTimer = 0;
             }
         }
@@ -225,6 +224,7 @@ public class GameManager : MonoBehaviour {
 
     public void StartVague(int i)
     {
+        vagues[i].init();
         isSpawn = true;
         spawnTimer = 0;
 
@@ -233,7 +233,29 @@ public class GameManager : MonoBehaviour {
     {
         isSpawn = false;
         currentVague++;
+        if(currentVague > vagues.Count)
+        {
+            Gagner();
+        }
     }
 
-   
+   public void NextVague()
+    {
+        StartVague(currentVague);
+    }
+    
+    public void NextMob()
+    {
+        Vague.MonstreObjet toSpawn = vagues[currentVague].nextMonstre();
+        if (toSpawn == null)
+        {
+            finVague();
+            return;
+        }
+        timer.gameObject.SetActive(false);
+        GameObject mobInst = Instantiate(toSpawn.go, spawn.transform.position, spawn.transform.rotation);
+        mobInst.GetComponent<MonsterController>().Mob = toSpawn.monstre;
+
+    }
+    
 }
