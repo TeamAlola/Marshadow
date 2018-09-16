@@ -77,7 +77,7 @@ public class Grille : MonoBehaviour
     {
         if (EventSystem.current.IsPointerOverGameObject())
         {
-            return listCase[0];
+            return current;
         }
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         Vector3 worldPoint = ray.GetPoint(-ray.origin.z / ray.direction.z);
