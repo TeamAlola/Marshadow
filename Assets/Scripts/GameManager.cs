@@ -72,6 +72,7 @@ public class GameManager : MonoBehaviour {
                 nouvTour.GetComponent<Test_de_merde>().Tower = newTower;
 
                 grille.BuildOn(case1, newTower);
+                sound.clip = sfx[0];
                 sound.time = 0.6f;
                 sound.Play();
 
@@ -87,10 +88,13 @@ public class GameManager : MonoBehaviour {
         if (case1.type == Grille.typeCase.construit){
             if(joueur.argent >= 5* (case1.tower.niv/2))
             {
+            sound.clip = sfx[3];
+            sound.Play();
             joueur.PerdreArgent(5* (case1.tower.niv/2));
             Tour current = case1.tower;
 
             current.Upgrade();
+
             }
         }
     }
@@ -117,11 +121,23 @@ public class GameManager : MonoBehaviour {
 
     public void Perdre()
     {
+<<<<<<< HEAD
         pausePanel.SetActive(true);
         resume.gameObject.SetActive(false);
         gameOverText.gameObject.SetActive(true);
         quit.gameObject.SetActive(false);
         gameOverText.text = "Malheuresement, vous puez la mort a ElementalTD \n Appuyez sur n'importe quel bouton pour acceder au menu";
+=======
+        pausePanel.GetComponent<CanvasGroup>().alpha = 1;
+        gameOverText.text = "Malheuresement, vous puez la mort a ElementalTD \n Appuyez sur n'importe quel bouton pour accéder au menu";
+        gameOverText.GetComponent<CanvasGroup>().alpha = 1;
+        if(!musiclaunch){
+        musiclaunch = true;
+        camera.GetComponent<AudioSource>().Stop();
+        sound.clip = sfx[2];
+        sound.Play();
+        }
+>>>>>>> bf8a89d0fabe6d5c0ff619373ef66dfec3b81ed5
         Time.timeScale = 0f;
         if (Input.anyKeyDown)
         {
@@ -158,7 +174,6 @@ public class GameManager : MonoBehaviour {
         nbvague = 5;
         numerovague = 0;
         sound = GetComponent<AudioSource>();
-        sound.clip = sfx[0];
         joueur = new Joueur(10, 50);
         monstres = new List<Monstre>();
         toursAchetees = new List<Tour>();
