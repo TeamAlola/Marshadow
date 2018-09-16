@@ -14,23 +14,33 @@ public class Tir : MonoBehaviour {
     float existance = 0;
     public effet effect;
     public enum effet { feu, eau, air, terre };
+
     private void Start() {
-        tourparent = transform.parent.gameObject;
-        target = tourparent.GetComponent<Test_de_merde>().GetItem();
+        truc = this.GetComponent<Rigidbody2D>();
+    }
+	
+
+    public void setData(Vector2 vitesse, int power, float force, float time, RaycastHit2D target)
+    {
+        SetVitesse(vitesse);
+        SetDamage(power);
+        SetForce(force);
+        SetDuree(time);
+        setTarget(target);
 
     }
-    // Use this for initialization
-    public void Autre () {
-        truc = this.GetComponent<Rigidbody2D>();
-       // truc.AddForce(vitesse);        
-	}
-	
+    
+
     public void SetVitesse(Vector2 vitesseInit) {
         vitesse = vitesseInit;
     }
     public void SetDamage(int power)
     {
         damage = power;
+    }
+    public void setTarget(RaycastHit2D tar)
+    {
+        target = tar;
     }
 
     public int GetDamage()
