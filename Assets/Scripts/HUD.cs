@@ -54,9 +54,6 @@ public class HUD : MonoBehaviour {
                 }
                 b = true;
             }
-            if((int)time == temps && time > -14)
-            {
-            }
         }
     }
 

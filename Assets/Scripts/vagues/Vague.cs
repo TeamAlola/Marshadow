@@ -43,6 +43,7 @@ public class Vague : ScriptableObject
     public void init()
     {
         listMob = GenerateVague();
+        index = 0;
     }
 
     public List<MonstreObjet> GenerateVague()
@@ -63,9 +64,9 @@ public class Vague : ScriptableObject
 
     public MonstreObjet nextMonstre()
     {
-        if(index > listMob.Count)
+        if(index >= listMob.Count )
         {
-            Debug.Log("trop de spawn");
+            //Debug.Log("trop de spawn");
             return null;
         }
         MonstreObjet retour = listMob[index];

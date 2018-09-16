@@ -163,6 +163,8 @@ public class GameManager : MonoBehaviour {
         monstres = new List<Monstre>();
         toursAchetees = new List<Tour>();
         hud.ResetTimer();
+        StartVague(0);
+
     }
 	
 	// Update is called once per frame
@@ -209,6 +211,7 @@ public class GameManager : MonoBehaviour {
 
     public void StartVague(int i)
     {
+        vagues[i].init();
         isSpawn = true;
         spawnTimer = 0;
 
