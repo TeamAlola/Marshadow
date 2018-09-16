@@ -9,7 +9,8 @@ public class Tour {
     public float forceEffetModif;
     public float dureeEffetModif;
     public Vector2 vitesse;
-
+    public int niv;
+    public Tir.effet element;
     public Tour(int v, int d)
     {
         valeur = v;
@@ -38,6 +39,7 @@ public class Tour {
 
     public void Upgrade()
     {
+        niv++;
         dureeEffetModif *= 1.5f;
         forceEffetModif *= 1.5f;
     }

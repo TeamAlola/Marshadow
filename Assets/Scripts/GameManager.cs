@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour {
 
 
+
     [Header("HUD")]
     public TextMeshProUGUI timer;
     public TextMeshProUGUI pv;
@@ -25,14 +26,16 @@ public class GameManager : MonoBehaviour {
     [Header("Donnée")]
     public int nbvague;
     public int numerovague;
-
     public Joueur joueur;
     public List<Monstre> monstres;
     public List<Tour> toursAchetables;
     public List<Tour> toursAchetees;
     public static GameManager gameManager;
+    public AudioClip[] sfx;
 
     private Grille.Case case1; 
+    private AudioSource constructionsound;
+
 
     public bool isspawn;
     //fait apparaitre un minion de la liste sur la map
@@ -55,6 +58,8 @@ public class GameManager : MonoBehaviour {
                 nouvTour.GetComponent<Test_de_merde>().Tower = newTower;
 
                 grille.BuildOn(case1, newTower);
+                constructionsound.time = 0.6f;
+                constructionsound.Play();
 
             }
         }
@@ -99,6 +104,8 @@ public class GameManager : MonoBehaviour {
         hud = new HUD();
         nbvague = 5;
         numerovague = 0;
+        constructionsound = GetComponent<AudioSource>();
+        constructionsound.clip = sfx[0];
         joueur = new Joueur(10, 50);
         monstres = new List<Monstre>();
         toursAchetables = new List<Tour> { zero, one, two };

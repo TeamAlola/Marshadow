@@ -20,11 +20,12 @@ public class Tir : MonoBehaviour {
     }
 	
 
-    public void setData(Vector2 vitesse, int power, float force, float time, RaycastHit2D target)
+    public void setData(Vector2 vitesse, int power, float force,effet element ,float time, RaycastHit2D target)
     {
         SetVitesse(vitesse);
         SetDamage(power);
         SetForce(force);
+
         SetDuree(time);
         setTarget(target);
 
@@ -65,6 +66,17 @@ public class Tir : MonoBehaviour {
     {
         return dureeEffetModif;
     }
+
+    public void SetEffet (effet element)
+    {
+        effect = element;
+    }
+
+    public effet GetEffet()
+    {
+        return effect;
+    }
+
     public void Update()
     {
         existance = existance + Time.deltaTime;
