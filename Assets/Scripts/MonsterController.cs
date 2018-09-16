@@ -1,13 +1,17 @@
-﻿    using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Timers;
 
-public class MonsterController : MonoBehaviour {
+public class MonsterController : MonoBehaviour
+{
 
     private Animator anim_monster;
     private Rigidbody2D body;
     private bool isrotate;
     private Monstre mob;
+    private float delais=1f;
+    public float timer;
 
     public Monstre Mob
     {
@@ -19,6 +23,7 @@ public class MonsterController : MonoBehaviour {
         set
         {
             mob = value;
+            mob.setController(this);
         }
     }
 
@@ -26,7 +31,7 @@ public class MonsterController : MonoBehaviour {
     {
         return Mob.Pv;
     }
-        
+
 
     private void Start()
     {
@@ -38,6 +43,13 @@ public class MonsterController : MonoBehaviour {
     {
         Vector2 positionV2 = new Vector2(this.transform.position.x, this.transform.position.y);
         moveRight(positionV2);
+        timer += Time.deltaTime;
+        if (timer > delais)
+        {
+            mob.ApplyDot();
+            mob.RegenPV();
+            timer = 0;
+        }
     }
 
     private void moveRight(Vector2 posV2)
@@ -53,34 +65,22 @@ public class MonsterController : MonoBehaviour {
         if (!collision.transform.tag.Equals("Indestructible"))
         {
             Debug.Log("Touche");
-            int PV = GetPv();
-            Destroy(collision.gameObject);
-            int damage;
-            
-            PV = PV - collision.gameObject.GetComponent<Tir>().GetDamage();
-            if (PV <= 0)
-                Mob.Mourir();
-            Destroy(gameObject);
-
-           switch (collision.gameObject.GetComponent<Tir>().effect){
-
-                case Tir.effet.feu:
-
-                    break;
-
-                case Tir.effet.eau:
-                    break;
-
-                case Tir.effet.air:
-                    break;
-
-                case Tir.effet.terre:
-                    break;
-
+            mob.ModifPV(-collision.gameObject.GetComponent<Tir>().GetDamage());
+            //aoe terre
+            if (collision.gameObject.GetComponent<Tir>().effect.Equals(Tir.effet.terre))
+            {
+                //propager le tir autour
             }
+            else if (collision.gameObject.GetComponent<Tir>().effect.Equals(Tir.effet.feu))
+            {
+                mob.SetDotData(1,10);
+            }
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
 
         }
     }
+
 
 
 }
