@@ -51,7 +51,7 @@ public class HUD : MonoBehaviour {
                 GameManager.gameManager.numerovague++;
                 for (int i = 0; i < 10; i++)
                 {
-                    GameManager.gameManager.monstres.Add(new Monstre(1, 1, 1));
+                    GameManager.gameManager.monstres.Add(new Monstre(100, 100, 100));
                 }
                 b = true;
             }

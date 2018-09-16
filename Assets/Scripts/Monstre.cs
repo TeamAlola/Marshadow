@@ -55,7 +55,7 @@ public class Monstre
 
     public void Update()
     {
-        RegenPV();
+       RegenPV();
         ApplyDot();
         if(dureevit >= 1)
         {
@@ -84,9 +84,10 @@ public class Monstre
     /// <param name="p">pv</param>
     public Monstre(int d, int o, int p)
     {
-        degat = d;
+       degat = d;
         or = o;
         Pv = p;
+        pvmax = p;
     }
 
     //Le joueur gagne les gold du monstre, le monstre est supprimé de la liste de monstres.
@@ -121,27 +122,29 @@ public class Monstre
         monstrecontroller = mc;
     }
 
-    public void ModifPV(int pv)
+   
+    public void ModifPV(int p)
     {
-        this.pv += pv;
-        if (pv <= 0)
+
+        this.Pv += p;
+        if (Pv <= 0)
         {
             Mourir();
             monstrecontroller.MobMeurs();
         }
-        if (pv > pvmax)
+        if (Pv > pvmax)
         {
-            pv = pvmax;
+            Pv = pvmax;
         }
     }
 
     public void RegenPV()
     {
-        pv += regen;
+        Pv += regen;
 
-        if (pv >= pvmax)
+        if (Pv >= pvmax)
         {
-            pv = pvmax;
+            Pv = pvmax;
         }
 
     }
@@ -149,9 +152,9 @@ public class Monstre
     {
         if (dureedot > 0)
         {
-            pv -= dot;
+            Pv -= dot;
 
-            if (pv <= 0)
+            if (Pv <= 0)
             {
                 Mourir();
             }

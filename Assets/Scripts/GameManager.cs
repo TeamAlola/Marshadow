@@ -48,7 +48,7 @@ public class GameManager : MonoBehaviour {
         Debug.Log(case1.type);
         if (case1.type == Grille.typeCase.constructible)
         {
-            Tour t = new Tour(10, 10);
+            Tour t = new Tour(1, 1);
             if(joueur.argent >= t.valeur)
             {
                 joueur.PerdreArgent(t.valeur);
@@ -172,7 +172,7 @@ public class GameManager : MonoBehaviour {
         numerovague++;
         for (int i = 0; i < 10; i++)
         {
-            monstres.Add(new Monstre(1, 1, 1));
+            monstres.Add(new Monstre(1, 1, 100));
         }
     }
 }
