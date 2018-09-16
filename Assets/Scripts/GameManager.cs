@@ -29,14 +29,13 @@ public class GameManager : MonoBehaviour {
 
     public GameObject achatMenu;
     public Grille grille;
+
     [Header("Donnée")]
     public int nbvague;
     public int numerovague;
     public Joueur joueur;
     public List<Monstre> monstres;
-    public List<Tour> toursAchetables;
     public List<Tour> toursAchetees;
-    public GameObject[] alltowers;
     public static GameManager gameManager;
     public AudioClip[] sfx;
     public GameData gameData=new GameData();
@@ -55,18 +54,15 @@ public class GameManager : MonoBehaviour {
     {
         Debug.Log(case1.type);
         if (case1.type == Grille.typeCase.constructible)
-        { 
-            
-            Tour t = new Tour(toursAchetables.ElementAt(tour).valeur, toursAchetables.ElementAt(tour).Degat, toursAchetables.ElementAt(tour).forceEffetModif, toursAchetables.ElementAt(tour).dureeEffetModif, toursAchetables.ElementAt(tour).vitesse, toursAchetables.ElementAt(tour).element,toursAchetables.ElementAt(tour).prefabtower);
+        {
+            Tour t = GameData.toursAchetables.ElementAt(tour).CloneTour();
             if(joueur.argent >= t.valeur)
             {
                 joueur.PerdreArgent(t.valeur);
                 Tour newTower = new Tour(t.valeur, t.Degat, t.forceEffetModif, t.dureeEffetModif,t.vitesse,t.element,t.prefabtower);
                 toursAchetees.Add(newTower);
-
-                //Debug.Log(case1.worldPos);
-
-                GameObject nouvTour = Instantiate(alltowers[tour], case1.worldPos, Quaternion.identity);
+                
+                GameObject nouvTour = Instantiate(t.prefabtower, case1.worldPos, Quaternion.identity);
                 nouvTour.GetComponent<Test_de_merde>().Tower = newTower;
 
                 grille.BuildOn(case1, newTower);
@@ -151,12 +147,6 @@ public class GameManager : MonoBehaviour {
     void Start () {
         
         if (!gameManager) { gameManager = this; }
-        Tour neutral = new Tour(10, 1,0f,0f,new Vector2(1,1), Monstre.element.neutre,alltowers[0]);
-        Tour fire = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Monstre.element.feu,alltowers[1]);
-        Tour ice = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Monstre.element.eau,alltowers[4]);
-        Tour nature = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Monstre.element.terre,alltowers[2]);
-        Tour wind = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Monstre.element.air,alltowers[3]);
-
         hud = new HUD();
         nbvague = 5;
         numerovague = 0;
@@ -164,7 +154,6 @@ public class GameManager : MonoBehaviour {
         sound.clip = sfx[0];
         joueur = new Joueur(10, 50);
         monstres = new List<Monstre>();
-        toursAchetables = new List<Tour> { neutral, fire, ice, nature, wind };
         toursAchetees = new List<Tour>();
         hud.ResetTimer();
     }
