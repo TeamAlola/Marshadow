@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour {
     public HUD hud;
 
     [Header("GameObjects")]
+    public GameObject camera;
     public GameObject minion;
     public GameObject spawn;
     public GameObject Tour;
@@ -33,9 +34,11 @@ public class GameManager : MonoBehaviour {
     public static GameManager gameManager;
     public AudioClip[] sfx;
 
-    private Grille.Case case1; 
-    private AudioSource constructionsound;
+    private AudioSource mainmusic;
 
+    private Grille.Case case1; 
+    private AudioSource sound;
+    private bool musiclaunch;
 
     public bool isspawn;
     //fait apparaitre un minion de la liste sur la map
@@ -58,8 +61,8 @@ public class GameManager : MonoBehaviour {
                 nouvTour.GetComponent<Test_de_merde>().Tower = newTower;
 
                 grille.BuildOn(case1, newTower);
-                constructionsound.time = 0.6f;
-                constructionsound.Play();
+                sound.time = 0.6f;
+                sound.Play();
 
             }
         }
@@ -72,6 +75,12 @@ public class GameManager : MonoBehaviour {
     public void Gagner()
     {
         gameOverText.text = "Félicitation, vous avez remporté ElementalTD \n Appuyez sur n'importe quel bouton pour accéder au menu";
+        if(!musiclaunch){
+        musiclaunch = true;
+        mainmusic.Stop();
+        sound.clip = sfx[1];
+        sound.Play();
+        }
         gameOverText.GetComponent<CanvasGroup>().alpha = 1;
         Time.timeScale = 0f;
         if (Input.anyKeyDown)
@@ -84,6 +93,12 @@ public class GameManager : MonoBehaviour {
     public void Perdre()
     {
         gameOverText.text = "Malheuresement, vous puez la mort a ElementalTD \n Appuyez sur n'importe quel bouton pour accéder au menu";
+        if(!musiclaunch){
+        musiclaunch = true;
+        mainmusic.Stop();
+        sound.clip = sfx[2];
+        sound.Play();
+        }
         gameOverText.GetComponent<CanvasGroup>().alpha = 1;
         Time.timeScale = 0f;
         if (Input.anyKeyDown)
@@ -101,11 +116,13 @@ public class GameManager : MonoBehaviour {
         Tour zero = new Tour(50, 1);
         Tour one = new Tour(100, 3);
         Tour two = new Tour(200, 8);
+        mainmusic = camera.GetComponent<AudioSource>();
+        musiclaunch = false;
         hud = new HUD();
-        nbvague = 5;
+        nbvague = 1;
         numerovague = 0;
-        constructionsound = GetComponent<AudioSource>();
-        constructionsound.clip = sfx[0];
+        sound = GetComponent<AudioSource>();
+        sound.clip = sfx[0];
         joueur = new Joueur(10, 50);
         monstres = new List<Monstre>();
         toursAchetables = new List<Tour> { zero, one, two };
