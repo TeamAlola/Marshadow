@@ -11,10 +11,17 @@ public class Tour {
     public Vector2 vitesse;
     public int niv;
     public Monstre.element element;
-    public Tour(int v, int d)
+    public GameObject prefabtower;
+
+    public Tour(int v, int d, float fem, float dem, Vector2 vi, Monstre.element el,GameObject obj)
     {
         valeur = v;
         Degat = d;
+        forceEffetModif = fem;
+        dureeEffetModif = dem;
+        vitesse = vi;
+        element = el;
+        prefabtower = obj;
     }
 
     public int Degat
@@ -42,5 +49,7 @@ public class Tour {
         niv++;
         dureeEffetModif *= 1.5f;
         forceEffetModif *= 1.5f;
+        degat *= (int) 1.8;
+        vitesse *= 1.2f;
     }
 }

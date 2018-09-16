@@ -9,7 +9,7 @@ public class Monstre
     int or;
     private int pv;
     private int pvmax;
-    public enum element { feu, eau, air, terre };
+    public enum element { feu, eau, air, terre,neutre };
     public element elem;
     float vitesse = 1;
     int regen = 0;

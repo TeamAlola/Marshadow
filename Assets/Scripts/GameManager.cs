@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using System.Linq;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
 
@@ -14,16 +15,20 @@ public class GameManager : MonoBehaviour {
     public TextMeshProUGUI pv;
     public TextMeshProUGUI argent;
     public TextMeshProUGUI gameOverText;
+    public GameObject pausePanel;
+    public Button resume;
+    public Button quit;
     public HUD hud;
+    public Sprite fireoff, iceoff, neutraloff, naturaloff, windoff, fireon, iceon, neutralon, naturalon, windon;
 
     [Header("GameObjects")]
-    public GameObject camera;
     public GameObject minion;
     public GameObject spawn;
     public GameObject Tour;
+    public GameObject camera;
+
     public GameObject achatMenu;
     public Grille grille;
-
     [Header("Donnée")]
     public int nbvague;
     public int numerovague;
@@ -31,15 +36,17 @@ public class GameManager : MonoBehaviour {
     public List<Monstre> monstres;
     public List<Tour> toursAchetables;
     public List<Tour> toursAchetees;
+    public GameObject[] alltowers;
     public static GameManager gameManager;
     public AudioClip[] sfx;
     public GameData gameData=new GameData();
 
     private AudioSource mainmusic;
-
+    
     private Grille.Case case1; 
     private AudioSource sound;
     private bool musiclaunch;
+
 
     public bool isspawn;
     //fait apparaitre un minion de la liste sur la map
@@ -48,17 +55,18 @@ public class GameManager : MonoBehaviour {
     {
         Debug.Log(case1.type);
         if (case1.type == Grille.typeCase.constructible)
-        {
-            Tour t = new Tour(1, 1);
+        { 
+            
+            Tour t = new Tour(toursAchetables.ElementAt(tour).valeur, toursAchetables.ElementAt(tour).Degat, toursAchetables.ElementAt(tour).forceEffetModif, toursAchetables.ElementAt(tour).dureeEffetModif, toursAchetables.ElementAt(tour).vitesse, toursAchetables.ElementAt(tour).element,toursAchetables.ElementAt(tour).prefabtower);
             if(joueur.argent >= t.valeur)
             {
                 joueur.PerdreArgent(t.valeur);
-                Tour newTower = new Tour(t.valeur, t.Degat);
+                Tour newTower = new Tour(t.valeur, t.Degat, t.forceEffetModif, t.dureeEffetModif,t.vitesse,t.element,t.prefabtower);
                 toursAchetees.Add(newTower);
 
                 //Debug.Log(case1.worldPos);
 
-                GameObject nouvTour = Instantiate(Tour, case1.worldPos, Quaternion.identity);
+                GameObject nouvTour = Instantiate(alltowers[tour], case1.worldPos, Quaternion.identity);
                 nouvTour.GetComponent<Test_de_merde>().Tower = newTower;
 
                 grille.BuildOn(case1, newTower);
@@ -73,15 +81,29 @@ public class GameManager : MonoBehaviour {
         }
     }
 
+    public void UpgradeTower(){
+        if (case1.type == Grille.typeCase.construit){
+            if(joueur.argent >= 5* (case1.tower.niv/2))
+            {
+            joueur.PerdreArgent(5* (case1.tower.niv/2));
+            Tour current = case1.tower;
+
+            current.Upgrade();
+            }
+        }
+    }
+
     public void Gagner()
     {
+        pausePanel.GetComponent<CanvasGroup>().alpha = 1;
         gameOverText.text = "Félicitation, vous avez remporté ElementalTD \n Appuyez sur n'importe quel bouton pour accéder au menu";
         if(!musiclaunch){
         musiclaunch = true;
-        mainmusic.Stop();
+        camera.GetComponent<AudioSource>().Stop();
         sound.clip = sfx[1];
         sound.Play();
         }
+        
         gameOverText.GetComponent<CanvasGroup>().alpha = 1;
         Time.timeScale = 0f;
         if (Input.anyKeyDown)
@@ -93,13 +115,8 @@ public class GameManager : MonoBehaviour {
 
     public void Perdre()
     {
+        pausePanel.GetComponent<CanvasGroup>().alpha = 1;
         gameOverText.text = "Malheuresement, vous puez la mort a ElementalTD \n Appuyez sur n'importe quel bouton pour accéder au menu";
-        if(!musiclaunch){
-        musiclaunch = true;
-        mainmusic.Stop();
-        sound.clip = sfx[2];
-        sound.Play();
-        }
         gameOverText.GetComponent<CanvasGroup>().alpha = 1;
         Time.timeScale = 0f;
         if (Input.anyKeyDown)
@@ -109,24 +126,45 @@ public class GameManager : MonoBehaviour {
         }
     }
 
+    public void Pause()
+    {
+        pausePanel.GetComponent<CanvasGroup>().alpha = 1;
+        resume.GetComponent<CanvasGroup>().alpha = 1;
+        quit.GetComponent<CanvasGroup>().alpha = 1;
+        Time.timeScale = 0f;
+    }
+
+    public void Resume()
+    {
+        pausePanel.GetComponent<CanvasGroup>().alpha = 0;
+        resume.GetComponent<CanvasGroup>().alpha = 0;
+        quit.GetComponent<CanvasGroup>().alpha = 0;
+        Time.timeScale = 1f;
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 
     // Use this for initialization
     void Start () {
         
         if (!gameManager) { gameManager = this; }
-        Tour zero = new Tour(50, 1);
-        Tour one = new Tour(100, 3);
-        Tour two = new Tour(200, 8);
-        mainmusic = camera.GetComponent<AudioSource>();
-        musiclaunch = false;
+        Tour neutral = new Tour(10, 1,0f,0f,new Vector2(1,1), Monstre.element.neutre,alltowers[0]);
+        Tour fire = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Monstre.element.feu,alltowers[1]);
+        Tour ice = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Monstre.element.eau,alltowers[4]);
+        Tour nature = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Monstre.element.terre,alltowers[2]);
+        Tour wind = new Tour(10, 1, 0f, 0f, new Vector2(1, 1), Monstre.element.air,alltowers[3]);
+
         hud = new HUD();
-        nbvague = 1;
+        nbvague = 5;
         numerovague = 0;
         sound = GetComponent<AudioSource>();
         sound.clip = sfx[0];
         joueur = new Joueur(10, 50);
         monstres = new List<Monstre>();
-        toursAchetables = new List<Tour> { zero, one, two };
+        toursAchetables = new List<Tour> { neutral, fire, ice, nature, wind };
         toursAchetees = new List<Tour>();
         hud.ResetTimer();
     }
