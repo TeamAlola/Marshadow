@@ -22,9 +22,9 @@ GameObject:
   - component: {fileID: 212286206967907904}
   - component: {fileID: 50337148437702900}
   - component: {fileID: 61477328371873358}
-  - component: {fileID: 114972423122505082}
   - component: {fileID: 95490964531368328}
   - component: {fileID: 114937243077903452}
+  - component: {fileID: 114581776308962480}
   m_Layer: 0
   m_Name: monster2
   m_TagString: Untagged
@@ -52,7 +52,7 @@ Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1194897694324464}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -108,6 +108,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114581776308962480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1194897694324464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9411dc9d516be6f4bae429d207c4cb68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sfx: []
 --- !u!114 &114937243077903452
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -117,18 +129,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1867ae2e0f00d4c248aaa59124c824fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  monster: {fileID: 1194897694324464}
---- !u!114 &114972423122505082
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1194897694324464}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b28b962fce23480c891d4312bba52e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   monster: {fileID: 1194897694324464}

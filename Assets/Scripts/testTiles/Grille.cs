@@ -38,8 +38,8 @@ public class Grille : MonoBehaviour
 
 
     private void Start()
-    { 
-        //Debug.Log(grille.origin + " / " + grille.size);
+    {
+        Debug.Log(grille.origin + " / " + grille.size);
 
         listCase = new List<Case>();
 
@@ -48,19 +48,23 @@ public class Grille : MonoBehaviour
             for (int j = grille.origin.y; j < grille.origin.y + grille.size.y -1; j++)
             {
                 Case c = new Case(i, j);
-                c.type = grille.GetTile(new Vector3Int(i, j, 0)).name == constructible.name ? typeCase.constructible :
-                   grille.GetTile(new Vector3Int(i, j, 0)).name == route.name ? typeCase.route : typeCase.decor;
+                if(grille.GetTile(new Vector3Int(i, j, 0)))
+                {
+                    c.type = grille.GetTile(new Vector3Int(i, j, 0)).name == constructible.name ? typeCase.constructible :
+                  grille.GetTile(new Vector3Int(i, j, 0)).name == route.name ? typeCase.route : typeCase.decor;
 
-                c.worldPos = grille.CellToWorld(new Vector3Int(i, j, 0));
+                    c.worldPos = grille.CellToWorld(new Vector3Int(i, j, 0));
 
-                c.worldPos += grille.cellSize / 2;
+                    c.worldPos += grille.cellSize / 2;
 
-                //Debug.Log(c.worldPos);
+                    //Debug.Log(c.worldPos);
 
-                listCase.Add(c);
+                    listCase.Add(c);
+                }
+               
             }
         }
-
+        Debug.Log(listCase.Count);
     }
     
     

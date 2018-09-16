@@ -10,8 +10,15 @@ public class MonsterController : MonoBehaviour
     private Rigidbody2D body;
     private bool isrotate;
     private Monstre mob;
-    private float delais=1f;
+
+    private float delais = 1f;
     public float timer;
+    private AudioSource deathsound;
+    public AudioClip[] sfx;
+
+    public enum Direction { Up, Down, Left, Right, Stop };
+
+    private Direction direction = Direction.Stop;
 
     public Monstre Mob
     {
@@ -37,27 +44,65 @@ public class MonsterController : MonoBehaviour
     {
         anim_monster = this.GetComponent<Animator>();
         body = this.GetComponent<Rigidbody2D>();
+        deathsound = GetComponent<AudioSource>();
+        deathsound.clip = sfx[0];
     }
 
     private void Update()
     {
         Vector2 positionV2 = new Vector2(this.transform.position.x, this.transform.position.y);
-        moveRight(positionV2);
         timer += Time.deltaTime;
         if (timer > delais)
         {
             mob.ApplyDot();
             mob.RegenPV();
             timer = 0;
+            switch (direction)
+            {
+                case Direction.Up:
+                    moveUp(positionV2);
+                    break;
+                case Direction.Down:
+                    movedown(positionV2);
+                    break;
+                case Direction.Left:
+                    moveLeft(positionV2);
+                    break;
+                case Direction.Right:
+                    moveRight(positionV2);
+                    break;
+                case Direction.Stop:
+                    break;
+            }
         }
     }
 
     private void moveRight(Vector2 posV2)
     {
         body.MovePosition(posV2 - Vector2.left * 0.05f);
-        anim_monster.SetInteger("direction", 2);
-        isrotate = true;
-        this.GetComponent<SpriteRenderer>().flipX = true;
+    }
+    private void moveLeft(Vector2 posV2)
+    {
+        body.MovePosition(posV2 + Vector2.left * 0.05f);
+    }
+    private void moveUp(Vector2 posV2)
+    {
+        body.MovePosition(posV2 + Vector2.up * 0.05f);
+    }
+    private void movedown(Vector2 posV2)
+    {
+        body.MovePosition(posV2 - Vector2.up * 0.05f);
+    }
+
+
+    public void MobMeurs()
+    {
+        anim_monster.SetTrigger("dead");
+        anim_monster.SetInteger("direction", -1);
+        deathsound.Play();
+        Mob.Mourir();
+
+        Destroy(gameObject, deathsound.clip.length);
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
@@ -73,12 +118,18 @@ public class MonsterController : MonoBehaviour
             }
             else if (collision.gameObject.GetComponent<Tir>().effect.Equals(Tir.effet.feu))
             {
-                mob.SetDotData(1,10);
+                mob.SetDotData(1, 10);
             }
             Destroy(collision.gameObject);
             Destroy(gameObject);
+            
 
         }
+    }
+
+    public void setDirection(Direction dir)
+    {
+        direction = dir;
     }
 
 
