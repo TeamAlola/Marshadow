@@ -8,7 +8,6 @@ public class Directions : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("hey");
         if (collision.gameObject.tag == "Ennemy")
         {
             collision.gameObject.GetComponent<MonsterController>().setDirection(direction);

@@ -56,8 +56,7 @@ public class MonsterController : MonoBehaviour
         timer += Time.deltaTime;
         if (timer > delais)
         {
-            mob.ApplyDot();
-            mob.RegenPV();
+            mob.Update();
             timer = 0;
 
         }
@@ -138,11 +137,10 @@ public class MonsterController : MonoBehaviour
         }
         if (!collision.transform.tag.Equals("Indestructible"))
         {
-            Debug.Log("Touche");
             Tir proj = collision.gameObject.GetComponent<Tir>();
             mob.ModifPV(-proj.GetDamage());
             //aoe terre
-            if (collision.gameObject.GetComponent<Tir>().effect.Equals(Tir.effet.terre))
+            if (proj.effect.Equals(Tir.effet.terre))
             {
                 RaycastHit2D[] tabTarget = Physics2D.CircleCastAll(this.transform.position, 2, Vector2.zero);
                 foreach (RaycastHit2D t in tabTarget)
@@ -153,9 +151,9 @@ public class MonsterController : MonoBehaviour
                     }
                 }
             }
-            else if (collision.gameObject.GetComponent<Tir>().effect.Equals(Tir.effet.feu))
+            else if (proj.effect.Equals(Tir.effet.feu))
             {
-                mob.SetDotData(1, 10);
+                mob.SetDotData(1, 3);
             }
             Destroy(collision.gameObject);
 
@@ -167,6 +165,10 @@ public class MonsterController : MonoBehaviour
         direction = dir;
     }
 
-
+    [ContextMenu("afficherpv")]
+    public void AfficherPV()
+    {
+        Debug.Log(mob.Pv);
+    }
 
 }
