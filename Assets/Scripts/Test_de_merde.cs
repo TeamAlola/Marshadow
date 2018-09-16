@@ -44,6 +44,7 @@ public class Test_de_merde : MonoBehaviour {
     {
         return Tower.Degat;
     }
+    
 
     private void Start()
     {
@@ -66,7 +67,7 @@ public class Test_de_merde : MonoBehaviour {
                 //projectil.GetComponent<Tir>().SetVitesse(tower.vitesse);
                 projectil.GetComponent<Tir>().SetVitesse(new Vector2(item.transform.position.x - this.transform.position.x,
                     item.transform.position.y - this.transform.position.y).normalized * 250);
-                projectil.GetComponent<Tir>().setData(Vector2.zero, tower.Degat, tower.forceEffetModif, tower.dureeEffetModif, item);
+                projectil.GetComponent<Tir>().setData(Vector2.zero, tower.Degat, tower.forceEffetModif,tower.element,tower.dureeEffetModif, item);
                
                 item = Physics2D.CircleCast(this.transform.position, 0, Vector2.zero);
                 //ou.SetTrigger("attack");
