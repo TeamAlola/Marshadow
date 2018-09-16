@@ -71,22 +71,19 @@ public class GameManager : MonoBehaviour {
         Time.timeScale = 0f;
         if (Input.anyKeyDown)
         {
+            Time.timeScale = 1f;
             SceneManager.LoadScene("Menu");
         }
     }
 
     public void Perdre()
     {
-        gameOverText.text = "Malheuresement, vous puvez la mort a ElementalTD \n Appuyez sur 'r' pour recommencer ou n'importe quel autre bouton pour accéder au menu";
+        gameOverText.text = "Malheuresement, vous puez la mort a ElementalTD \n Appuyez sur n'importe quel bouton pour accéder au menu";
         gameOverText.GetComponent<CanvasGroup>().alpha = 1;
         Time.timeScale = 0f;
-        if (Input.GetKeyUp(KeyCode.R))
-        {
-            Time.timeScale = 1f;
-            Start();
-        }
         if (Input.anyKeyDown)
         {
+            Time.timeScale = 1f;
             SceneManager.LoadScene("Menu");
         }
     }
@@ -144,5 +141,14 @@ public class GameManager : MonoBehaviour {
     public void BuyTower()
     {
         Debug.Log("Acheter une tour");
+    }
+
+    public void SetupForNextWave()
+    {
+        numerovague++;
+        for (int i = 0; i < 10; i++)
+        {
+            monstres.Add(new Monstre(1, 1, 1));
+        }
     }
 }

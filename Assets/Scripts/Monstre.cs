@@ -10,6 +10,7 @@ public class Monstre  {
 
     public int Pv
     {
+        
         get
         {
             return pv;
@@ -37,10 +38,9 @@ public class Monstre  {
     {
         GameManager.gameManager.joueur.GagnerArgent(or);
         GameManager.gameManager.monstres.Remove(this);
-        if (GameManager.gameManager.monstres.Count == 0 && GameManager.gameManager.joueur.pv > 0)
+        if (GameManager.gameManager.monstres.Count == 0)
         {
             if (GameManager.gameManager.nbvague >= GameManager.gameManager.numerovague) { GameManager.gameManager.hud.ResetTimer(); }
-            else { GameManager.gameManager.Gagner(); }
         }
     }
 
@@ -50,10 +50,9 @@ public class Monstre  {
     {
         GameManager.gameManager.joueur.PrendreDegats(degat);
         GameManager.gameManager.monstres.Remove(this);
-        if (GameManager.gameManager.monstres.Count == 0 && GameManager.gameManager.joueur.pv > 0)
+        if (GameManager.gameManager.monstres.Count == 0)
         {
             if (GameManager.gameManager.nbvague >= GameManager.gameManager.numerovague) { GameManager.gameManager.hud.ResetTimer(); }
-            else { GameManager.gameManager.Gagner(); }
         }
     }
 }

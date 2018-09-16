@@ -1,16 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class HUD : MonoBehaviour {
 
-    private int temps; // facilite pour afficher en secondes
+    private static int temps; // facilite pour afficher en secondes
     private static bool b;
-    public static float time; // calcul du temps actuel du niveau, considere qu'il commence a 20
-    Monstre mobCree = new Monstre(1, 1, 1);
+    private static float time; // calcul du temps actuel du niveau, considere qu'il commence a 20
+    private static int counter;
 
     // Use this for initialization
     void Start () {
+
     }
 	
 	// Update is called once per frame
@@ -31,31 +33,31 @@ public class HUD : MonoBehaviour {
         {
             GameManager.gameManager.timer.text = "C'est parti !";
             GameManager.gameManager.achatMenu.GetComponent<CanvasGroup>().alpha = 0;
-            if ((int)time <= -3 && !b)
+            if (!b && (int)time == -2 )
             {
                 GameManager.gameManager.numerovague++;
-                GameManager.gameManager.timer.GetComponent<CanvasGroup>().alpha = 0;
                 for (int i = 0; i < 10; i++)
                 {
-                    GameManager.gameManager.monstres.Add(mobCree);
+                    GameManager.gameManager.monstres.Add(new Monstre(1, 1, 1));
                 }
-                GameObject mobInst = Instantiate(GameManager.gameManager.minion, GameManager.gameManager.spawn.transform.position, GameManager.gameManager.spawn.transform.rotation);
-                mobInst.GetComponent<MonsterController>().Mob = mobCree;
                 b = true;
-                temps = -4;
             }
-            else if ((int)time == temps && time > -14f)
+            if((int)time == temps && time > -14)
             {
+                GameManager.gameManager.timer.GetComponent<CanvasGroup>().alpha = 0;
                 GameObject mobInst = Instantiate(GameManager.gameManager.minion, GameManager.gameManager.spawn.transform.position, GameManager.gameManager.spawn.transform.rotation);
-                mobInst.GetComponent<MonsterController>().Mob = mobCree;
+                mobInst.GetComponent<MonsterController>().Mob = GameManager.gameManager.monstres.ElementAt(counter+(GameManager.gameManager.monstres.Count-10));
                 temps--;
+                counter++;
             }
         }
     }
 
     public void ResetTimer()
     {
-        time = 20f;
+        time = 10f;
+        temps = -4;
+        counter = 0;
         b = false;
     }
 
