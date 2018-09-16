@@ -120,13 +120,11 @@ public class GameManager : MonoBehaviour {
 
     public void Perdre()
     {
-<<<<<<< HEAD
         pausePanel.SetActive(true);
         resume.gameObject.SetActive(false);
         gameOverText.gameObject.SetActive(true);
         quit.gameObject.SetActive(false);
         gameOverText.text = "Malheuresement, vous puez la mort a ElementalTD \n Appuyez sur n'importe quel bouton pour acceder au menu";
-=======
         pausePanel.GetComponent<CanvasGroup>().alpha = 1;
         gameOverText.text = "Malheuresement, vous puez la mort a ElementalTD \n Appuyez sur n'importe quel bouton pour accéder au menu";
         gameOverText.GetComponent<CanvasGroup>().alpha = 1;
@@ -136,7 +134,7 @@ public class GameManager : MonoBehaviour {
         sound.clip = sfx[2];
         sound.Play();
         }
->>>>>>> bf8a89d0fabe6d5c0ff619373ef66dfec3b81ed5
+
         Time.timeScale = 0f;
         if (Input.anyKeyDown)
         {
