@@ -21,9 +21,9 @@ public class GameManager : MonoBehaviour {
     public GameObject minion;
     public GameObject spawn;
     public GameObject Tour;
+
     public GameObject achatMenu;
     public Grille grille;
-
     [Header("Donnée")]
     public int nbvague;
     public int numerovague;
@@ -81,6 +81,7 @@ public class GameManager : MonoBehaviour {
         sound.clip = sfx[1];
         sound.Play();
         }
+
         gameOverText.GetComponent<CanvasGroup>().alpha = 1;
         Time.timeScale = 0f;
         if (Input.anyKeyDown)
