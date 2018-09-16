@@ -14,6 +14,8 @@ public class Monstre
     int regen = 0;
     private int dot;
     private int dureedot;
+    private int dureevit;
+    private float modifvit=1; 
     MonsterController monstrecontroller;
 
     public int Pv
@@ -38,10 +40,30 @@ public class Monstre
         }
     }
 
+    public void Update()
+    {
+        RegenPV();
+        ApplyDot();
+        if(dureevit >= 1)
+        {
+            dureevit--;
+            if(dureevit == 0)
+            {
+                SetSpeedData(1, 0);
+            }
+        }
+    }
+    public void SetSpeedData(float modif, int duree)
+    {
+        modifvit = modif;
+        dureevit = duree;
+    }
+
     public void SetDotData(int dmg, int duree)
     {
         dot = dmg;
         dureedot = duree;
+        BuffSpeed();
     }
 
     /// <param name="d">degat</param>
@@ -58,7 +80,7 @@ public class Monstre
     //Une nouvelle vague est lancée si il n'y a plus de monstre et encore des vagues. Sinon le joueur gagne s'il n'y a plus de vague.
     public void Mourir()
     {
-        Debug.Log("faire mourir le mob");
+        monstrecontroller.MobMeurs();
         GameManager.gameManager.joueur.GagnerArgent(or);
         GameManager.gameManager.monstres.Remove(this);
         if (GameManager.gameManager.monstres.Count == 0)
@@ -92,6 +114,7 @@ public class Monstre
         if (pv <= 0)
         {
             Mourir();
+            monstrecontroller.MobMeurs();
         }
         if (pv > pvmax)
         {
@@ -123,9 +146,9 @@ public class Monstre
         }
     }
 
-    public void BuffSpeed(float vitesse)
+    public void BuffSpeed()
     {
-        this.vitesse *= vitesse;
+        vitesse *= modifvit;
     }
     //meurs dot controller test vie
 

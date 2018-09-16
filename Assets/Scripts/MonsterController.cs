@@ -57,23 +57,24 @@ public class MonsterController : MonoBehaviour
             mob.ApplyDot();
             mob.RegenPV();
             timer = 0;
-            switch (direction)
-            {
-                case Direction.Up:
-                    moveUp(positionV2);
-                    break;
-                case Direction.Down:
-                    movedown(positionV2);
-                    break;
-                case Direction.Left:
-                    moveLeft(positionV2);
-                    break;
-                case Direction.Right:
-                    moveRight(positionV2);
-                    break;
-                case Direction.Stop:
-                    break;
-            }
+
+        }
+        switch (direction)
+        {
+            case Direction.Up:
+                moveUp(positionV2);
+                break;
+            case Direction.Down:
+                movedown(positionV2);
+                break;
+            case Direction.Left:
+                moveLeft(positionV2);
+                break;
+            case Direction.Right:
+                moveRight(positionV2);
+                break;
+            case Direction.Stop:
+                break;
         }
     }
 
@@ -100,7 +101,6 @@ public class MonsterController : MonoBehaviour
         anim_monster.SetTrigger("dead");
         anim_monster.SetInteger("direction", -1);
         deathsound.Play();
-        Mob.Mourir();
 
         Destroy(gameObject, deathsound.clip.length);
     }
@@ -110,19 +110,25 @@ public class MonsterController : MonoBehaviour
         if (!collision.transform.tag.Equals("Indestructible"))
         {
             Debug.Log("Touche");
-            mob.ModifPV(-collision.gameObject.GetComponent<Tir>().GetDamage());
+            Tir proj = collision.gameObject.GetComponent<Tir>();
+            mob.ModifPV(-proj.GetDamage());
             //aoe terre
             if (collision.gameObject.GetComponent<Tir>().effect.Equals(Tir.effet.terre))
             {
-                //propager le tir autour
+                RaycastHit2D[] tabTarget = Physics2D.CircleCastAll(this.transform.position, 2, Vector2.zero);
+                foreach(RaycastHit2D t in tabTarget)
+                {
+                    if (t.collider.gameObject.tag == "Ennemy")
+                    {
+                        t.collider.gameObject.GetComponent<MonsterController>().mob.ModifPV(-proj.GetDamage());
+                    }
+                }
             }
             else if (collision.gameObject.GetComponent<Tir>().effect.Equals(Tir.effet.feu))
             {
                 mob.SetDotData(1, 10);
             }
-            Destroy(collision.gameObject);
-            Destroy(gameObject);
-            
+            Destroy(collision.gameObject);            
 
         }
     }
