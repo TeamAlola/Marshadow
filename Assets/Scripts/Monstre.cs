@@ -40,6 +40,19 @@ public class Monstre
         }
     }
 
+    public float Vitesse
+    {
+        get
+        {
+            return vitesse;
+        }
+
+        set
+        {
+            vitesse = value;
+        }
+    }
+
     public void Update()
     {
         RegenPV();
@@ -148,7 +161,7 @@ public class Monstre
 
     public void BuffSpeed()
     {
-        vitesse *= modifvit;
+        Vitesse *= modifvit;
     }
     //meurs dot controller test vie
 

@@ -16,6 +16,8 @@ public class MonsterController : MonoBehaviour
     private AudioSource deathsound;
     public AudioClip[] sfx;
 
+    public bool isDead;
+
     public enum Direction { Up, Down, Left, Right, Stop };
 
     private Direction direction = Direction.Stop;
@@ -80,24 +82,26 @@ public class MonsterController : MonoBehaviour
 
     private void moveRight(Vector2 posV2)
     {
-        body.MovePosition(posV2 - Vector2.left * 0.05f);
+        body.MovePosition((posV2 - Vector2.left * 0.05f) * Mob.Vitesse);
     }
     private void moveLeft(Vector2 posV2)
     {
-        body.MovePosition(posV2 + Vector2.left * 0.05f);
+        body.MovePosition((posV2 + Vector2.left * 0.05f) * Mob.Vitesse);
     }
     private void moveUp(Vector2 posV2)
     {
-        body.MovePosition(posV2 + Vector2.up * 0.05f);
+        body.MovePosition((posV2 + Vector2.up * 0.05f) * Mob.Vitesse);
     }
     private void movedown(Vector2 posV2)
     {
-        body.MovePosition(posV2 - Vector2.up * 0.05f);
+        body.MovePosition((posV2 - Vector2.up * 0.05f) * Mob.Vitesse);
     }
 
 
     public void MobMeurs()
     {
+        isDead = true;
+        direction = Direction.Stop;
         anim_monster.SetTrigger("dead");
         anim_monster.SetInteger("direction", -1);
         deathsound.Play();
@@ -107,6 +111,10 @@ public class MonsterController : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
+        if (isDead)
+        {
+            return;
+        }
         if (!collision.transform.tag.Equals("Indestructible"))
         {
             Debug.Log("Touche");
