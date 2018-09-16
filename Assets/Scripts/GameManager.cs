@@ -132,6 +132,7 @@ public class GameManager : MonoBehaviour {
         sound.clip = sfx[2];
         sound.Play();
         }
+
         Time.timeScale = 0f;
         if (Input.anyKeyDown)
         {
