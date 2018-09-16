@@ -83,7 +83,7 @@ public class GameManager : MonoBehaviour {
             if(joueur.argent >= 5* (case1.tower.niv/2))
             {
             joueur.PerdreArgent(5* (case1.tower.niv/2));
-            Tour current = case1.tour;
+            Tour current = case1.tower;
 
             current.Upgrade();
             }
